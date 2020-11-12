@@ -11,6 +11,12 @@ export default function Footer() {
 
     const toggleModal = () => {
         setOpen(!open)
+        document.body.style.overflow === "hidden" ? document.body.style.overflow = "auto" : document.body.style.overflow = "hidden"
+    }
+
+    const closeModal = () => {
+        setOpen(false)
+        document.body.style.overflow = "auto"
     }
 
     return (
@@ -64,7 +70,7 @@ export default function Footer() {
                     </a>
                 </div>
             </div>
-            <Modal open={open} toggleModal={() => setOpen(!open)} type={type}/>
+            <Modal open={open} toggleModal={() => closeModal()} type={type}/>
         </React.Fragment>
     )
 }
