@@ -1,0 +1,28 @@
+{
+    "company": "Company",
+    "materials": "Materials",
+    "rustop": "Rustop",
+    "infinity": "Infinity",
+    "tradegraff": "Tradegraff",
+    "tredecote": "Tredecote",
+    "hydrograff": "Hydrograff",
+    "tradetherm": "Tradetherm",
+    "services": "Services",
+    "courses": "Courses",
+    "showrooms": "Showrooms",
+    "contact": "Contact",
+    "home": {
+        "example": "Home"
+    },
+    "footer": {
+        "copyright": "Copyright © H2Ocoatings 2021. All rights reserved",
+        "cookies": "Cookies policy",
+        "privacy": "Privacy policy",
+        "contact": "H2O COATINGS\nC. Carles Buïgas, 53\nPOL. Ind. Can Magre\nES 08187 Santa Eulàlia de Ronçana\nTel: + 34 93 135 21 10\ninfo@h2ocoatings.com"
+    },
+    "languages": {
+        "ca": "CAT",
+        "es": "ES",
+        "en": "EN"
+    }
+}

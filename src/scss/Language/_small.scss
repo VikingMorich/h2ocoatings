@@ -1,0 +1,10 @@
+.c-language{
+    display: none;
+}
+
+@include medium {
+    @import'medium';
+}
+@include large {
+    @import'large';
+}

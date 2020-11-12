@@ -1,0 +1,22 @@
+.c-courses{
+    background-color: c('light-blue');
+    z-index: 3;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    h1{
+        font-size: 36px;
+        font-weight: 800;
+        margin-block-end: 40px;
+        margin-block-start: 0;
+    }
+    p{
+        line-height: 22px;
+    }
+    a{
+        color: c('dark-blue');
+    }
+    a:hover{
+        color: c('boom-blue');
+    }
+}

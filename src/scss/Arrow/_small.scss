@@ -1,0 +1,14 @@
+.c-arrow {
+    background-color: c('dark-blue');
+    border: 2px solid c('bestial-blue');
+    border-radius: 10%;
+    position: fixed;
+    bottom: 40px;
+    right: 60px;
+    width: 30px;
+    height: 30px;
+    transform: rotate(180deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

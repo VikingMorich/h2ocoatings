@@ -1,0 +1,84 @@
+.c-company{
+    background-color: c('light-blue');
+    z-index: 3;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    h1{
+        font-size: 36px;
+        font-weight: 800;
+        margin-block-end: 40px;
+        margin-block-start: 0;
+    }
+    h4{
+        margin-top: 20px;
+        line-height: 25px;
+    }
+    p {
+        line-height: 25px;
+        margin-block-start: 0em;
+        margin-block-end: 1em;
+    }
+    &--img{
+        width: 100%;
+    }
+    &--card{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        justify-content: space-between;
+        margin-bottom: 50px;
+        &--left{
+            width: 100%;
+        }
+        &--right{
+            width: 100%;
+            h4{
+                margin-block-start: 1em;
+            }
+        }
+        &--img{
+            width: 100%;
+            border: 1px solid c('dark-blue');
+            border-collapse: collapse;
+        }
+        &--photo{
+            border: 1px solid c('dark-blue');
+            border-collapse: collapse;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            margin-top: -4px;
+        }
+        &--end{
+            margin-block-start: 2em !important;
+        }
+        &--firm{
+            text-align: right;
+        }
+    }
+
+    &--portfolio{
+        margin: auto;
+        padding: 20px;
+        border: none;
+        border-radius: 20px;
+        background-color: c('medium-blue');
+        transition-duration: 0.4s;
+        color: c('white');
+        font-weight: 800;
+        font-size: 16px;
+    }
+    &--portfolio:hover{
+        background-color: c('boom-blue');
+    }
+}
+
+@include medium {
+    @import'medium';
+}
+@include large {
+    @import'large';
+}

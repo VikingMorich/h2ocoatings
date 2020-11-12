@@ -1,0 +1,124 @@
+.c-table{
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+    margin-top: 2em;
+    font-size: 12px;
+    &--title{
+        text-align: center !important;
+    }
+    th{
+        border: 1px solid c('black');
+        padding: 8px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: c('table-header');
+        color: white;
+    }
+    td {
+        border: 1px solid c('black');
+        padding: 8px;
+    }
+    tr{
+        background-color: c('table-op1');
+    }
+    tr:nth-child(even){
+        background-color: c('table-op2');
+    }
+    tr:hover {
+        background-color: c('bestial-blue');
+    }
+}
+
+.c-seal{
+    height: 40px;
+}
+
+.c-materials{
+    background-color: c('light-blue');
+    z-index: 3;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    h1{
+        font-size: 36px;
+        font-weight: 800;
+    }
+    &--header {
+        display: flex;
+        align-items: center;
+        &--title{
+            font-size: 36px;
+            font-weight: 800;
+            margin-block-end: 0;
+            margin-block-start: 0;
+        }
+        &--subtitle {
+            font-size: 15px;
+            font-weight: 800;
+            margin-left: 2em;
+        }
+        &--icons{
+            display: flex;
+            img{
+                margin-left: 10px;
+            }
+        }
+
+    }
+    &--presentation {
+        font-size: 18px;
+        font-weight: 800;
+    }
+    &--subpresentation {
+        font-size: 15px;
+        font-style: italic;
+        font-weight: 300;
+        margin-bottom: 20px;
+    }
+    &--base {
+        font-size: 17px;
+        font-style: bold;
+    }
+    &--exp {
+        font-size: 16px;
+        font-weight: 300;
+        margin-bottom: 20px;
+        line-height: 22px;
+    }
+    &--sis {
+        font-size: 16px;
+        font-style: bold;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+    &--note {
+        font-size: 16px;
+        font-style: bold;
+        font-weight: 500;
+        line-height: 22px;
+        margin-top: 10px;
+        margin-left: 25px;
+        &__title{
+            margin-top: 40px;
+            font-size: 16px;
+            font-style: bold;
+            font-weight: 500;
+            line-height: 30px;
+        }
+    }
+    &--top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0px 0px 30px;
+    }
+}
+
+@include medium {
+    @import'medium';
+}
+@include large {
+    @import'large';
+}

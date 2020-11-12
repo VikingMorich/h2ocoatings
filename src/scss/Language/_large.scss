@@ -1,0 +1,54 @@
+.c-language{
+    width: 120px;
+    height: 50px;
+    color: c('white');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &--flag, &--lang {
+        margin-right: 5px;
+    }
+    &-options{
+        background-color: c('dark-blue');
+        border-top: none;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        z-index: 10;
+    }
+    &-option{
+        background-color: c('dark-blue');
+        border: none;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        color: c('white');
+        padding: 16px 40px;
+        display: flex;
+        align-items: center;
+    }
+    &-option:hover {
+        background-color: c('boom-blue');
+    }
+    &--icon{
+        &__opened{
+            -webkit-animation: spin 0.2s ease-in-out;
+            -moz-animation: spin 0.2s linear;
+            animation: spin 0.2s linear;
+            animation-fill-mode: forwards; 
+        }
+    }
+}
+
+.language{
+    position: relative;
+}
+
+@-moz-keyframes spin {
+    100% { -webkit-transform: rotate(180deg); transform:rotate(180deg); }
+}
+@-webkit-keyframes spin {
+    100% { -webkit-transform: rotate(180deg); transform:rotate(180deg); }
+}
+@keyframes spin { 
+    100% { -webkit-transform: rotate(180deg); transform:rotate(180deg); } 
+}

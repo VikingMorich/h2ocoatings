@@ -1,0 +1,23 @@
+.c-form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    &--checkbox{
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+}
+
+textarea{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: c('table-op2');
+    border: none;
+    margin: 10px 0px;
+}
+input{
+    background-color: c('table-op2');
+    border: none;
+    margin: 10px 0px;
+    height: 25px;
+}

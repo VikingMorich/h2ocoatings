@@ -1,0 +1,28 @@
+.c-contact{
+    background-color: c('light-blue');
+    z-index: 3;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    h1{
+        font-size: 36px;
+        font-weight: 800;
+        margin-block-end: 40px;
+        margin-block-start: 0;
+    }
+    &--map{
+        border: 1px solid c('black');
+        margin-bottom: 20px;
+    }
+    &--container{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    button {
+        height: 30px;
+        width: 100px;
+        margin: auto;
+        margin-top: 0px;
+    }
+}

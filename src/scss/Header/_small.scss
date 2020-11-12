@@ -1,0 +1,121 @@
+.c-header {
+  background-color: c('dark-blue');
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  padding: 0px 30px;
+  &-nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    &__options {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      padding: 0px 200px;
+    }
+    &--option{
+      display: none;
+    }
+  }
+  &--icon{
+    display: block;
+    width: 35px;
+  }
+}
+
+a:link {
+  line-height: 25px;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: c('bestial-blue');
+}
+
+a:active {
+  text-decoration: underline;
+  color: c('bestial-blue');
+}
+
+/*
+* W3´school
+*/
+
+.dropbtn {
+  background-color: c('dark-blue');
+  color: white;
+  padding: 16px;
+  height: 70px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: c('dark-blue');
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: c('white');
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: c('medium-blue');}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: c('boom-blue');}
+
+/*
+ *  SCROLLBAR
+ */
+
+ ::-webkit-scrollbar-track
+ {
+   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+   box-shadow: inset 0 0 6px rgba(0,0,0,0.1);;
+   background-color: c('celestial-blue');
+   border-radius: 10px;
+ }
+ 
+ ::-webkit-scrollbar
+ {
+   width: 10px;
+   background-color: c('celestial-blue');
+ }
+ 
+ ::-webkit-scrollbar-thumb
+ {
+   border-radius: 10px;
+   background-color: c('celestial-blue');
+   background-image: linear-gradient(to top, c('dark-blue'), c('bestial-blue'), c('dark-blue'));
+ }
+
+
+
+@include medium {
+    @import'medium';
+}
+@include large {
+    @import'large';
+}

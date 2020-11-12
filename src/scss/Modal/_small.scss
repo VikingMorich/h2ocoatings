@@ -1,0 +1,30 @@
+.c-modal-background {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    position: fixed;
+    top: 0px;
+    z-index: 8;
+}
+.c-modal {
+    background-color: c('light-gray');
+    width: 70vw;
+    height: 70vh;
+    position: fixed;
+    left: 15vw;
+    top: 15vh;
+    z-index: 9;
+    &--cross{
+        width: 30px;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+} 
+  
+  @include medium {
+      @import'medium';
+  }
+  @include large {
+      @import'large';
+  }

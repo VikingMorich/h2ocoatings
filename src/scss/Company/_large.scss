@@ -1,0 +1,11 @@
+.c-company--card{
+    &--left{
+        width: 48%;
+    }
+    &--right{
+        width: 48%;
+        h4{
+            margin-block-start: 0em;
+        }
+    }
+}

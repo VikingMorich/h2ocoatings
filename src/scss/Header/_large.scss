@@ -1,0 +1,37 @@
+.c-header {
+  background-color: c('dark-blue');
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  padding: 0px 30px;
+  z-index: 7;
+  &-nav{
+    display: flex;
+    align-items: center;
+    z-index: 7;
+    &--option{
+      color: c('white');
+      z-index: 7;
+      padding-right: 10px;
+      display: block;
+      position: relative;
+    }
+  }
+  &--icon{
+    display: none;
+  }
+}
+
+.c-servicesOptions {
+  width: 200px;
+  height: 500px;
+  z-index: 5;
+  background-color: c('dark-blue');
+  position: absolute;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
