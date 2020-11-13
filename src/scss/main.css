@@ -905,7 +905,11 @@ a:active {
   width: 100px;
 }
 
-.c-social-container span:hover {
+.c-social-container :hover span {
+  font-weight: 800;
+}
+
+.c-social-container:hover span {
   font-weight: 800;
 }
 

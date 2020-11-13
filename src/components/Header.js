@@ -98,18 +98,18 @@ export default function Header() {
                                 <img className="c-dopmat--img" src="/imgs/infinity.jpg" alt="infinity"/>
                                 <span>{t("rustop")}</span>
                             </a>
-                            <a href="tradegraf" className="c-dropmat--box">
+                            <a href="/tradegraff" className="c-dropmat--box">
                                 <img className="c-dopmat--img" src="/imgs/infinity.jpg" alt="infinity"/>
                                 <span>{t("tradegraff")}</span>
                             </a>
-                            <a href="tradecote" className="c-dropmat--box">
+                            <a href="/tradecote" className="c-dropmat--box">
                                 <img className="c-dopmat--img" src="/imgs/infinity.jpg" alt="infinity"/>
                                 <span>{t("tradecote")}</span>                         </a>
-                            <a href="hydrograf" className="c-dropmat--box">
+                            <a href="/hydrograff" className="c-dropmat--box">
                                 <img className="c-dopmat--img" src="/imgs/infinity.jpg" alt="infinity"/>
                                 <span>{t("hydrograff")}</span>
                             </a>
-                            <a href="tradether" className="c-dropmat--box">
+                            <a href="/tradetherm" className="c-dropmat--box">
                                 <img className="c-dopmat--img" src="/imgs/infinity.jpg" alt="infinity"/>
                                 <span>{t("tradetherm")}</span>
                             </a>

@@ -40,7 +40,10 @@
         color: c('dark-blue');
         width: 100px;
     }
-    span:hover{
+    :hover span{
         font-weight: 800;
     }
+}
+.c-social-container:hover span{
+    font-weight: 800;
 }
