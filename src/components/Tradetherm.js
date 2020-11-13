@@ -15,7 +15,7 @@ export default function Tradetherm() {
                     <h1>{t("tradetherm-col.title").toUpperCase()}</h1>
                 </div>
                 <div className="c-materials--header--icons">
-                    <img src="/scs.png" className="c-seal" />
+                    <img src="/scs.png" className="c-seal" alt="scs-icon"/>
                 </div>
             </div>
             <h2 className="c-materials--presentation">{t("tradetherm-col.presentation")}</h2>

@@ -59,7 +59,7 @@ export default function Form(){
     return (
         <form onSubmit={handleSubmit} className="c-form">
             <input placeholder="Name" value={name} onChange={setName}/>
-            <input placeholder="Surname" value={surname} onChange={setSurname}/>
+            <input className="c-form--error" placeholder="Surname" value={surname} onChange={setSurname}/>
             <input placeholder="Email" value={email} onChange={setEmail}/>
             <input placeholder="Phone" value={phone} onChange={setPhone}/>
             <input placeholder="Location" value={location} onChange={setLocation}/>

@@ -1,8 +1,10 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import { useTranslation } from "react-i18next"
+import expand from "../icons/expand_more-white-18dp.svg"
 
 export default function Tradegraff() {
     const [t] = useTranslation("global")
+    const [prodOpen, setProdOpen] = useState(false)
     useEffect(() => {
         document.title = 'H2O Coatings - ' + t("materials")
         window.scrollTo(0, 0)
@@ -15,8 +17,8 @@ export default function Tradegraff() {
                     <h1>{t("tradegraff-col.title").toUpperCase()}</h1>
                 </div>
                 <div className="c-materials--header--icons">
-                    <img src="/emissions-aire.png" className="c-seal" />
-                    <img src="/scs.png" className="c-seal" />
+                    <img src="/emissions-aire.png" className="c-seal" alt="emision-icon"/>
+                    <img src="/scs.png" className="c-seal" alt="scs-icon"/>
                 </div>
             </div>
             <h2 className="c-materials--presentation">{t("tradegraff-col.presentation")}</h2>
@@ -29,6 +31,17 @@ export default function Tradegraff() {
             <span className="c-materials--exp">{t("tradegraff-col.content4")}</span>
             <h3 className="c-materials--base">{t("tradegraff-col.header4")}</h3>
             <span className="c-materials--exp">{t("tradegraff-col.content5")}</span>
+            
+            <span className="c-materials--button" onClick={() => setProdOpen(!prodOpen)}>
+                {t("tradegraff-col.products")}
+                <img className={`c-language--icon ${prodOpen && 'c-language--icon__opened'}`} alt="expand-icon" src={expand}/>
+            </span>
+            {prodOpen &&
+            <div className="c-materials--block">
+                <span className="c-materials--block--prod">{t("tradegraff-col.prod1")}</span>
+                <span className="c-materials--block--prod">{t("tradegraff-col.prod2")}</span>
+            </div>}
+            <br />
 
             <table className="c-table">
                 <tr>

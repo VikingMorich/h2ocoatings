@@ -84,7 +84,9 @@ export default function Header() {
                     <img src="/logo.png" alt="H2O Coatings" />
                 </Link>
                 <div className="c-header-nav__options">
-                    <Link to={"/company"} className="c-header-nav--option" >{t("company")}</Link>
+                    <a href={"/company"} class="c-menu-op">
+                        <span  className="c-header-nav--option" >{t("company")}</span>
+                    </a>
                     <div class="dropdown">
                         <button class="dropbtn">{t("materials")}</button>
                         <div class="dropdown-content">
@@ -103,7 +105,9 @@ export default function Header() {
                             <a href="/showrooms">{t("showrooms")}</a>
                         </div>
                     </div>
-                    <Link to="/contact" className="c-header-nav--option">{t("contact")}</Link>
+                    <a href="/contact" class="c-menu-op">
+                        <span className="c-header-nav--option">{t("contact")}</span>
+                    </a>
                 </div> 
             </div>
             <Language />

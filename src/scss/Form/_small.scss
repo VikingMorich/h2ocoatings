@@ -7,6 +7,9 @@
         align-items: center;
         margin-bottom: 10px;
     }
+    &--error{
+        border: 2px solid c('error');
+    }
 }
 
 textarea{
@@ -14,10 +17,14 @@ textarea{
     background-color: c('table-op2');
     border: none;
     margin: 10px 0px;
+    padding: 10px;
+    border-radius: 5px;
 }
 input{
     background-color: c('table-op2');
+    border-radius: 5px;
     border: none;
     margin: 10px 0px;
-    height: 25px;
+    height: 32px;
+    padding: 0 10px;
 }

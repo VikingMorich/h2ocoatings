@@ -26,7 +26,9 @@ export default function Footer() {
                     
                     <nav className="c-footer-top--nav">
                         <p className="c-footer-top--nav__col">
-                            {t("footer.contact")}
+                            <a href="/" className="c-footer-top--company"><b>{t("footer.h2o")}</b></a>
+                            <span>{t("footer.contact")}</span>
+                            <a className="c-footer-top--company" href={`mailto:${t('email')}`}>{t("email")}</a>
                         </p>
                         <div className="c-footer-top--nav__col">
                         <span className="c-footer-top--option__top">{t("materials")}</span>

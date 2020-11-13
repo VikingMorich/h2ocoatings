@@ -1,8 +1,10 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import { useTranslation } from "react-i18next"
+import expand from "../icons/expand_more-white-18dp.svg"
 
 export default function InfinityComp() {
     const [t] = useTranslation("global")
+    const [prodOpen, setProdOpen] = useState(false);
     useEffect(() => {
         document.title = 'H2O Coatings - ' + t("materials")
         window.scrollTo(0, 0)
@@ -16,7 +18,7 @@ export default function InfinityComp() {
                     <span className="c-materials--header--subtitle">{t("infinity-col.subtitle")}</span>
                 </div>
                 <div className="c-materials--header--icons">
-                    <img src="/emissions-aire.png" className="c-seal" />
+                    <img src="/emissions-aire.png" className="c-seal" alt="emision-icon"/>
                 </div>
             </div>
             <h2 className="c-materials--presentation">{t("infinity-col.presentation")}</h2>
@@ -29,6 +31,28 @@ export default function InfinityComp() {
             <h3 className="c-materials--base">{t("infinity-col.header5")}</h3>
             <h3 className="c-materials--base">{t("infinity-col.header6")}</h3>
             <span className="c-materials--exp">{t("infinity-col.content2")}</span>
+
+            <span className="c-materials--button" onClick={() => setProdOpen(!prodOpen)}>
+                {t("infinity-col.products")}
+                <img className={`c-language--icon ${prodOpen && 'c-language--icon__opened'}`} alt="expand-icon" src={expand}/>
+            </span>
+            {prodOpen &&
+            <div className="c-materials--block">
+                <span className="c-materials--block--op">{t("infinity-col.op1")}</span>
+                <span className="c-materials--block--prod">{t("infinity-col.prod1")}</span>
+                <span className="c-materials--block--op">{t("infinity-col.op2")}</span>
+                <span className="c-materials--block--prod">{t("infinity-col.prod2")}</span>
+                <span className="c-materials--block--prod">{t("infinity-col.prod3")}</span>
+                <span className="c-materials--block--prod">{t("infinity-col.prod4")}</span>
+                <span className="c-materials--block--prod">{t("infinity-col.prod5")}</span>
+                <span className="c-materials--block--op">{t("infinity-col.op2")}</span>
+                <span className="c-materials--block--prod">{t("infinity-col.prod6")}</span>
+                <span className="c-materials--block--prod">{t("infinity-col.prod7")}</span>
+                <span className="c-materials--block--prod">{t("infinity-col.prod8")}</span>
+                <span className="c-materials--block--prod">{t("infinity-col.prod9")}</span>
+            </div>}
+            <br />
+
             <span className="c-materials--sis">{t("infinity-col.sistems")}</span>
             <table className="c-table">
                 <tr>

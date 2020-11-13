@@ -15,8 +15,8 @@ export default function Rustop() {
                     <h1>{t("rustop").toUpperCase()}</h1>
                 </div>
                 <div className="c-materials--header--icons">
-                    <img src="/emissions-aire.png" className="c-seal" />
-                    <img src="/scs.png" className="c-seal" />
+                    <img src="/emissions-aire.png" className="c-seal" alt="emision-icon"/>
+                    <img src="/scs.png" className="c-seal" alt="scs-icon"/>
                 </div>
             </div>
             <h2 className="c-materials--presentation">{t("rustop-col.presentation")}</h2>

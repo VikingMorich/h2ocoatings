@@ -15,7 +15,7 @@
       justify-content: space-around;
       align-items: center;
       width: 100%;
-      padding: 0px 200px;
+      padding: 0px 100px;
     }
     &--option{
       display: none;
@@ -130,7 +130,7 @@ a:active {
 .dropbtn {
   background-color: c('dark-blue');
   color: white;
-  padding: 16px;
+  padding: 0px 40px;
   height: 70px;
   font-size: 16px;
   border: none;
@@ -139,6 +139,23 @@ a:active {
 .dropdown {
   position: relative;
   display: none;
+}
+
+.c-menu-op{
+  background-color: c('dark-blue');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 30px;
+  font-size: 16px;
+  height: 70px;
+  a:hover {
+    color: c('white');
+  }
+}
+.c-menu-op:hover{
+  text-decoration: underline;
+  background-color: c('boom-blue');
 }
 
 .dropdown-content {
@@ -152,16 +169,16 @@ a:active {
 
 .dropdown-content a {
   color: c('white');
-  padding: 12px 16px;
+  padding: 18px 16px;
   text-decoration: none;
   display: block;
 }
 
-.dropdown-content a:hover {background-color: c('medium-blue');}
+.dropdown-content a:hover {background-color: c('medium-blue');text-decoration: underline;}
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: c('boom-blue');}
+.dropdown:hover .dropbtn {background-color: c('boom-blue'); text-decoration: underline;}
 
 /*
  *  SCROLLBAR

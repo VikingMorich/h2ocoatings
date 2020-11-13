@@ -21,7 +21,8 @@
         "copyright": "Copyright © H2Ocoatings 2021. Tots els drets reservats",
         "cookies": "Política de cookies",
         "privacy": "Política de privacitat",
-        "contact": "H2O COATINGS\nC. Carles Buïgas, 53\nPOL. Ind. Can Magre\nES 08187 Santa Eulàlia de Ronçana\nTel: + 34 93 135 21 10\ninfo@h2ocoatings.com"
+        "h2o": "H2O COATINGS",
+        "contact": "C. Carles Buïgas, 53\nPOL. Ind. Can Magre\nES 08187 Santa Eulàlia de Ronçana\nTel: + 34 93 135 21 10"
     },
     "languages": {
         "ca": "CAT",
@@ -112,7 +113,20 @@
         "sistems": "Sistemes:",
         "notes": "Notes:",
         "note1": "*Si las paredes presentan buena planimetría la capa de fondo Infinity no es necesaria",
-        "note2": "**El Additive en paredes no es necesario, pero en pavimentos es muy recomendable"
+        "note2": "**El Additive en paredes no es necesario, pero en pavimentos es muy recomendable",
+        "products": "Productes",
+        "op1": "Primer",
+        "op2": "Microciment",
+        "op3": "Complements",
+        "prod1": "Infinity Fix",
+        "prod2": "Infinity",
+        "prod3": "Infinity 00",
+        "prod4": "Infinity Premium",
+        "prod5": "Infinity Supreme",
+        "prod6": "Infinity Fiber",
+        "prod7": "Infinity Pigment",
+        "prod8": "Infinity Additive 2Comp",
+        "prod9": "Infinity Additive Supreme"
     },
     "rustop-col": {
         "presentation": "ESMALTE ANTIOXIDANTE AL AGUA:  UN NUEVO STANDARD PARA LA ANTI-CORROSION",
@@ -143,7 +157,10 @@
         "content4": "mocomponente: COV < 50 gr./l.\n2 componentes: COV < 20 gr./l.",
         "header4": "Disponible en transparente",
         "content5": "monocomponente: brillante, satinado y mate (0,75 l. – 2,5 l.)\n2 componentes: brillante y mate (2,5 l. A+B)",
-        "sistems": "Sistemas recomendados:"
+        "sistems": "Sistemas recomendados:",
+        "products": "Productes",
+        "prod1": "Tradegraff",
+        "prod2": "Tradegraff 2Comp"
     },
     "hydrograff-col": {
         "title": "HYDROGRAFF HP 2 COMP.",

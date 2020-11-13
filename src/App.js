@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from "react";
+import React, { useState } from "react";
 import "./index.css"
 import "./scss/main.scss"
 import Header from './components/Header'

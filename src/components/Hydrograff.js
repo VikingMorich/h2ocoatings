@@ -16,7 +16,7 @@ export default function Hydrograff() {
                     <h1>{t("hydrograff-col.title").toUpperCase()}</h1>
                 </div>
                 <div className="c-materials--header--icons">
-                    <img src="/emissions-aire.png" className="c-seal" />
+                    <img src="/emissions-aire.png" className="c-seal" alt="emision-icon"/>
                 </div>
             </div>
             <h2 className="c-materials--presentation">{t("hydrograff-col.presentation")}</h2>
