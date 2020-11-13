@@ -95,11 +95,11 @@ export default function Header() {
                                 <span>{t("infinity")}</span>
                             </a>
                             <a href="/rustop" className="c-dropmat--box">
-                                <img className="c-dopmat--img" src="/imgs/infinity.jpg" alt="infinity"/>
+                                <img className="c-dopmat--img" src="/imgs/anticorrision_01.jpg" alt="infinity"/>
                                 <span>{t("rustop")}</span>
                             </a>
                             <a href="/tradegraff" className="c-dropmat--box">
-                                <img className="c-dopmat--img" src="/imgs/infinity.jpg" alt="infinity"/>
+                                <img className="c-dopmat--img" src="/imgs/tradesec.jpg" alt="infinity"/>
                                 <span>{t("tradegraff")}</span>
                             </a>
                             <a href="/tradecote" className="c-dropmat--box">

@@ -18,10 +18,15 @@
       justify-content: space-around;
       align-items: center;
       width: 100%;
-      padding: 0px 100px;
     }
     &--option{
       display: none;
+    }
+  }
+  &--logo{
+    height: 55px;
+    img{
+      height: 100%;
     }
   }
   &--icon{
@@ -137,8 +142,9 @@ a:active {
     overflow: hidden;
     position: relative;
     flex-direction: column;
-    margin: 15px 0px 20px;
+    margin: 20px 0px 30px;
     overflow: hidden;
+    border: 2px solid c('boom-blue');
     cursor: pointer;
     span {
       color: c('white');

@@ -4,13 +4,11 @@
         background-color: c('dark-blue');
         display: flex;
         align-items: center;
-        height: 70px;
+        height: 40px;
         padding: 0px 30px;
         color: c('white');
-        justify-content: space-between;
-        a {
-            color: c('white');
-        }
+        justify-content: center;
+        font-size: 12px;
     }
     &-top{
         background-color: c('medium-blue');
@@ -22,12 +20,20 @@
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
+            width: 100%;
+            justify-content: space-around;
+            padding: 0 10px;
+            box-sizing: border-box;
             &__col{
                 display: flex;
                 flex-direction: column;
-                margin-left: 100px;
-                width: 200px;
+                width: 100%;
                 margin-bottom: 20px;
+                text-align: center;
+            }
+            &__colSpecial{
+                margin-right: 0px;
+                margin-bottom: 30px;
             }
         }
         &--company{
@@ -35,6 +41,7 @@
         }
         &--option {
             color: c('white');
+            line-height: 25px;
             &__top{
             font-size: 18px;
             color: c('white');

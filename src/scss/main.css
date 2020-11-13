@@ -41,11 +41,18 @@
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-  padding: 0px 100px;
 }
 
 .c-header-nav--option {
   display: none;
+}
+
+.c-header--logo {
+  height: 55px;
+}
+
+.c-header--logo img {
+  height: 100%;
 }
 
 .c-header--icon {
@@ -201,8 +208,9 @@ a:active {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 15px 0px 20px;
+  margin: 20px 0px 30px;
   overflow: hidden;
+  border: 2px solid #304f8b;
   cursor: pointer;
 }
 
@@ -517,16 +525,13 @@ a:active {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 70px;
+  height: 40px;
   padding: 0px 30px;
   color: white;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.c-footer-bottom a {
-  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 12px;
 }
 
 .c-footer-top {
@@ -551,6 +556,12 @@ a:active {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 0 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .c-footer-top--nav__col {
@@ -561,9 +572,14 @@ a:active {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-left: 100px;
-  width: 200px;
+  width: 100%;
   margin-bottom: 20px;
+  text-align: center;
+}
+
+.c-footer-top--nav__colSpecial {
+  margin-right: 0px;
+  margin-bottom: 30px;
 }
 
 .c-footer-top--company {
@@ -572,6 +588,7 @@ a:active {
 
 .c-footer-top--option {
   color: white;
+  line-height: 25px;
 }
 
 .c-footer-top--option__top {
@@ -583,6 +600,25 @@ a:active {
 
 .c-footer-top p {
   line-height: 25px;
+}
+
+@media only screen and (min-width: 768px) {
+  .c-footer-top--nav__col {
+    width: 50%;
+  }
+  .c-footer-top--nav__colSpecial {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .c-footer-top--nav__col {
+    width: 17%;
+  }
+  .c-footer-top--nav__colSpecial {
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
 }
 
 .c-modal-background {
