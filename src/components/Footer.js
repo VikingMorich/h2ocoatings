@@ -47,10 +47,6 @@ export default function Footer() {
                         </div>
                         <div className="c-footer-top--nav__col">
                         <Link to="/contact" className="c-footer-top--option__top">{t("contact")}</Link>
-                        <a className="c-footer-top--icon-container" href="https://www.instagram.com/h2ocoatings/" target="_blank" rel="noreferrer">
-                            <img className="instagram-icon" alt="instagram-icon" src={instagram}/>
-                        </a>
-                        
                         </div>
                     </nav>
                 </div>   

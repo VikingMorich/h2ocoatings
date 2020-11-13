@@ -38,3 +38,23 @@
   position: relative;
   display: inline-block;
 }
+.dropdown-materials {
+  display: inline-block;
+  text-align: center;
+}
+
+.c-menu-op{
+  background-color: c('dark-blue');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 30px;
+  font-size: 16px;
+  color: c('white');
+  height: 70px;
+}
+.c-menu-op:hover{
+  text-decoration: underline;
+  background-color: c('boom-blue');
+  color: c('white');
+}

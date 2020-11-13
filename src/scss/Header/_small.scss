@@ -2,6 +2,9 @@
   background-color: c('dark-blue');
   display: flex;
   align-items: center;
+  position: fixed;
+  box-sizing: border-box;
+  width: 100%;
   justify-content: space-between;
   height: 70px;
   padding: 0px 30px;
@@ -124,8 +127,50 @@ a:active {
 }
 
 /*
-* W3´school
+* DROPDOWN
 */
+
+.c-dropmat{
+  &--box{
+    width: 14%;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    flex-direction: column;
+    margin: 15px 0px 20px;
+    overflow: hidden;
+    cursor: pointer;
+    span {
+      color: c('white');
+      position: absolute;
+      bottom: 0px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      font-weight: 800;
+      justify-content: center;
+      background-color: rgba(40,55,86,0.5);
+      width: 100%;
+      transition: 0.5s;
+    }
+    img {
+      width: 100%;
+      object-fit: cover;
+      transition: transform 0.5s, filter 1s ease-in-out;
+      filter: blur(2px);
+      transform: scale(1.2);
+    }
+  }
+  &--box:hover{
+     img {
+      filter: blur(0);
+      transform: scale(1);
+     }
+     span {
+        background-color: c('medium-blue');
+     }
+  }
+}
 
 .dropbtn {
   background-color: c('dark-blue');
@@ -142,20 +187,7 @@ a:active {
 }
 
 .c-menu-op{
-  background-color: c('dark-blue');
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0px 30px;
-  font-size: 16px;
-  height: 70px;
-  a:hover {
-    color: c('white');
-  }
-}
-.c-menu-op:hover{
-  text-decoration: underline;
-  background-color: c('boom-blue');
+  display: none;
 }
 
 .dropdown-content {
@@ -167,6 +199,25 @@ a:active {
   z-index: 1;
 }
 
+.dropdown-materials {
+  display: none;
+}
+.dropdown-content-materials {
+  left: 0px;
+  display: none;
+  position: absolute;
+  justify-content: space-around;
+  background-color: c('dark-blue');
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0px 20px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-materials:hover .dropdown-content-materials {display: flex;}
+.dropdown-materials:hover .dropbtn {background-color: c('boom-blue'); text-decoration: underline;}
+
+
 .dropdown-content a {
   color: c('white');
   padding: 18px 16px;
@@ -177,6 +228,8 @@ a:active {
 .dropdown-content a:hover {background-color: c('medium-blue');text-decoration: underline;}
 
 .dropdown:hover .dropdown-content {display: block;}
+
+
 
 .dropdown:hover .dropbtn {background-color: c('boom-blue'); text-decoration: underline;}
 

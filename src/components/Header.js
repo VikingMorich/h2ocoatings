@@ -87,15 +87,32 @@ export default function Header() {
                     <a href={"/company"} class="c-menu-op">
                         <span  className="c-header-nav--option" >{t("company")}</span>
                     </a>
-                    <div class="dropdown">
+                    <div class="dropdown-materials">
                         <button class="dropbtn">{t("materials")}</button>
-                        <div class="dropdown-content">
-                            <a href="/infinity">{t("infinity")}</a>
-                            <a href="/rustop">{t("rustop")}</a>
-                            <a href="/tradegraff">{t("tradegraff")}</a>
-                            <a href="/tradecote">{t("tradecote")}</a>
-                            <a href="/hydrograff">{t("hydrograff")}</a>
-                            <a href="/tradetherm">{t("tradetherm")}</a>
+                        <div class="dropdown-content-materials">
+                            <a className="c-dropmat--box" href="/infinity">
+                                <img className="c-dopmat--img" src="/imgs/infinity.jpg" alt="infinity"/>
+                                <span>{t("infinity")}</span>
+                            </a>
+                            <a href="/rustop" className="c-dropmat--box">
+                                <img className="c-dopmat--img" src="/imgs/infinity.jpg" alt="infinity"/>
+                                <span>{t("rustop")}</span>
+                            </a>
+                            <a href="tradegraf" className="c-dropmat--box">
+                                <img className="c-dopmat--img" src="/imgs/infinity.jpg" alt="infinity"/>
+                                <span>{t("tradegraff")}</span>
+                            </a>
+                            <a href="tradecote" className="c-dropmat--box">
+                                <img className="c-dopmat--img" src="/imgs/infinity.jpg" alt="infinity"/>
+                                <span>{t("tradecote")}</span>                         </a>
+                            <a href="hydrograf" className="c-dropmat--box">
+                                <img className="c-dopmat--img" src="/imgs/infinity.jpg" alt="infinity"/>
+                                <span>{t("hydrograff")}</span>
+                            </a>
+                            <a href="tradether" className="c-dropmat--box">
+                                <img className="c-dopmat--img" src="/imgs/infinity.jpg" alt="infinity"/>
+                                <span>{t("tradetherm")}</span>
+                            </a>
                         </div>
                     </div>
                     <div class="dropdown">
