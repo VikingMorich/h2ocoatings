@@ -1,6 +1,22 @@
 .c-home{
-    background-color: c('light-blue');
     width: 100%;
-    padding-top: 130px;
+    padding-top: 70px;
     z-index: 3;
+    background-image: url('../../icons/water-gif2.gif');
+    background-color: c('light-blue');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    &--slider{
+        width: 70%;
+        margin: auto;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        border: 3px solid c('boom-blue');
+        margin-bottom: 40px;
+    }
+    h1{
+        color: c('white')
+    }
 }

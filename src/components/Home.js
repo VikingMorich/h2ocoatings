@@ -11,8 +11,9 @@ export default function Home() {
     
     return (
         <div className="c-home">
-            <Slider />
-            <h1>{t("home.example")}</h1>
+            <div className="c-home--slider">
+                <Slider />
+            </div>
             <br />
         </div>
     );
