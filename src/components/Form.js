@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 //--------- BORRAR NODEMAILER SI NO FA FALTA -----------
-var nodemailer = require('nodemailer');
+/*var nodemailer = require('nodemailer');
 
 let transporter = nodemailer.createTransport({
   host: "webmailsmtp.register.it",
@@ -26,6 +26,7 @@ let transporter = nodemailer.createTransport({
       console.log('Email sent: ' + info.response);
     }
   });
+  */
 //------------------------------------------
 
 function useInput(initialValue){

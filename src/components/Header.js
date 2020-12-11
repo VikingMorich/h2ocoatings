@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from 'react'
 import { useTranslation } from "react-i18next"
-import { Link } from "react-router-dom";
 import Language from './Language'
 import menu from '../icons/menu-white-18dp.svg'
 import language from "../icons/language-white-18dp.svg"
@@ -23,7 +22,6 @@ export default function Header() {
     useEffect(() => {
         setFadeInHeader(false)
         if(document.location.pathname === '/') {
-            console.log('hello')
             setHideHeader(true)
             setTimeout(() => { setHideHeader(false); setFadeInHeader(true) }, 4000);
         }

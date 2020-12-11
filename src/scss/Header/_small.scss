@@ -159,7 +159,8 @@ a:active {
       height: 40px;
       display: flex;
       align-items: center;
-      font-weight: 800;
+      font-family: 'Avenir LT Std 95 Black';
+      text-shadow: 0 0 0.2em #000;
       justify-content: center;
       background-color: rgba(40,55,86,0.5);
       width: 100%;
@@ -273,6 +274,7 @@ a:active {
 
 .opacity-off{
   opacity: 0;
+  display: none !important;
 }
 
  .fadeIn {

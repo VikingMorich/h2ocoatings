@@ -235,7 +235,8 @@ a:active {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-weight: 800;
+  font-family: 'Avenir LT Std 95 Black';
+  text-shadow: 0 0 0.2em #000;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -374,6 +375,7 @@ a:active {
 
 .opacity-off {
   opacity: 0;
+  display: none !important;
 }
 
 .fadeIn {
@@ -582,6 +584,29 @@ a:active {
   color: white;
 }
 
+.c-footer-top--social {
+  margin-top: 29px;
+  height: auto;
+  width: 100%;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 0;
+}
+
+.c-footer-top--social-img {
+  width: 150px;
+}
+
+.c-footer-top--social:hover {
+  color: white;
+  font-family: 'Avenir LT Std 85 Heavy';
+}
+
 .c-footer-top--nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -649,6 +674,9 @@ a:active {
   .c-footer-top--nav__colSpecial {
     width: 100%;
   }
+  .c-footer-top--social {
+    margin-left: -120px;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -660,6 +688,9 @@ a:active {
     -webkit-margin-after: 0px;
             margin-block-end: 0px;
     margin-bottom: 0px;
+  }
+  .c-footer-top--social {
+    margin-left: -50%;
   }
 }
 

@@ -17,7 +17,7 @@ export default function Contact() {
                 <Form />
             </div>
             <a className="c-social-container" href="https://www.instagram.com/h2ocoatings/" target="_blank" rel="noreferrer">
-                <img className="c-social--img" src="/follow-insta.png"/>
+                <img className="c-social--img" src="/follow-insta.png" alt="instagram"/>
                 <span >{t("insta")}</span>
             </a>
             </div>

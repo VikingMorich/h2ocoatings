@@ -16,6 +16,22 @@
         align-items: center;
         padding: 30px 30px 0px;
         color: c('white');
+        &--social{
+            margin-top: 29px;
+            height: auto;
+            width: 100%;
+            color: c('white');
+            display: flex;
+            align-items: center;
+            margin-left: 0;
+            &-img{
+                width: 150px;
+            }
+        }
+        &--social:hover{
+            color: c('white');
+            font-family: 'Avenir LT Std 85 Heavy';
+        }
         &--nav {
             display: flex;
             flex-direction: row;

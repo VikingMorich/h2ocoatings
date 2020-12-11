@@ -2,7 +2,6 @@ import React, {useState} from 'react'
 import { useTranslation } from "react-i18next"
 import Modal from './Modal'
 import { Link } from "react-router-dom";
-import instagram from "../icons/instagram.svg"
 
 export default function Footer() {
     const [t] = useTranslation("global")
@@ -64,6 +63,10 @@ export default function Footer() {
                                 }
                             }>
                                 <span>{t("footer.cookies")}</span>
+                            </a>
+                            <a className="c-footer-top--social" href="https://www.instagram.com/h2ocoatings/" target="_blank" rel="noreferrer">
+                                <img className="c-footer-top--social-img" src="/follow-insta-white.png" alt="instagram"/>
+                                <span>{t("insta")}</span>
                             </a>
                         </div>
                     </nav>
