@@ -20,3 +20,81 @@
         color: c('white')
     }
 }
+
+.c-home2{
+    height: 100vh;
+    background-color: c('dark-blue');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    img{
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        width: 300px;
+        z-index: 20;
+    }
+    .fadeOut {
+        -webkit-animation-name: fadeOut;
+        animation-name: fadeOut;
+    }
+    .bounceIn {
+        -webkit-animation-name: bounceIn; 
+        animation-name: bounceIn;
+    }
+    &--presentation {
+        position: absolute;
+        color: white;
+        text-align: center;
+        -webkit-animation-duration: 2s;
+        animation-duration: 2s;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+        -webkit-animation-delay: 1s;
+        animation-delay: 1s;
+        opacity: 0;
+        margin-top: 35px;
+        h1{
+            font-size: 38px;
+            font-family: 'Avenir LT Std 95 Black';
+            margin-block-start: 0em;
+            margin-block-end: 0em;
+            margin-bottom: 20px;
+            text-shadow: 0 0 0.2em #000
+        }
+        span {
+            font-size: 20px;
+            font-family: 'Avenir LT Std 65 Medium';
+            text-shadow: 0 0 0.2em #000
+        }
+    }
+}
+.background-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+@-webkit-keyframes fadeOut {
+    0% {opacity: 1;}
+    100% {opacity: 0;} 
+}
+@keyframes fadeOut {
+    0% {opacity: 1;}
+    100% {opacity: 0;} 
+}
+
+@-webkit-keyframes bounceIn {
+    0% {opacity: 0; transform: scale(.3);}
+    100% {opacity: 1; transform: scale(1);} 
+}
+
+@keyframes bounceIn {
+    0% {opacity: 0; transform: scale(.3);}
+    100% {opacity: 1; transform: scale(1);} 
+}

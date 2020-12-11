@@ -1,17 +1,18 @@
 import React from 'react'
 import { render } from 'react-dom'
 import App from './App'
+import './avenir-lt-std-cufonfonts-webfont/style.css'
 import './index.css'
 import { I18nextProvider } from "react-i18next"
 import i18next from "i18next"
 
 import global_es from "./translations/es/global.json"
 import global_en from "./translations/en/global.json"
-import global_ca from "./translations/ca/global.json"
+import global_cat from "./translations/cat/global.json"
 
 i18next.init({
   interpolation: { escapeValue: false },
-  lng: "ca",
+  lng: "cat",
   resources: {
     es: {
       global: global_es
@@ -19,8 +20,8 @@ i18next.init({
     en: {
       global: global_en
     },
-    ca: {
-      global: global_ca
+    cat: {
+      global: global_cat
     }
   }
 })

@@ -27,84 +27,189 @@
         background-color: c('table-op2');
     }
     tr:hover {
-        background-color: c('bestial-blue');
+        background-color: c('light-gray');
     }
 }
 
 .c-seal{
-    height: 40px;
+    height: 60px;
+}
+
+.c-fullscreen-img--box{
+    position: relative;
+    .c-fullscreen-img--desc{
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        padding: 20px;
+        padding-bottom: 30px;
+        transform: translate(-50%, -50%);
+        background-color: #e6e7e8bd;
+        width: fit-content;
+    }
+}
+
+.c-fullscreen-img{
+    width: 100%;
+    height: calc(100vh - 100px - 30px - 70px);
+    object-fit: cover;
+    object-position: 0px 100%
 }
 
 .c-materials{
     background-color: c('light-blue');
     z-index: 3;
     padding: 60px;
-    padding-top: 130px;
     display: flex;
     flex-direction: column;
     h1{
         font-size: 36px;
         font-weight: 800;
     }
+    &--product-list{
+        width: 100%;
+    }
+    &--product-img{
+        width: 100%;
+        object-fit: cover;
+        margin-top: 20px;
+        height: 539px;
+    }
+    &--product-box{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &--guide{
+        height: 50px;
+        width: 200px;
+        margin-top: 20px;
+        background-color: c('boom-blue');
+        color: c('white');
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    &--guide:hover{
+        background-color: c('dark-blue');
+    }
     &--header {
         display: flex;
         align-items: center;
+        flex-direction: column;
         &--title{
-            font-size: 36px;
-            font-weight: 800;
+            font-size: 43px;
             margin-block-end: 0;
             margin-block-start: 0;
+            font-family: 'Avenir LT Std 95 Black';
         }
         &--subtitle {
             font-size: 15px;
             font-weight: 800;
-            margin-left: 2em;
+            font-family: 'Avenir LT Std 95 Black';
         }
         &--icons{
             display: flex;
-            img{
-                margin-left: 10px;
-            }
+            width: 100%;
+            margin-top: 20px;
+            margin-left: 23px;
         }
 
     }
+    &--properties{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        img{
+            margin-bottom: 5px;
+            margin-right: 5px;
+        }
+    }
+    &--prop{
+        &-box{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+        &-col{
+            width: 530px;
+        }
+    }
     &--presentation {
         font-size: 18px;
-        font-weight: 800;
+        font-family: 'Avenir LT Std 85 Heavy';
     }
     &--subpresentation {
         font-size: 15px;
         font-style: italic;
         font-weight: 300;
         margin-bottom: 20px;
+        font-family: 'Avenir LT Std 35 Light';
     }
     &--base {
         font-size: 17px;
-        font-style: bold;
+        font-family: 'Avenir LT Std 85 Heavy';
     }
     &--exp {
         font-size: 16px;
-        font-weight: 300;
+        font-family: 'Avenir LT Std 35 Light';
         margin-bottom: 20px;
         line-height: 22px;
+        padding-left: 23px;
     }
+
     &--sis {
-        font-size: 16px;
-        font-style: bold;
-        font-weight: 500;
+        font-size: 20px;
+        font-family: 'Avenir LT Std 85 Heavy';
+        text-align: center;
+        background-color: c('light-blue');
+    }
+    &--sis-box{
+        background-color: c('light-blue');
+        z-index: 2;
+        padding: 0 20px;
         margin-top: 20px;
     }
+    &--hr{
+        border-top: 1px solid c('rustop');
+        height: 1px;
+        width: 100%;
+        margin-top: 28px;
+        position: absolute;
+    }
+    &--hr-title{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        margin: 15px 0px;
+    }
+    &--notes-box{
+        background-color: c('light-gray');
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        padding-bottom: 10px;
+        width: 70%;
+        margin-left: 15%;
+    }
     &--note {
-        font-size: 16px;
+        font-size: 15px;
         font-style: bold;
         font-weight: 500;
-        line-height: 22px;
-        margin-top: 10px;
-        margin-left: 25px;
+        line-height: 15px;
+        margin-bottom: 10px;
+        margin-left: 30px;
+        margin-right: 15px;
         &__title{
-            margin-top: 40px;
+            margin-top: 10px;
+            margin-bottom: 5px;
+            margin-left: 15px;
             font-size: 16px;
-            font-style: bold;
+            font-family: 'Avenir LT Std 85 Heavy';
             font-weight: 500;
             line-height: 30px;
         }
@@ -112,20 +217,21 @@
     &--top{
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
         margin: 0px 0px 30px;
+        padding-top: 100px;
     }
     &--block{
         display: flex;
         flex-direction: column;
         font-size: 16px;
         padding: 10px 15px 20px;
-        border: 1px solid c('boom-blue');
+        border: 1px solid c('dark-blue');
         &--op{
             display: flex;
             align-items: center;
             height: 40px;
-            font-weight: 800;
+            font-family: 'Avenir LT Std 85 Heavy';
         }
         &--prod{
             display: flex;
@@ -133,6 +239,10 @@
             height: 30px;
             margin-left: 25px;
             cursor: pointer;
+            color: c('black')
+        }
+        &--prod:hover{
+            color: c('black')
         }
     }
     &--button{
@@ -140,8 +250,7 @@
         padding: 15px 25px;
         display: flex;
         justify-content: space-between;
-        background-color: c('boom-blue');
-        cursor: pointer;
+        background-color: c('dark-blue');
         color: c('white');
         font-weight: 800;
     }

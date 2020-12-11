@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./index.css"
 import "./scss/main.scss"
 import Header from './components/Header'
-import Home from './components/Home'
+import Home from './components/Home2'
 import Company from './components/Company'
 import Footer from './components/Footer'
 import Rustop from './components/Rustop'

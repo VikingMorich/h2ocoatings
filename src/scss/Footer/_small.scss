@@ -11,10 +11,10 @@
         font-size: 12px;
     }
     &-top{
-        background-color: c('medium-blue');
+        background-color: c('boom-blue');
         display: flex;
         align-items: center;
-        padding: 30px 30px;
+        padding: 30px 30px 0px;
         color: c('white');
         &--nav {
             display: flex;
@@ -29,24 +29,26 @@
                 flex-direction: column;
                 width: 100%;
                 margin-bottom: 20px;
-                text-align: center;
+                text-align: left;
             }
             &__colSpecial{
                 margin-right: 0px;
-                margin-bottom: 30px;
+                margin-block-start: 0px;
+                margin-block-end: 30px;
             }
         }
         &--company{
             color: c('white');
+            font-family: 'Avenir LT Std 85 Heavy';
         }
         &--option {
             color: c('white');
             line-height: 25px;
             &__top{
+            font-family: 'Avenir LT Std 85 Heavy';
             font-size: 18px;
             color: c('white');
-            font-weight: 800;
-            padding-bottom: 20px;
+            padding-bottom: 11px;
             }
         }
         p{

@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import { useTranslation } from "react-i18next"
 import { Link } from "react-router-dom";
 import Language from './Language'
@@ -11,12 +11,23 @@ export default function Header() {
     const [t, i18n] = useTranslation("global")
     const [mobileMenu, setMobileMenu] = useState(false)
     const [mobileMenuType, setMobileMenuType] = useState('')
+    const [hideHeader, setHideHeader] = useState(false)
+    const [fadeInHeader, setFadeInHeader] = useState(false)
 
     const setLanguage = (lang) => {
         i18n.changeLanguage(lang)
         setMobileMenuType('')
         setMobileMenu(false)
     }
+
+    useEffect(() => {
+        setFadeInHeader(false)
+        if(document.location.pathname === '/') {
+            console.log('hello')
+            setHideHeader(true)
+            setTimeout(() => { setHideHeader(false); setFadeInHeader(true) }, 4000);
+        }
+    }, []);
 
     return (
         <React.Fragment>
@@ -78,51 +89,51 @@ export default function Header() {
             </div>
         </div>
         }
-        <div className="c-header">
+        <div className={`c-header ${hideHeader && 'opacity-off'} ${fadeInHeader && 'fadeIn'}`}>
             <div className="c-header-nav">
-                <Link to="/" className="c-header--logo">
-                    <img src="/logo.png" alt="H2O Coatings" />
-                </Link>
+                <a href="/" className="c-header--logo">
+                    <img src="/logo_h2o_blanc.png" alt="H2O Coatings" />
+                </a>
                 <div className="c-header-nav__options">
-                    <a href={"/company"} class="c-menu-op">
+                    <a href={"/company"} className="c-menu-op">
                         <span  className="c-header-nav--option" >{t("company")}</span>
                     </a>
-                    <div class="dropdown-materials">
-                        <button class="dropbtn">{t("materials")}</button>
-                        <div class="dropdown-content-materials">
+                    <div className="dropdown-materials">
+                        <button className="dropbtn">{t("materials")}</button>
+                        <div className="dropdown-content-materials">
                             <a className="c-dropmat--box" href="/infinity">
                                 <img className="c-dopmat--img" src="/imgs/infinity.jpg" alt="infinity"/>
                                 <span>{t("infinity")}</span>
                             </a>
                             <a href="/rustop" className="c-dropmat--box">
-                                <img className="c-dopmat--img" src="/imgs/anticorrision_01.jpg" alt="infinity"/>
+                                <img className="c-dopmat--img" src="/imgs/rustop.png" alt="infinity"/>
                                 <span>{t("rustop")}</span>
                             </a>
                             <a href="/tradegraff" className="c-dropmat--box">
-                                <img className="c-dopmat--img" src="/imgs/tradesec.jpg" alt="infinity"/>
+                                <img className="c-dopmat--img" src="/imgs/tradegraff1.jpg" alt="infinity"/>
                                 <span>{t("tradegraff")}</span>
                             </a>
                             <a href="/tradecote" className="c-dropmat--box">
-                                <img className="c-dopmat--img" src="/imgs/infinity.jpg" alt="infinity"/>
+                                <img className="c-dopmat--img" src="/imgs/tradecote.jpg" alt="infinity"/>
                                 <span>{t("tradecote")}</span>                         </a>
                             <a href="/hydrograff" className="c-dropmat--box">
-                                <img className="c-dopmat--img" src="/imgs/infinity.jpg" alt="infinity"/>
+                                <img className="c-dopmat--img" src="/imgs/hydrograff.jpg" alt="infinity"/>
                                 <span>{t("hydrograff")}</span>
                             </a>
                             <a href="/tradetherm" className="c-dropmat--box">
-                                <img className="c-dopmat--img" src="/imgs/infinity.jpg" alt="infinity"/>
+                                <img className="c-dopmat--img" src="/imgs/tradetherm.jpg" alt="infinity"/>
                                 <span>{t("tradetherm")}</span>
                             </a>
                         </div>
                     </div>
-                    <div class="dropdown">
-                        <button class="dropbtn">{t("services")}</button>
-                        <div class="dropdown-content">
+                    <div className="dropdown">
+                        <button className="dropbtn">{t("services")}</button>
+                        <div className="dropdown-content">
                             <a href="/courses">{t("courses")}</a>
                             <a href="/showrooms">{t("showrooms")}</a>
                         </div>
                     </div>
-                    <a href="/contact" class="c-menu-op">
+                    <a href="/contact" className="c-menu-op">
                         <span className="c-header-nav--option">{t("contact")}</span>
                     </a>
                 </div> 

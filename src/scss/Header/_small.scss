@@ -9,6 +9,10 @@
   justify-content: space-between;
   height: 70px;
   padding: 0px 30px;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
   &-nav{
     display: flex;
     align-items: center;
@@ -26,8 +30,10 @@
   }
   &--logo{
     height: 55px;
+    display: flex;
+    align-items: center;
     img{
-      height: 100%;
+      height: 80%;
     }
   }
   &--icon{
@@ -106,7 +112,7 @@
   position: fixed;
   width: 100%;
   height: 100%;
-  z-index: 11;
+  z-index: 13;
 }
 
 a:link {
@@ -145,7 +151,6 @@ a:active {
     flex-direction: column;
     margin: 20px 0px 30px;
     overflow: hidden;
-    border: 2px solid c('boom-blue');
     cursor: pointer;
     span {
       color: c('white');
@@ -162,19 +167,20 @@ a:active {
     }
     img {
       width: 100%;
+      height: 100%;
       object-fit: cover;
       transition: transform 0.5s, filter 1s ease-in-out;
-      filter: blur(1px);
+      filter: brightness(80%);
       transform: scale(1.2);
     }
   }
   &--box:hover{
      img {
-      filter: blur(0);
+      filter: brightness(100%);
       transform: scale(1);
      }
      span {
-        background-color: c('medium-blue');
+        background-color: c('rustop');
      }
   }
 }
@@ -222,7 +228,7 @@ a:active {
   z-index: 1;
 }
 .dropdown-materials:hover .dropdown-content-materials {display: flex;}
-.dropdown-materials:hover .dropbtn {background-color: c('boom-blue'); text-decoration: underline;}
+.dropdown-materials:hover .dropbtn {background-color: c('medium-blue'); text-decoration: underline;}
 
 
 .dropdown-content a {
@@ -232,13 +238,13 @@ a:active {
   display: block;
 }
 
-.dropdown-content a:hover {background-color: c('medium-blue');text-decoration: underline;}
+.dropdown-content a:hover {background-color: c('rustop');}
 
 .dropdown:hover .dropdown-content {display: block;}
 
 
 
-.dropdown:hover .dropbtn {background-color: c('boom-blue'); text-decoration: underline;}
+.dropdown:hover .dropbtn {background-color: c('medium-blue'); text-decoration: underline;}
 
 /*
  *  SCROLLBAR
@@ -265,6 +271,23 @@ a:active {
    background-image: linear-gradient(to top, c('dark-blue'), c('bestial-blue'), c('dark-blue'));
  }
 
+.opacity-off{
+  opacity: 0;
+}
+
+ .fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;} 
+}
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;} 
+}
 
 
 @include medium {

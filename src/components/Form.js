@@ -2,16 +2,18 @@ import React,{useState} from 'react';
 //--------- BORRAR NODEMAILER SI NO FA FALTA -----------
 var nodemailer = require('nodemailer');
 
-var transporter = nodemailer.createTransport({
-    service: 'gmail',
-    auth: {
-      user: 'enricmoriche@gmail.com',
-      pass: 'yourpass'
-    }
-  });
+let transporter = nodemailer.createTransport({
+  host: "webmailsmtp.register.it",
+  port: 25,
+  secure: false, // true for 465, false for other ports
+  auth: {
+    user: 'web@h2ocoatings.com',
+    pass: 'H2O/53sEr!',
+  },
+});
   
-  var mailOptions = {
-    from: 'enricmoriche@gmail.com',
+  let mailOptions = {
+    from: 'web@h2ocoatings.com',
     to: 'enricmoriche@gmail.com',
     subject: 'Sending Email using Node.js',
     text: 'That was easy!'
@@ -25,6 +27,7 @@ var transporter = nodemailer.createTransport({
     }
   });
 //------------------------------------------
+
 function useInput(initialValue){
     const [value,setValue] = useState(initialValue);
  
