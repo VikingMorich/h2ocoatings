@@ -34,7 +34,7 @@ export default function Header() {
         if(document.location.pathname === '/') {
             disableScroll()
             setHideHeader(true)
-            setTimeout(() => { setHideHeader(false); setFadeInHeader(true); enableScroll() }, 4000);
+            setTimeout(() => { setHideHeader(false); setFadeInHeader(true); enableScroll() }, 6000);
         }
     }, []);
 
