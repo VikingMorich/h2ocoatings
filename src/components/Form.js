@@ -1,33 +1,7 @@
 import React,{useState} from 'react';
-//--------- BORRAR NODEMAILER SI NO FA FALTA -----------
-/*var nodemailer = require('nodemailer');
+import emailjs, { init } from 'emailjs-com';
 
-let transporter = nodemailer.createTransport({
-  host: "webmailsmtp.register.it",
-  port: 25,
-  secure: false, // true for 465, false for other ports
-  auth: {
-    user: 'web@h2ocoatings.com',
-    pass: 'H2O/53sEr!',
-  },
-});
-  
-  let mailOptions = {
-    from: 'web@h2ocoatings.com',
-    to: 'enricmoriche@gmail.com',
-    subject: 'Sending Email using Node.js',
-    text: 'That was easy!'
-  };
-  
-  transporter.sendMail(mailOptions, function(error, info){
-    if (error) {
-      console.log(error);
-    } else {
-      console.log('Email sent: ' + info.response);
-    }
-  });
-  */
-//------------------------------------------
+init("user_uZyENKBtU2la8xrJoPgY6");
 
 function useInput(initialValue){
     const [value,setValue] = useState(initialValue);
@@ -49,8 +23,14 @@ export default function Form(){
  const [comment,setComment] = useInput('');
  const [checked,setCheck] = useState(false);
 
+
+
  function handleSubmit(e){
    e.preventDefault() // stops default reloading behaviour
+   emailjs.send("service_5jdppsk","template_o46nq8o",{
+    from_name: "Mjod",
+    message: "hello baby, it's working",
+    });
      console.log(name);
      console.log(surname)
      console.log(email);
@@ -61,7 +41,8 @@ export default function Form(){
  }
 
     return (
-        <form onSubmit={handleSubmit} className="c-form">
+      <React.Fragment>
+        <form method="POST" onSubmit={handleSubmit} className="c-form">
             <input placeholder="Name" value={name} onChange={setName}/>
             <input className="c-form--error" placeholder="Surname" value={surname} onChange={setSurname}/>
             <input placeholder="Email" value={email} onChange={setEmail}/>
@@ -74,5 +55,6 @@ export default function Form(){
             </div>
             <button>Submit</button>
         </form>
+      </React.Fragment>
     )
 }

@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next"
 export default function Language() {
     const [t, i18n] = useTranslation("global")
     const [open, setOpen] = useState(false);
-    const [lang, setLang] = useState('languages.ca')
+    const [lang, setLang] = useState('languages.cat')
 
     const setLanguage = (lang) => {
         i18n.changeLanguage(lang)
@@ -23,16 +23,13 @@ export default function Language() {
             </div>
             {open && 
             <div className="c-language-options">
-                <button className="c-language-option" onClick={() => setLanguage('ca')}>
-                        <img className='c-language--flag' src='/ca_flag.png' alt="cat-flag" height="15"/>
-                        <span>{t('languages.ca')}</span>
+                <button className="c-language-option" onClick={() => setLanguage('cat')}>
+                    {t('languages.cat')}
                 </button>
                 <button className="c-language-option" onClick={() => setLanguage('es')}>
-                    <img className='c-language--flag' src='/es_flag.png' alt="es-flag" height="15"/>
                     {t('languages.es')}
                 </button>
                 <button className="c-language-option" onClick={() => setLanguage('en')}>
-                    <img className='c-language--flag' src='/en_flag.png' alt="en-flag" height="15"/>
                     {t('languages.en')}
                 </button>
             </div>

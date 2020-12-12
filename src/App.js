@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./index.css"
 import "./scss/main.scss"
 import Header from './components/Header'
-import Home from './components/Home2'
+import Home from './components/Home'
 import Company from './components/Company'
 import Footer from './components/Footer'
 import Rustop from './components/Rustop'

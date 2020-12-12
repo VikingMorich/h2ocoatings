@@ -27,7 +27,7 @@ export default function Footer() {
                         <p className="c-footer-top--nav__col c-footer-top--nav__colSpecial">
                             <a href="/" className="c-footer-top--company"><b>{t("footer.h2o")}</b></a>
                             <span>{t("footer.contact")}</span>
-                            <a className="c-footer-top--company" href={`mailto:${t('email')}`}>{t("email")}</a>
+                            <a className="c-footer-top--email" href={`mailto:${t('email')}`}>{t("email")}</a>
                         </p>
                         <div className="c-footer-top--nav__col">
                             <span className="c-footer-top--option__top">{t("company")}</span>
@@ -37,10 +37,10 @@ export default function Footer() {
                         <div className="c-footer-top--nav__col">
                             <span className="c-footer-top--option__top">{t("materials")}</span>
                             <Link to="/infinity" className="c-footer-top--option">{t("infinity")}</Link>
-                            <Link to="/rustop" className="c-footer-top--option">{t("rustop")}</Link>
                             <Link to="/tradegraff" className="c-footer-top--option">{t("tradegraff")}</Link>
-                            <Link to="/tradecote" className="c-footer-top--option">{t("tradecote")}</Link>
+                            <Link to="/rustop" className="c-footer-top--option">{t("rustop")}</Link>
                             <Link to="/hydrograff" className="c-footer-top--option">{t("hydrograff")}</Link>
+                            <Link to="/tradecote" className="c-footer-top--option">{t("tradecote")}</Link>
                             <Link to="/tradetherm" className="c-footer-top--option">{t("tradetherm")}</Link>
                         </div>
                         <div className="c-footer-top--nav__col">

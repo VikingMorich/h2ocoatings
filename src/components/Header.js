@@ -18,12 +18,23 @@ export default function Header() {
         setMobileMenuType('')
         setMobileMenu(false)
     }
+    
+    // call this to Disable
+    function disableScroll() {
+        document.body.className = "overflowHidden"
+    }
+    
+    // call this to Enable
+    function enableScroll() {
+        document.body.className = ""
+    }
 
     useEffect(() => {
         setFadeInHeader(false)
         if(document.location.pathname === '/') {
+            disableScroll()
             setHideHeader(true)
-            setTimeout(() => { setHideHeader(false); setFadeInHeader(true) }, 4000);
+            setTimeout(() => { setHideHeader(false); setFadeInHeader(true); enableScroll() }, 4000);
         }
     }, []);
 
@@ -62,10 +73,10 @@ export default function Header() {
                 <React.Fragment>
                     <h3 className="c-header-mobile--optionTitle">{t("materials")}</h3>
                     <a className="c-header-mobile--option" href="/infinity">{t("infinity")}</a>
-                    <a className="c-header-mobile--option" href="/rustop">{t("rustop")}</a>
                     <a className="c-header-mobile--option" href="/tradegraff">{t("tradegraff")}</a>
-                    <a className="c-header-mobile--option" href="/tradecote">{t("tradecote")}</a>
+                    <a className="c-header-mobile--option" href="/rustop">{t("rustop")}</a>
                     <a className="c-header-mobile--option" href="/hydrograff">{t("hydrograff")}</a>
+                    <a className="c-header-mobile--option" href="/tradecote">{t("tradecote")}</a>
                     <a className="c-header-mobile--option" href="/tradetherm">{t("tradetherm")}</a>
                 </React.Fragment>
                 }
@@ -79,7 +90,7 @@ export default function Header() {
                 {mobileMenuType === 'language' &&
                 <React.Fragment>
                     <h3 className="c-header-mobile--optionTitle centered">{t("language")}</h3>
-                    <div className="c-header-mobile--option centered" onClick={() => setLanguage('ca')}>{t("languages.ca")}</div>
+                    <div className="c-header-mobile--option centered" onClick={() => setLanguage('cat')}>{t("languages.cat")}</div>
                     <div className="c-header-mobile--option centered" onClick={() => setLanguage('es')}>{t("languages.es")}</div>
                     <div className="c-header-mobile--option centered" onClick={() => setLanguage('en')}>{t("languages.en")}</div>
                 </React.Fragment>
@@ -90,33 +101,34 @@ export default function Header() {
         <div className={`c-header ${hideHeader && 'opacity-off'} ${fadeInHeader && 'fadeIn'}`}>
             <div className="c-header-nav">
                 <a href="/" className="c-header--logo">
-                    <img src="/logo_h2o_blanc.png" alt="H2O Coatings" />
+                    <img src="/logo_h2o-white-border.png" alt="H2O Coatings" />
                 </a>
                 <div className="c-header-nav__options">
                     <a href={"/company"} className="c-menu-op">
-                        <span  className="c-header-nav--option" >{t("company")}</span>
+                        <span  className="c-header-nav--option" >{t("company").toUpperCase()}</span>
                     </a>
                     <div className="dropdown-materials">
-                        <button className="dropbtn">{t("materials")}</button>
+                        <button className="dropbtn">{t("materials").toUpperCase()}</button>
                         <div className="dropdown-content-materials">
                             <a className="c-dropmat--box" href="/infinity">
                                 <img className="c-dopmat--img" src="/imgs/infinity.jpg" alt="infinity"/>
                                 <span>{t("infinity")}</span>
                             </a>
-                            <a href="/rustop" className="c-dropmat--box">
-                                <img className="c-dopmat--img" src="/imgs/rustop.png" alt="infinity"/>
-                                <span>{t("rustop")}</span>
-                            </a>
                             <a href="/tradegraff" className="c-dropmat--box">
                                 <img className="c-dopmat--img" src="/imgs/tradegraff1.jpg" alt="infinity"/>
                                 <span>{t("tradegraff")}</span>
                             </a>
-                            <a href="/tradecote" className="c-dropmat--box">
-                                <img className="c-dopmat--img" src="/imgs/tradecote.jpg" alt="infinity"/>
-                                <span>{t("tradecote")}</span>                         </a>
+                            <a href="/rustop" className="c-dropmat--box">
+                                <img className="c-dopmat--img" src="/imgs/rustop.png" alt="infinity"/>
+                                <span>{t("rustop")}</span>
+                            </a>
                             <a href="/hydrograff" className="c-dropmat--box">
                                 <img className="c-dopmat--img" src="/imgs/hydrograff.jpg" alt="infinity"/>
                                 <span>{t("hydrograff")}</span>
+                            </a>
+                            <a href="/tradecote" className="c-dropmat--box">
+                                <img className="c-dopmat--img" src="/imgs/tradecote.jpg" alt="infinity"/>
+                                <span>{t("tradecote")}</span>
                             </a>
                             <a href="/tradetherm" className="c-dropmat--box">
                                 <img className="c-dopmat--img" src="/imgs/tradetherm.jpg" alt="infinity"/>
@@ -125,14 +137,14 @@ export default function Header() {
                         </div>
                     </div>
                     <div className="dropdown">
-                        <button className="dropbtn">{t("services")}</button>
+                        <button className="dropbtn">{t("services").toUpperCase()}</button>
                         <div className="dropdown-content">
                             <a href="/courses">{t("courses")}</a>
                             <a href="/showrooms">{t("showrooms")}</a>
                         </div>
                     </div>
                     <a href="/contact" className="c-menu-op">
-                        <span className="c-header-nav--option">{t("contact")}</span>
+                        <span className="c-header-nav--option">{t("contact").toUpperCase()}</span>
                     </a>
                 </div> 
             </div>

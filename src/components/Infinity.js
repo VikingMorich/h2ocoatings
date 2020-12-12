@@ -59,7 +59,7 @@ export default function InfinityComp() {
                     <span className="c-materials--exp">{t("infinity-col.content3")}</span>
 
                     <div className="c-materials--header--icons">
-                        <img src="/emissions-aire.png" className="c-seal" alt="emision-icon"/>
+                        <img src={`/Interior-emisions-${i18n.language}.jpg`} className="c-seal" alt="emision-icon"/>
                     </div>
                 </div>
             </div>
