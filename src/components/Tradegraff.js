@@ -17,7 +17,7 @@ export default function Tradegraff() {
                 </div>
             </div>
             <div className="c-fullscreen-img--box">
-                <img src="/imgs/tradegraff1.jpg" className="c-fullscreen-img" alt="infinity-supreme"/>
+                <img src="/imgs/tradegraff1.jpg" className="c-fullscreen-img" alt="tradegraff"/>
                 <div className="c-fullscreen-img--desc">
                     <h2 className="c-materials--presentation">{t("tradegraff-col.presentation")}</h2>
                     <span className="c-materials--subpresentation">{t("tradegraff-col.content1")}</span>
@@ -59,7 +59,7 @@ export default function Tradegraff() {
                     <div className="c-materials--product-box--wrapper">
                         <div className="c-materials--product-list">
                             <span className="c-materials--button">
-                                {t("tradegraff-col.products")}
+                                {t("products")}
                             </span>
                             <div className="c-materials--block">
                                 <a href={`/pdfs/${i18n.language}/FT/FT_tradegraff_${i18n.language}.pdf`} target="_blank" rel="noreferrer" className="c-materials--block--prod">
@@ -73,7 +73,7 @@ export default function Tradegraff() {
                         <br />
                         <div className="c-materials--product-list">
                             <span className="c-materials--button">
-                                {t("tradegraff-col.tests")}
+                                {t("tests")}
                             </span>
                             <div className="c-materials--block">
                                 <a href={`/pdfs/${i18n.language}/TestAndCertificate/tradegraff_2C_assaig.pdf`} target="_blank" rel="noreferrer" className="c-materials--block--prod">
@@ -86,7 +86,7 @@ export default function Tradegraff() {
                         </div>
                         <br />
                     </div>
-                    <img src="/imgs/tradegraff2.jpg" className="c-materials--product-img" alt="infinity-microciments"/>
+                    <img src="/imgs/tradegraff2.jpg" className="c-materials--product-img" alt="tradegraff"/>
                 </div>
                 <br />
 

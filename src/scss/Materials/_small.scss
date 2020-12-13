@@ -282,6 +282,10 @@
     }
 }
 
+.centered-image{
+    object-position: 0px 50% !important;
+}
+
 @include medium {
     @import'medium';
 }

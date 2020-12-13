@@ -1643,6 +1643,11 @@ input {
   font-weight: 800;
 }
 
+.centered-image {
+  -o-object-position: 0px 50% !important;
+     object-position: 0px 50% !important;
+}
+
 @media only screen and (min-width: 768px) {
   .c-table {
     font-size: 16px;

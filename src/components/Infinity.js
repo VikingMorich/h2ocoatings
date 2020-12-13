@@ -66,7 +66,7 @@ export default function InfinityComp() {
                     <div className="c-materials--product-box--wrapper">
                         <div className="c-materials--product-list">
                             <span className="c-materials--button">
-                                {t("infinity-col.products")}
+                                {t("products")}
                             </span>
                             <div className="c-materials--block">
                                 <span className="c-materials--block--op">{t("infinity-col.op1")}</span>
@@ -77,7 +77,9 @@ export default function InfinityComp() {
                                 <a href={`/pdfs/${i18n.language}/FT/FT_infinity_${i18n.language}.pdf`} target="_blank" rel="noreferrer" className="c-materials--block--prod">
                                     {t("infinity-col.prod2")}
                                 </a>
-                                <span className="c-materials--block--prod">{t("infinity-col.prod3")}</span>
+                                <a href={`/pdfs/${i18n.language}/FT/FT_infinity_00_${i18n.language}.pdf`} target="_blank" rel="noreferrer" className="c-materials--block--prod">
+                                    {t("infinity-col.prod3")}
+                                </a>
                                 <a href={`/pdfs/${i18n.language}/FT/FT_infinity_premium_${i18n.language}.pdf`} target="_blank" rel="noreferrer" className="c-materials--block--prod">
                                     {t("infinity-col.prod4")}
                                 </a>

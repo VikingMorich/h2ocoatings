@@ -16,6 +16,8 @@
     "back": "Tornar",
     "language": "Idioma",
     "guide": "Descarregar guia",
+    "products": "Productes",
+    "tests": "Tests i certificats",
     "home": {
         "presentation": "Revestiments protectors a base d'aigua",
         "val1": "Tecnologia",
@@ -122,7 +124,6 @@
         "notes": "Notes:",
         "note1": "*Si las paredes presentan buena planimetría la capa de fondo Infinity no es necesaria",
         "note2": "**El Additive en paredes no es necesario, pero en pavimentos es muy recomendable",
-        "products": "Productes",
         "op1": "Primer",
         "op2": "Microciment",
         "op3": "Complements",
@@ -166,8 +167,6 @@
         "header4": "Disponible en transparente",
         "content5": "monocomponente: brillante, satinado y mate (0,75 l. – 2,5 l.)\n2 componentes: brillante y mate (2,5 l. A+B)",
         "sistems": "Sistemas recomendados",
-        "products": "Productes",
-        "tests": "Tests i certificats",
         "prod1": "Tradegraff",
         "prod2": "Tradegraff 2Comp",
         "test1": "Tradegraff 2Comp assaig",
@@ -187,8 +186,12 @@
         "content5": "COV: < 20 gr./l.",
         "header5": "Disponible en blanco (700 ml. – 2,5 l.)",
         "content6": "RAL y NCS disponibles bajo pedido",
+        "prod1": "Hydrograff HP 2Comp",
+        "test1": "Hydrograff HP 2Comp assaig",
+        "test2": "Hydrograff HP 2Comp certificat sanitari",
         "sistems": "Sistema recomendado:",
-        "note": "Nota: en función del sistema una sola capa puede ser suficiente"
+        "notes": "Nota:",
+        "note1": "En función del sistema una sola capa puede ser suficiente"
     },
     "tradecote-col": {
         "title": "TRADECOTE 2 COMP.",
@@ -206,7 +209,10 @@
         "content6": "COV: 0 gr./l.",
         "header6": "Disponible en blanco e incoloro satinado (700 ml. - 4 l.)",
         "content7": "RAL y NCS disponibles bajo pedido",
-        "sistems": "Sistema recomendado:"
+        "prod1": "Tradecote 2Comp",
+        "test1": "Tradecote 2Comp assaig",
+        "test2": "Tradecote 2Comp certificat sanitari",
+        "sistems": "Sistema recomendado"
     },
     "tradetherm-col": {
         "title": "TRADE-THERM",
@@ -221,7 +227,8 @@
         "header4": "Secado rápido",
         "content5": "Repintado en 15 – 30 minutos",
         "header5": "Disponible en negro, gris antracita, blanco y barniz incoloro",
-        "content6": "Aerosol de 400 ml. (consultar para otros envases y colores)"
+        "content6": "Aerosol de 400 ml. (consultar para otros envases y colores)",
+        "prod1": "Tradetherm"
     },
     "company-col": {
         "title": "QUI SÓM:",
