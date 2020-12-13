@@ -1,8 +1,13 @@
 .c-materials{
     &--product-list{
-        width: 49%;
+        width: 100%;
     }
     &--product-img{
         width: 49%;
+    }
+    &--product-box{
+        &--wrapper{
+            width: 49%;
+        }
     }
 }

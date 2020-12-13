@@ -15,30 +15,35 @@ function useInput(initialValue){
 
 export default function Form(){
 
- const [name,setName] = useInput('');
- const [surname,setSurname] = useInput('');
- const [email,setEmail] = useInput('');
- const [phone,setPhone] = useInput('');
- const [location,setLocation] = useInput('');
- const [comment,setComment] = useInput('');
- const [checked,setCheck] = useState(false);
+  const [name,setName] = useInput('');
+  const [surname,setSurname] = useInput('');
+  const [email,setEmail] = useInput('');
+  const [phone,setPhone] = useInput('');
+  const [location,setLocation] = useInput('');
+  const [message,setMessage] = useInput('');
+  const [checked,setCheck] = useState(false);
 
 
 
- function handleSubmit(e){
-   e.preventDefault() // stops default reloading behaviour
-   emailjs.send("service_5jdppsk","template_o46nq8o",{
-    from_name: "Mjod",
-    message: "hello baby, it's working",
+  function handleSubmit(e){
+    e.preventDefault() // stops default reloading behaviour
+    emailjs.send("service_5jdppsk","template_ojjopdn",{
+      name: name,
+      surname: surname,
+      email: email,
+      phone: phone,
+      location: location,
+      message: message
     });
-     console.log(name);
-     console.log(surname)
-     console.log(email);
-     console.log(phone);
-     console.log(location);
-     console.log(comment);
-     console.log(checked);
- }
+    setName('')
+    setSurname('')
+    setEmail('')
+    setPhone('')
+    setLocation('')
+    setMessage('')
+    setCheck(false)
+    alert('email send')
+  }
 
     return (
       <React.Fragment>
@@ -48,7 +53,7 @@ export default function Form(){
             <input placeholder="Email" value={email} onChange={setEmail}/>
             <input placeholder="Phone" value={phone} onChange={setPhone}/>
             <input placeholder="Location" value={location} onChange={setLocation}/>
-            <textarea placeholder="Message" value={comment} onChange={setComment} rows="4" cols="50"/>
+            <textarea placeholder="Message" value={message} onChange={setMessage} rows="4" cols="50"/>
             <div className="c-form--checkbox">
                 <input type="checkbox" id="vehicle1" name="vehicle1" value='bike' onChange={() => setCheck(!checked)}/>
                 <label for="vehicle1">*Accept terms*</label>

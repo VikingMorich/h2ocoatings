@@ -1323,7 +1323,7 @@ input {
   -o-object-fit: cover;
      object-fit: cover;
   margin-top: 20px;
-  height: 539px;
+  height: 549px;
 }
 
 .c-materials--product-box {
@@ -1335,6 +1335,20 @@ input {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.c-materials--product-box--wrapper {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
 }
 
 .c-materials--guide {
@@ -1379,6 +1393,7 @@ input {
           margin-block-end: 0;
   -webkit-margin-before: 0;
           margin-block-start: 0;
+  text-align: center;
   font-family: 'Avenir LT Std 95 Black';
 }
 
@@ -1395,6 +1410,19 @@ input {
   width: 100%;
   margin-top: 20px;
   margin-left: 23px;
+}
+
+.c-materials--header--icons--double {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-top: 30px;
+  margin-left: 23px;
+}
+
+.c-materials--header--icons--double .c-seal {
+  margin-left: 10%;
 }
 
 .c-materials--properties {
@@ -1429,11 +1457,19 @@ input {
 
 .c-materials--prop-col {
   width: 530px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .c-materials--presentation {
   font-size: 18px;
   font-family: 'Avenir LT Std 85 Heavy';
+  text-align: center;
 }
 
 .c-materials--subpresentation {
@@ -1452,7 +1488,6 @@ input {
 .c-materials--exp {
   font-size: 16px;
   font-family: 'Avenir LT Std 35 Light';
-  margin-bottom: 20px;
   line-height: 22px;
   padding-left: 23px;
 }
@@ -1539,6 +1574,20 @@ input {
   padding-top: 100px;
 }
 
+.c-materials--top--no-subtitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0px 0px 40px;
+  padding-top: 110px;
+}
+
 .c-materials--block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1548,7 +1597,7 @@ input {
       -ms-flex-direction: column;
           flex-direction: column;
   font-size: 16px;
-  padding: 10px 15px 20px;
+  padding: 20px 20px;
   border: 1px solid #191261;
 }
 
@@ -1602,9 +1651,12 @@ input {
 
 @media only screen and (min-width: 1024px) {
   .c-materials--product-list {
-    width: 49%;
+    width: 100%;
   }
   .c-materials--product-img {
+    width: 49%;
+  }
+  .c-materials--product-box--wrapper {
     width: 49%;
   }
 }

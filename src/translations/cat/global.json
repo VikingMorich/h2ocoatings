@@ -165,10 +165,13 @@
         "content4": "mocomponente: COV < 50 gr./l.\n2 componentes: COV < 20 gr./l.",
         "header4": "Disponible en transparente",
         "content5": "monocomponente: brillante, satinado y mate (0,75 l. – 2,5 l.)\n2 componentes: brillante y mate (2,5 l. A+B)",
-        "sistems": "Sistemas recomendados:",
+        "sistems": "Sistemas recomendados",
         "products": "Productes",
+        "tests": "Tests i certificats",
         "prod1": "Tradegraff",
-        "prod2": "Tradegraff 2Comp"
+        "prod2": "Tradegraff 2Comp",
+        "test1": "Tradegraff 2Comp assaig",
+        "test2": "Tradegraff 2Comp certificat sanitari"
     },
     "hydrograff-col": {
         "title": "HYDROGRAFF HP 2 COMP.",
