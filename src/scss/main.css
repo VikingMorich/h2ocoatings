@@ -724,9 +724,16 @@ a:active {
   width: 70vw;
   height: 70vh;
   position: fixed;
-  left: 15vw;
+  left: calc(15vw - 20px);
   top: 15vh;
   z-index: 9;
+  padding: 20px;
+}
+
+.c-modal--content {
+  padding-right: 10px;
+  overflow: auto;
+  height: calc(70vh - 80px);
 }
 
 .c-modal--cross {
@@ -734,6 +741,87 @@ a:active {
   position: absolute;
   right: 10px;
   top: 10px;
+}
+
+.c-cmodal {
+  background-color: #e6e7e8;
+  width: 70vw;
+  height: calc(90vh - 90px);
+  position: fixed;
+  left: calc(15vw - 20px);
+  top: 85px;
+  z-index: 9;
+  padding: 20px;
+}
+
+.c-cmodal--content {
+  padding-right: 10px;
+  overflow: auto;
+  height: calc(70vh - 80px);
+}
+
+.c-cmodal--cross {
+  width: 30px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.c-cmodal-background {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0px;
+  z-index: 8;
+}
+
+.owl-item {
+  background-color: #6D6E70;
+  height: 80%;
+}
+
+.owl-item .item {
+  height: calc(90vh - 150px);
+}
+
+.owl-item .item img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+}
+
+.owl-theme {
+  margin-top: 30px;
+}
+
+.owl-nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: absolute;
+  margin-top: 3px;
+}
+
+.owl-nav button {
+  width: 34px;
+  height: 34px;
+}
+
+.owl-nav button span {
+  font-size: 28px;
+}
+
+.owl-dots {
+  position: absolute;
+  margin-top: 15px;
+  width: 50%;
+  left: 25%;
+  height: 10%;
 }
 
 .c-arrow {
@@ -765,7 +853,7 @@ a:active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 130px;
+  padding-top: 100px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -773,10 +861,11 @@ a:active {
 }
 
 .c-company h1 {
-  font-size: 36px;
-  font-weight: 800;
-  -webkit-margin-after: 40px;
-          margin-block-end: 40px;
+  font-size: 32px;
+  font-family: 'Avenir LT Std 95 Black';
+  text-align: center;
+  -webkit-margin-after: 20px;
+          margin-block-end: 20px;
   -webkit-margin-before: 0;
           margin-block-start: 0;
 }
@@ -796,6 +885,9 @@ a:active {
 
 .c-company--img {
   width: 100%;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .c-company--card {
@@ -1036,7 +1128,7 @@ a:active {
   background-color: #FFF;
   z-index: 3;
   padding: 60px;
-  padding-top: 130px;
+  padding-top: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1047,10 +1139,11 @@ a:active {
 }
 
 .c-courses h1 {
-  font-size: 36px;
-  font-weight: 800;
-  -webkit-margin-after: 40px;
-          margin-block-end: 40px;
+  font-size: 32px;
+  font-family: 'Avenir LT Std 95 Black';
+  text-align: center;
+  -webkit-margin-after: 20px;
+          margin-block-end: 20px;
   -webkit-margin-before: 0;
           margin-block-start: 0;
 }
@@ -1071,7 +1164,7 @@ a:active {
   background-color: #FFF;
   z-index: 3;
   padding: 60px;
-  padding-top: 130px;
+  padding-top: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1082,10 +1175,11 @@ a:active {
 }
 
 .c-showrooms h1 {
-  font-size: 36px;
-  font-weight: 800;
-  -webkit-margin-after: 40px;
-          margin-block-end: 40px;
+  font-size: 32px;
+  font-family: 'Avenir LT Std 95 Black';
+  text-align: center;
+  -webkit-margin-after: 20px;
+          margin-block-end: 20px;
   -webkit-margin-before: 0;
           margin-block-start: 0;
 }
@@ -1102,11 +1196,19 @@ a:active {
   color: #292183;
 }
 
+.c-showrooms--wip {
+  height: 200px;
+  width: 300px;
+  margin: 10px auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .c-contact {
   background-color: #FFF;
   z-index: 3;
   padding: 60px;
-  padding-top: 130px;
+  padding-top: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1116,11 +1218,12 @@ a:active {
           flex-direction: column;
 }
 
-.c-contact h1 {
-  font-size: 36px;
-  font-weight: 800;
-  -webkit-margin-after: 40px;
-          margin-block-end: 40px;
+.c-contact--title {
+  font-size: 32px;
+  font-family: 'Avenir LT Std 95 Black';
+  text-align: center;
+  -webkit-margin-after: 20px;
+          margin-block-end: 20px;
   -webkit-margin-before: 0;
           margin-block-start: 0;
 }
@@ -1202,13 +1305,27 @@ a:active {
   margin-bottom: 10px;
 }
 
+.c-form--checkbox label {
+  margin-left: 15px;
+}
+
 .c-form--error {
   border: 2px solid #b50000;
 }
 
+.c-form--privacy {
+  cursor: pointer;
+}
+
+.c-form--privacy:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #6D6E70;
+}
+
 textarea {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #c1cde3;
+  background-color: #e6e7e8;
   border: none;
   margin: 10px 0px;
   padding: 10px;
@@ -1216,7 +1333,7 @@ textarea {
 }
 
 input {
-  background-color: #c1cde3;
+  background-color: #e6e7e8;
   border-radius: 5px;
   border: none;
   margin: 10px 0px;
@@ -1289,7 +1406,16 @@ input {
 
 .c-fullscreen-img {
   width: 100%;
-  height: calc(100vh - 100px - 30px - 70px);
+  height: calc(100vh - 100px - 25px - 55px);
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0px 100%;
+     object-position: 0px 100%;
+}
+
+.c-fullscreen-img--no-subtitle {
+  width: 100%;
+  height: calc(100vh - 100px - 25px - 38px);
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: 0px 100%;
@@ -1322,8 +1448,50 @@ input {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  height: 521px;
+}
+
+.c-materials--product-img--box {
+  width: 100%;
   margin-top: 20px;
-  height: 549px;
+  height: 521px;
+  cursor: pointer;
+  position: relative;
+}
+
+.c-materials--product-img--box .c-materials--showmore {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#191261));
+  background-image: linear-gradient(transparent, #191261);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.c-materials--product-img--box .c-materials--showmore span {
+  margin-top: 10px;
+  color: white;
+  margin-left: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.c-materials--product-img--box .c-materials--showmore span img {
+  margin-right: 10px;
+}
+
+.c-materials--product-img--box:hover .c-materials--showmore span {
+  text-decoration: underline;
 }
 
 .c-materials--product-box {
@@ -1388,7 +1556,7 @@ input {
 }
 
 .c-materials--header--title {
-  font-size: 43px;
+  font-size: 32px;
   -webkit-margin-after: 0;
           margin-block-end: 0;
   -webkit-margin-before: 0;
@@ -1398,8 +1566,7 @@ input {
 }
 
 .c-materials--header--subtitle {
-  font-size: 15px;
-  font-weight: 800;
+  font-size: 14px;
   font-family: 'Avenir LT Std 95 Black';
 }
 
@@ -1570,22 +1737,8 @@ input {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 0px 0px 30px;
+  margin: 0px 0px 25px;
   padding-top: 100px;
-}
-
-.c-materials--top--no-subtitle {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 0px 0px 40px;
-  padding-top: 110px;
 }
 
 .c-materials--block {
@@ -1659,10 +1812,49 @@ input {
     width: 100%;
   }
   .c-materials--product-img {
-    width: 49%;
+    width: 100%;
   }
   .c-materials--product-box--wrapper {
     width: 49%;
+  }
+  .c-materials--product-img--box {
+    width: 49%;
+    margin-top: 20px;
+    height: 521px;
+    cursor: pointer;
+    position: relative;
+  }
+  .c-materials--product-img--box .c-materials--showmore {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#191261));
+    background-image: linear-gradient(transparent, #191261);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    display: none;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .c-materials--product-img--box .c-materials--showmore span {
+    margin-top: 10px;
+    color: white;
+    margin-left: 30px;
+    text-decoration: underline;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .c-materials--product-img--box .c-materials--showmore span img {
+    margin-right: 10px;
+  }
+  .c-materials--product-img--box:hover .c-materials--showmore {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 /*# sourceMappingURL=main.css.map */

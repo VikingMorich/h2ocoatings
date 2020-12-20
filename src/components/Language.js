@@ -2,15 +2,20 @@ import React, { useState } from 'react';
 import expand from "../icons/expand_more-white-18dp.svg"
 import language from "../icons/language-white-18dp.svg"
 import { useTranslation } from "react-i18next"
+import Cookies from 'universal-cookie';
 
 export default function Language() {
+    let cookies = new Cookies();
     const [t, i18n] = useTranslation("global")
     const [open, setOpen] = useState(false);
-    const [lang, setLang] = useState('languages.cat')
+    const [lang, setLang] = useState(cookies.get('lang') ? 'languages.' + cookies.get('lang') : 'languages.cat')
+    
 
     const setLanguage = (lang) => {
         i18n.changeLanguage(lang)
+        cookies.set('lang', lang, { path: '/' });
         setLang('languages.' + lang)
+        
     }
 
     return (
@@ -28,9 +33,6 @@ export default function Language() {
                 </button>
                 <button className="c-language-option" onClick={() => setLanguage('es')}>
                     {t('languages.es')}
-                </button>
-                <button className="c-language-option" onClick={() => setLanguage('en')}>
-                    {t('languages.en')}
                 </button>
             </div>
             }

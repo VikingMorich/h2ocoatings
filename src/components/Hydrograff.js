@@ -12,13 +12,13 @@ export default function Hydrograff() {
 
     return (
         <React.Fragment>
-            <div className="c-materials--top--no-subtitle">
+            <div className="c-materials--top">
                 <div className="c-materials--header">
                     <h1 className="c-materials--header--title">{t("hydrograff-col.title").toUpperCase()}</h1>
                 </div>
             </div>
             <div className="c-fullscreen-img--box">
-                <img src="/imgs/hydrograff2.jpg" className="c-fullscreen-img centered-image" alt="hydrograff"/>
+                <img src="/imgs/hydrograff2.jpg" className="c-fullscreen-img--no-subtitle centered-image" alt="hydrograff"/>
                 <div className="c-fullscreen-img--desc">
                     <h2 className="c-materials--presentation">{t("hydrograff-col.presentation")}</h2>
                     <span className="c-materials--subpresentation">{t("hydrograff-col.content1")}</span>

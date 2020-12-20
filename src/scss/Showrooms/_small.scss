@@ -2,13 +2,14 @@
     background-color: c('light-blue');
     z-index: 3;
     padding: 60px;
-    padding-top: 130px;
+    padding-top: 100px;
     display: flex;
     flex-direction: column;
     h1{
-        font-size: 36px;
-        font-weight: 800;
-        margin-block-end: 40px;
+        font-size: 32px;
+        font-family: 'Avenir LT Std 95 Black';
+        text-align: center;
+        margin-block-end: 20px;
         margin-block-start: 0;
     }
     p{
@@ -19,5 +20,11 @@
     }
     a:hover{
         color: c('boom-blue');
+    }
+    &--wip{
+        height: 200px;
+        width: 300px;
+        margin: 10px auto;
+        object-fit: cover;
     }
 }

@@ -11,13 +11,13 @@ export default function Tradetherm() {
 
     return (
         <React.Fragment>
-            <div className="c-materials--top--no-subtitle">
+            <div className="c-materials--top">
                 <div className="c-materials--header">
                     <h1 className="c-materials--header--title">{t("tradetherm-col.title").toUpperCase()}</h1>
                 </div>
             </div>
             <div className="c-fullscreen-img--box">
-                <img src="/imgs/tradetherm.jpg" className="c-fullscreen-img" alt="tradetherm"/>
+                <img src="/imgs/tradetherm.jpg" className="c-fullscreen-img--no-subtitle" alt="tradetherm"/>
                 <div className="c-fullscreen-img--desc">
                     <h2 className="c-materials--presentation">{t("tradetherm-col.presentation")}</h2>
                     <span className="c-materials--subpresentation">{t("tradetherm-col.content1")}</span>

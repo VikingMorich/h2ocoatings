@@ -14,6 +14,7 @@ export default function Showrooms() {
             <p>{t("showrooms-col.p1")}</p>
             <p>{t("showrooms-col.p2")}</p>
             <p>{t("showrooms-col.p3")}</p>
+            <img src="/Work-In-Progress-Concept.jpg" className="c-showrooms--wip" alt="work in progress"/>
             <p>{t("showrooms-col.p4")}</p>
             <p>
                 {t("showrooms-col.info")}

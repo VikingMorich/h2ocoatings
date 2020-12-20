@@ -25,7 +25,7 @@ export default function Home() {
         <div className="c-home">
             <div className="c-home--background-container">
                 <video autoPlay muted loop className="background-video">
-                    <source src="https://media.istockphoto.com/videos/water-wave-video-id473317129" type="video/mp4" />
+                    <source src="/iStock-473317129.mp4" type="video/mp4" />
                 </video>
             </div>
             <img src="/logo_h2o-white-border.png" alt="H2O Coatings" className={`fadeIn ${!showLogo && 'fadeOut'} ${!hideLogo && 'notDisplay'}`}/>

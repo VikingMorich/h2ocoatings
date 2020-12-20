@@ -6,22 +6,33 @@
         display: flex;
         align-items: center;
         margin-bottom: 10px;
+        label{
+            margin-left: 15px;
+        }
     }
     &--error{
         border: 2px solid c('error');
+    }
+    &--privacy{
+        cursor: pointer;
+    }
+    &--privacy:hover{
+        cursor: pointer;
+        text-decoration: underline;
+        color: c('rustop');
     }
 }
 
 textarea{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: c('table-op2');
+    background-color: c('light-gray');
     border: none;
     margin: 10px 0px;
     padding: 10px;
     border-radius: 5px;
 }
 input{
-    background-color: c('table-op2');
+    background-color: c('light-gray');
     border-radius: 5px;
     border: none;
     margin: 10px 0px;

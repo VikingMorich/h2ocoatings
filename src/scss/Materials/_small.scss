@@ -53,9 +53,15 @@
 
 .c-fullscreen-img{
     width: 100%;
-    height: calc(100vh - 100px - 30px - 70px);
+    height: calc(100vh - 100px - 25px - 55px);
     object-fit: cover;
-    object-position: 0px 100%
+    object-position: 0px 100%;
+    &--no-subtitle{
+        width: 100%;
+        height: calc(100vh - 100px - 25px - 38px);
+        object-fit: cover;
+        object-position: 0px 100%;
+    }
 }
 
 .c-materials{
@@ -71,11 +77,44 @@
     &--product-list{
         width: 100%;
     }
+
     &--product-img{
         width: 100%;
         object-fit: cover;
+        height: 521px;
+    }
+    &--product-img--box{
+        width: 100%;
         margin-top: 20px;
-        height: 549px;
+        height: 521px;
+        cursor: pointer;
+        position: relative;
+        .c-materials--showmore{
+            background-image: linear-gradient(transparent, c('infinity'));
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            span{
+                margin-top: 10px;
+                color: white;
+                margin-left: 30px;
+                display: flex;
+                align-items: center;
+                img{
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+    &--product-img--box:hover{
+        .c-materials--showmore{
+            span{
+                text-decoration: underline;
+            }
+        }
     }
     &--product-box{
         display: flex;
@@ -108,15 +147,14 @@
         align-items: center;
         flex-direction: column;
         &--title{
-            font-size: 43px;
+            font-size: 32px;
             margin-block-end: 0;
             margin-block-start: 0;
             text-align: center;
             font-family: 'Avenir LT Std 95 Black';
         }
         &--subtitle {
-            font-size: 15px;
-            font-weight: 800;
+            font-size: 14px;
             font-family: 'Avenir LT Std 95 Black';
         }
         &--icons{
@@ -237,15 +275,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 0px 0px 30px;
+        margin: 0px 0px 25px;
         padding-top: 100px;
-        &--no-subtitle{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0px 0px 40px;
-            padding-top: 110px;
-        }
     }
     &--block{
         display: flex;

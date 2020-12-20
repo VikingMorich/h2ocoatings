@@ -11,13 +11,13 @@ export default function Tradegraff() {
 
     return (
         <React.Fragment>
-            <div className="c-materials--top--no-subtitle">
+            <div className="c-materials--top">
                 <div className="c-materials--header">
                     <h1 className="c-materials--header--title">{t("tradegraff-col.title").toUpperCase()}</h1>
                 </div>
             </div>
             <div className="c-fullscreen-img--box">
-                <img src="/imgs/tradegraff1.jpg" className="c-fullscreen-img" alt="tradegraff"/>
+                <img src="/imgs/tradegraff1.jpg" className="c-fullscreen-img--no-subtitle" alt="tradegraff"/>
                 <div className="c-fullscreen-img--desc">
                     <h2 className="c-materials--presentation">{t("tradegraff-col.presentation")}</h2>
                     <span className="c-materials--subpresentation">{t("tradegraff-col.content1")}</span>
