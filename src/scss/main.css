@@ -280,6 +280,12 @@ a:active {
   height: 70px;
   font-size: 16px;
   border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .dropdown {
@@ -746,10 +752,10 @@ a:active {
 .c-cmodal {
   background-color: #e6e7e8;
   width: 70vw;
-  height: calc(90vh - 90px);
+  height: calc(90vh - 65px);
   position: fixed;
   left: calc(15vw - 20px);
-  top: 85px;
+  top: 80px;
   z-index: 9;
   padding: 20px;
 }
@@ -765,6 +771,13 @@ a:active {
   position: absolute;
   right: 10px;
   top: 10px;
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+
+.c-cmodal--cross:hover {
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .c-cmodal-background {
@@ -776,26 +789,46 @@ a:active {
   z-index: 8;
 }
 
-.owl-item {
+.c-cmodal--gallery {
+  width: 100%;
+}
+
+.c-cmodal--gallery .image-gallery-image {
+  height: 470px;
+  -o-object-fit: cover !important;
+     object-fit: cover !important;
+}
+
+.c-cmodal--gallery .image-gallery {
+  height: 540px;
+}
+
+.c-cmodal--gallery .image-gallery-thumbnail-image {
+  height: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.c-cmodal .owl-item {
   background-color: #6D6E70;
   height: 80%;
 }
 
-.owl-item .item {
-  height: calc(90vh - 150px);
+.c-cmodal .owl-item .item {
+  height: calc(90vh - 125px);
 }
 
-.owl-item .item img {
+.c-cmodal .owl-item .item img {
   -o-object-fit: cover;
      object-fit: cover;
   height: 100%;
 }
 
-.owl-theme {
+.c-cmodal .owl-theme {
   margin-top: 30px;
 }
 
-.owl-nav {
+.c-cmodal .owl-nav {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -804,19 +837,19 @@ a:active {
       -ms-flex-pack: justify;
           justify-content: space-between;
   position: absolute;
-  margin-top: 3px;
+  margin-top: 3px !important;
 }
 
-.owl-nav button {
+.c-cmodal .owl-nav button {
   width: 34px;
   height: 34px;
 }
 
-.owl-nav button span {
+.c-cmodal .owl-nav button span {
   font-size: 28px;
 }
 
-.owl-dots {
+.c-cmodal .owl-dots {
   position: absolute;
   margin-top: 15px;
   width: 50%;
@@ -1138,12 +1171,57 @@ a:active {
           flex-direction: column;
 }
 
+.c-courses--carousel-wrapper {
+  width: 100%;
+}
+
+.c-courses--info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15px;
+}
+
+.c-courses--text {
+  width: 100%;
+}
+
+.c-courses--carousel {
+  height: 400px;
+}
+
+.c-courses--carousel .owl-item {
+  background-color: #6D6E70;
+  height: 400px;
+}
+
+.c-courses--carousel .owl-item .item {
+  height: 400px;
+}
+
+.c-courses--carousel .owl-item .item img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+}
+
 .c-courses h1 {
   font-size: 32px;
   font-family: 'Avenir LT Std 95 Black';
   text-align: center;
-  -webkit-margin-after: 20px;
-          margin-block-end: 20px;
+  -webkit-margin-after: 0px;
+          margin-block-end: 0px;
   -webkit-margin-before: 0;
           margin-block-start: 0;
 }
@@ -1158,6 +1236,116 @@ a:active {
 
 .c-courses a:hover {
   color: #292183;
+}
+
+.animated {
+  -webkit-animation-duration: 3000;
+  animation-duration: 3000;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes slideOutLeft {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes slideOutLeft {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+  }
+}
+
+.slideOutLeft {
+  -webkit-animation-name: slideOutLeft;
+          animation-name: slideOutLeft;
+}
+
+@-webkit-keyframes flipInY {
+  from {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+            transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  40% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+            transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  60% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+            transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+            transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+  }
+  to {
+    -webkit-transform: perspective(400px);
+            transform: perspective(400px);
+  }
+}
+
+@keyframes flipInY {
+  from {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+            transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  40% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+            transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  60% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+            transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+            transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+  }
+  to {
+    -webkit-transform: perspective(400px);
+            transform: perspective(400px);
+  }
+}
+
+.flipInY {
+  -webkit-backface-visibility: visible !important;
+          backface-visibility: visible !important;
+  -webkit-animation-name: flipInY;
+          animation-name: flipInY;
+}
+
+@media only screen and (min-width: 1024px) {
+  .c-courses--carousel-wrapper {
+    width: 49%;
+  }
+  .c-courses--text {
+    width: 40%;
+  }
 }
 
 .c-showrooms {
@@ -1178,8 +1366,8 @@ a:active {
   font-size: 32px;
   font-family: 'Avenir LT Std 95 Black';
   text-align: center;
-  -webkit-margin-after: 20px;
-          margin-block-end: 20px;
+  -webkit-margin-after: 5px;
+          margin-block-end: 5px;
   -webkit-margin-before: 0;
           margin-block-start: 0;
 }
@@ -1307,6 +1495,7 @@ a:active {
 
 .c-form--checkbox label {
   margin-left: 15px;
+  margin-top: 4px;
 }
 
 .c-form--error {
@@ -1831,7 +2020,10 @@ input {
     bottom: 0;
     width: 100%;
     height: 60px;
-    display: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    opacity: 0.6;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -1840,7 +2032,6 @@ input {
     margin-top: 10px;
     color: white;
     margin-left: 30px;
-    text-decoration: underline;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1852,9 +2043,7 @@ input {
     margin-right: 10px;
   }
   .c-materials--product-img--box:hover .c-materials--showmore {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    opacity: 1;
   }
 }
 /*# sourceMappingURL=main.css.map */

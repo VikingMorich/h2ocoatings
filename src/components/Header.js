@@ -108,7 +108,7 @@ export default function Header() {
                         <span  className="c-header-nav--option" >{t("company").toUpperCase()}</span>
                     </a>
                     <div className="dropdown-materials">
-                        <button className="dropbtn">{t("materials").toUpperCase()}</button>
+                        <div className="dropbtn">{t("materials").toUpperCase()}</div>
                         <div className="dropdown-content-materials">
                             <a className="c-dropmat--box" href="/infinity">
                                 <img className="c-dopmat--img" src="/imgs/infinity.jpg" alt="infinity"/>
@@ -137,7 +137,7 @@ export default function Header() {
                         </div>
                     </div>
                     <div className="dropdown">
-                        <button className="dropbtn">{t("services").toUpperCase()}</button>
+                        <div className="dropbtn">{t("services").toUpperCase()}</div>
                         <div className="dropdown-content">
                             <a href="/courses">{t("courses")}</a>
                             <a href="/showrooms">{t("showrooms")}</a>

@@ -28,12 +28,12 @@ export default function Language() {
             </div>
             {open && 
             <div className="c-language-options">
-                <button className="c-language-option" onClick={() => setLanguage('cat')}>
+                <div className="c-language-option" onClick={() => setLanguage('cat')}>
                     {t('languages.cat')}
-                </button>
-                <button className="c-language-option" onClick={() => setLanguage('es')}>
+                </div>
+                <div className="c-language-option" onClick={() => setLanguage('es')}>
                     {t('languages.es')}
-                </button>
+                </div>
             </div>
             }
             </div>

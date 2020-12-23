@@ -1,9 +1,22 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import { useTranslation } from "react-i18next"
 import arrowRight from "../icons/keyboard_arrow_right-black-18dp.svg"
+import photo from "../icons/camera_alt-white-18dp.svg"
+import Cmodal from './CarouselModal'
 
 export default function Tradecote() {
     const [t, i18n] = useTranslation("global")
+    const [open, setOpen] = useState(false)
+    const [type, setType] = useState('')
+    const toggleModal = () => {
+        setOpen(!open)
+        document.body.style.overflow === "hidden" ? document.body.style.overflow = "auto" : document.body.style.overflow = "hidden"
+    }
+
+    const closeModal = () => {
+        setOpen(false)
+        document.body.style.overflow = "auto"
+    }
     useEffect(() => {
         document.title = 'H2O Coatings - ' + t("materials")
         window.scrollTo(0, 0)
@@ -92,10 +105,14 @@ export default function Tradecote() {
                         </div>
                         <br />
                     </div>
-                    <img src="/imgs/tradecote2.jpg" className="c-materials--product-img" alt="tradecote"/>
+                    <div className="c-materials--product-img--box" onClick={() => {toggleModal(); setType('infinity-gallery')}}>
+                        <img src="/imgs/tradecote2.jpg" className="c-materials--product-img" alt="tradecote"/>
+                        <div className="c-materials--showmore">
+                            <span><img alt="more photos" src={photo} />{t("showmore")}</span>
+                        </div>
+                    </div>
                 </div>
                 <br />
-
                 <div className="c-materials--hr-title">
                     <div className="c-materials--hr"></div>
                     <div className="c-materials--sis-box">
@@ -132,6 +149,7 @@ export default function Tradecote() {
                 </table>
                 <br />
             </div>
+            <Cmodal open={open} toggleModal={() => closeModal()} type={type}/>
         </React.Fragment>
     );
 }
