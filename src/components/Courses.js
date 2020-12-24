@@ -14,7 +14,6 @@ export default function Courses() {
     return (
         <div className="c-courses">
             <h1>{t("courses").toUpperCase()}</h1>
-            <p>{t("courses-col.p1")}</p>
             <div className="c-courses--info">
                 <div className="c-courses--carousel-wrapper">
                     <OwlCarousel className="owl-theme c-courses--carousel" loop margin={10} nav={false} items={1} center={true} dots={false} autoplay={true} autoplayTimeout={4000} autoplayHoverPause={true}>
@@ -36,6 +35,7 @@ export default function Courses() {
                     </OwlCarousel>
                 </div>
                 <div className="c-courses--text">
+                    <p>{t("courses-col.p1")}</p>
                     <p>{t("courses-col.p2")}</p>
                     <ul>
                         <li>{t("courses-col.op1")}</li>

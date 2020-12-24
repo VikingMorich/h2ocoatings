@@ -210,11 +210,12 @@ a:active {
 * DROPDOWN
 */
 .c-dropmat--box {
-  width: 14%;
+  width: 14.5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
+  height: 150px;
   position: relative;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -689,9 +690,11 @@ a:active {
 @media only screen and (min-width: 768px) {
   .c-footer-top--nav__col {
     width: 50%;
+    text-align: center;
   }
   .c-footer-top--nav__colSpecial {
     width: 100%;
+    text-align: center;
   }
   .c-footer-top--social {
     -webkit-box-pack: start;
@@ -704,6 +707,7 @@ a:active {
 @media only screen and (min-width: 1024px) {
   .c-footer-top--nav__col {
     width: 17%;
+    text-align: left;
   }
   .c-footer-top--nav__colSpecial {
     margin-right: 20px;
@@ -752,7 +756,7 @@ a:active {
 .c-cmodal {
   background-color: #e6e7e8;
   width: 70vw;
-  height: calc(90vh - 65px);
+  height: 80vh;
   position: fixed;
   left: calc(15vw - 20px);
   top: 80px;
@@ -794,17 +798,17 @@ a:active {
 }
 
 .c-cmodal--gallery .image-gallery-image {
-  height: 470px;
+  height: 70vh;
   -o-object-fit: cover !important;
      object-fit: cover !important;
 }
 
 .c-cmodal--gallery .image-gallery {
-  height: 540px;
+  height: 80vh;
 }
 
 .c-cmodal--gallery .image-gallery-thumbnail-image {
-  height: 70px;
+  height: 10vh;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -882,7 +886,7 @@ a:active {
 .c-company {
   background-color: #FFF;
   z-index: 3;
-  padding: 60px;
+  padding: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -905,7 +909,9 @@ a:active {
 
 .c-company h4 {
   margin-top: 20px;
-  line-height: 25px;
+  font-family: 'Avenir LT Std 85 Heavy';
+  line-height: 27px;
+  margin-bottom: 30px;
 }
 
 .c-company p {
@@ -916,11 +922,34 @@ a:active {
           margin-block-end: 1em;
 }
 
+.c-company--carousel {
+  height: 500px;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  border-top: 1px solid #6D6E70;
+  padding-top: 40px;
+}
+
+.c-company--carousel .item {
+  height: 500px;
+  overflow: hidden;
+}
+
+.c-company--carousel .item img {
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 50% 40%;
+     object-position: 50% 40%;
+}
+
 .c-company--img {
   width: 100%;
   height: 500px;
   -o-object-fit: cover;
      object-fit: cover;
+  -o-object-position: 50% 14%;
+     object-position: 50% 14%;
 }
 
 .c-company--card {
@@ -938,6 +967,7 @@ a:active {
 
 .c-company--card--left {
   width: 100%;
+  position: relative;
 }
 
 .c-company--card--right {
@@ -950,15 +980,14 @@ a:active {
 }
 
 .c-company--card--img {
+  height: 400px;
   width: 100%;
-  border: 1px solid #191261;
-  border-collapse: collapse;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .c-company--card--photo {
-  border: 1px solid #191261;
-  border-collapse: collapse;
-  height: 60px;
+  height: 42px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -969,7 +998,11 @@ a:active {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
-  margin-top: -4px;
+  position: absolute;
+  top: 360px;
+  color: white;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.158)), to(#6D6E70));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.158), #6D6E70);
 }
 
 .c-company--card--end {
@@ -996,6 +1029,13 @@ a:active {
 
 .c-company--portfolio:hover {
   background-color: #292183;
+}
+
+@media only screen and (min-width: 768px) {
+  .c-company {
+    padding: 60px;
+    padding-top: 100px;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -1160,7 +1200,7 @@ a:active {
 .c-courses {
   background-color: #FFF;
   z-index: 3;
-  padding: 60px;
+  padding: 30px;
   padding-top: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1198,16 +1238,16 @@ a:active {
 }
 
 .c-courses--carousel {
-  height: 400px;
+  height: 425px;
 }
 
 .c-courses--carousel .owl-item {
   background-color: #6D6E70;
-  height: 400px;
+  height: 425px;
 }
 
 .c-courses--carousel .owl-item .item {
-  height: 400px;
+  height: 425px;
 }
 
 .c-courses--carousel .owl-item .item img {
@@ -1238,105 +1278,11 @@ a:active {
   color: #292183;
 }
 
-.animated {
-  -webkit-animation-duration: 3000;
-  animation-duration: 3000;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-
-@-webkit-keyframes slideOutLeft {
-  from {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
+@media only screen and (min-width: 768px) {
+  .c-courses {
+    padding: 60px;
+    padding-top: 100px;
   }
-  to {
-    visibility: hidden;
-    -webkit-transform: translate3d(-100%, 0, 0);
-            transform: translate3d(-100%, 0, 0);
-  }
-}
-
-@keyframes slideOutLeft {
-  from {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-  }
-  to {
-    visibility: hidden;
-    -webkit-transform: translate3d(-100%, 0, 0);
-            transform: translate3d(-100%, 0, 0);
-  }
-}
-
-.slideOutLeft {
-  -webkit-animation-name: slideOutLeft;
-          animation-name: slideOutLeft;
-}
-
-@-webkit-keyframes flipInY {
-  from {
-    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
-            transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-    opacity: 0;
-  }
-  40% {
-    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
-            transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  60% {
-    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
-            transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
-    opacity: 1;
-  }
-  80% {
-    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
-            transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
-  }
-  to {
-    -webkit-transform: perspective(400px);
-            transform: perspective(400px);
-  }
-}
-
-@keyframes flipInY {
-  from {
-    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
-            transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-    opacity: 0;
-  }
-  40% {
-    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
-            transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  60% {
-    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
-            transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
-    opacity: 1;
-  }
-  80% {
-    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
-            transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
-  }
-  to {
-    -webkit-transform: perspective(400px);
-            transform: perspective(400px);
-  }
-}
-
-.flipInY {
-  -webkit-backface-visibility: visible !important;
-          backface-visibility: visible !important;
-  -webkit-animation-name: flipInY;
-          animation-name: flipInY;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -1351,7 +1297,7 @@ a:active {
 .c-showrooms {
   background-color: #FFF;
   z-index: 3;
-  padding: 60px;
+  padding: 30px;
   padding-top: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1384,12 +1330,67 @@ a:active {
   color: #292183;
 }
 
-.c-showrooms--wip {
-  height: 200px;
-  width: 300px;
-  margin: 10px auto;
+.c-showrooms--left {
+  width: 100%;
+}
+
+.c-showrooms--left img {
+  width: 100%;
+}
+
+.c-showrooms--right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  padding-bottom: 15px;
+  overflow: hidden;
+}
+
+.c-showrooms--content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.c-showrooms--img {
+  height: 100%;
+  width: 29%;
+  margin-top: 10px;
+  margin-left: 10px;
   -o-object-fit: cover;
      object-fit: cover;
+  padding-bottom: 10px;
+}
+
+.c-showrooms--expositor {
+  margin-top: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .c-showrooms {
+    padding: 60px;
+    padding-top: 100px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .c-showrooms--left {
+    width: 49%;
+  }
+  .c-showrooms--right {
+    width: 49%;
+  }
 }
 
 .c-contact {
@@ -1535,7 +1536,7 @@ input {
   width: 90%;
   margin: auto;
   margin-top: 2em;
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .c-table--title {
@@ -1571,7 +1572,7 @@ input {
 
 .c-seal {
   height: 80px;
-  margin-left: 22%;
+  margin-left: 5%;
 }
 
 .c-fullscreen-img--box {
@@ -1614,7 +1615,7 @@ input {
 .c-materials {
   background-color: #FFF;
   z-index: 3;
-  padding: 60px;
+  padding: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1633,17 +1634,21 @@ input {
   width: 100%;
 }
 
+.c-materials--extra-img {
+  display: none;
+}
+
 .c-materials--product-img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  height: 521px;
+  height: 473px;
 }
 
 .c-materials--product-img--box {
   width: 100%;
   margin-top: 20px;
-  height: 521px;
+  height: 473px;
   cursor: pointer;
   position: relative;
 }
@@ -1750,6 +1755,7 @@ input {
           margin-block-end: 0;
   -webkit-margin-before: 0;
           margin-block-start: 0;
+  padding: 0px 10px;
   text-align: center;
   font-family: 'Avenir LT Std 95 Black';
 }
@@ -1772,13 +1778,15 @@ input {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 100%;
   margin-top: 30px;
-  margin-left: 23px;
+  margin-left: 10px;
 }
 
 .c-materials--header--icons--double .c-seal {
-  margin-left: 10%;
+  margin-left: 0%;
 }
 
 .c-materials--properties {
@@ -1812,7 +1820,7 @@ input {
 }
 
 .c-materials--prop-col {
-  width: 530px;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1879,6 +1887,7 @@ input {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 15px 0px;
+  text-align: center;
 }
 
 .c-materials--notes-box {
@@ -1961,7 +1970,6 @@ input {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 30px;
   margin-left: 25px;
   cursor: pointer;
   color: black;
@@ -1985,6 +1993,11 @@ input {
   font-weight: 800;
 }
 
+.c-materials--table {
+  width: 100%;
+  overflow-x: auto;
+}
+
 .centered-image {
   -o-object-position: 0px 50% !important;
      object-position: 0px 50% !important;
@@ -1992,7 +2005,13 @@ input {
 
 @media only screen and (min-width: 768px) {
   .c-table {
-    font-size: 16px;
+    font-size: 14px;
+  }
+  .c-materials {
+    padding: 60px;
+  }
+  .c-materials--prop-col {
+    width: 49%;
   }
 }
 
@@ -2006,10 +2025,36 @@ input {
   .c-materials--product-box--wrapper {
     width: 49%;
   }
+  .c-materials--extra-img {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 50%;
+       object-position: 50%;
+    margin-top: 20px;
+    display: block;
+  }
+  .c-materials--extra-img--tradegraff {
+    height: 117px;
+    -o-object-position: 50% 40%;
+       object-position: 50% 40%;
+  }
+  .c-materials--extra-img--rustop {
+    height: 318px;
+  }
+  .c-materials--extra-img--hydrograff {
+    height: 140px;
+  }
+  .c-materials--extra-img--tradecote {
+    height: 142px;
+  }
+  .c-materials--extra-img--tradetherm {
+    height: 318px;
+  }
   .c-materials--product-img--box {
     width: 49%;
     margin-top: 20px;
-    height: 521px;
+    height: 473px;
     cursor: pointer;
     position: relative;
   }
@@ -2044,6 +2089,15 @@ input {
   }
   .c-materials--product-img--box:hover .c-materials--showmore {
     opacity: 1;
+  }
+  .c-materials--header--icons--double {
+    margin-left: 23px;
+  }
+  .c-materials--header--icons--double .c-seal {
+    margin-left: 10%;
+  }
+  .c-table {
+    font-size: 16px;
   }
 }
 /*# sourceMappingURL=main.css.map */

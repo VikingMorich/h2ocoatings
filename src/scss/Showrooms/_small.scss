@@ -1,7 +1,7 @@
 .c-showrooms{
     background-color: c('light-blue');
     z-index: 3;
-    padding: 60px;
+    padding: 30px;
     padding-top: 100px;
     display: flex;
     flex-direction: column;
@@ -21,10 +21,42 @@
     a:hover{
         color: c('boom-blue');
     }
-    &--wip{
-        height: 200px;
-        width: 300px;
-        margin: 10px auto;
-        object-fit: cover;
+    &--left{
+        width: 100%;
+        img{
+            width: 100%;
+        }
     }
+    &--right{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding-bottom: 15px;
+        overflow: hidden;
+
+    }
+    &--content{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    &--img{
+        height: 100%;
+        width: 29%;
+        margin-top: 10px;
+        margin-left: 10px;
+        object-fit: cover;
+        padding-bottom: 10px;
+    }
+    &--expositor{
+        margin-top: 10px;
+    }
+}
+
+@include medium {
+    @import'medium';
+}
+@include large {
+    @import'large';
 }

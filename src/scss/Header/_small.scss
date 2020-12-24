@@ -145,9 +145,10 @@ a:active {
 
 .c-dropmat{
   &--box{
-    width: 14%;
+    width: 14.5%;
     display: flex;
     overflow: hidden;
+    height: 150px;
     position: relative;
     flex-direction: column;
     margin: 20px 0px 30px;

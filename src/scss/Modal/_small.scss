@@ -31,7 +31,7 @@
 .c-cmodal {
     background-color: c('light-gray');
     width: 70vw;
-    height: calc(90vh - 65px);
+    height: 80vh;
     position: fixed;
     left: calc(15vw - 20px);
     top: 80px;
@@ -65,14 +65,14 @@
     &--gallery{
         width: 100%;
         .image-gallery-image{
-            height: 470px;
+            height: 70vh;
             object-fit: cover !important;
         }
         .image-gallery{
-            height: 540px;
+            height: 80vh;
         }
         .image-gallery-thumbnail-image{
-            height: 70px;
+            height: 10vh;
             object-fit: cover;
         }
     }

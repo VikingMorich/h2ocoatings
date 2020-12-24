@@ -10,10 +10,33 @@
             width: 49%;
         }
     }
+    &--extra-img{
+        width: 100%;
+        object-fit: cover;
+        object-position: 50%;
+        margin-top: 20px;
+        display: block;
+        &--tradegraff{
+            height: 117px;
+            object-position: 50% 40%;
+        }
+        &--rustop{
+            height: 318px;
+        }
+        &--hydrograff{
+            height: 140px;
+        }
+        &--tradecote{
+            height: 142px;
+        }
+        &--tradetherm{
+            height: 318px;
+        }
+    }
     &--product-img--box{
         width: 49%;
         margin-top: 20px;
-        height: 521px;
+        height: 473px;
         cursor: pointer;
         position: relative;
         .c-materials--showmore{
@@ -42,4 +65,17 @@
             opacity: 1;
         }
     }
+    &--header {
+        &--icons{
+            &--double{
+                margin-left: 23px;
+                .c-seal{
+                    margin-left: 10%;
+                }
+            }
+        }
+    }
+}
+.c-table{
+    font-size: 16px;
 }

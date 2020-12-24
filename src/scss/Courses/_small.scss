@@ -1,7 +1,7 @@
 .c-courses{
     background-color: c('light-blue');
     z-index: 3;
-    padding: 60px;
+    padding: 30px;
     padding-top: 100px;
     display: flex;
     flex-direction: column;
@@ -20,12 +20,12 @@
         width: 100%;
     }
     &--carousel{
-        height: 400px;
+        height: 425px;
         .owl-item{
             background-color: c('rustop');
-            height: 400px;
+            height: 425px;
             .item{
-                height: 400px;
+                height: 425px;
                 img{
                 object-fit: cover;
                 height: 100%;
@@ -50,59 +50,6 @@
         color: c('boom-blue');
     }
 }
-
-.animated {
-    -webkit-animation-duration : 3000;
-    animation-duration : 3000;
-    -webkit-animation-fill-mode : both;
-    animation-fill-mode : both;
-  } 
-
-  @keyframes slideOutLeft {
-    from {
-      transform: translate3d(0, 0, 0);
-    }
-  
-    to {
-      visibility: hidden;
-      transform: translate3d(-100%, 0, 0);
-    }
-  }
-  
-  .slideOutLeft {
-    animation-name: slideOutLeft;
-  }
-
-@keyframes flipInY {
-    from {
-      transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
-      animation-timing-function: ease-in;
-      opacity: 0;
-    }
-  
-    40% {
-      transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
-      animation-timing-function: ease-in;
-    }
-  
-    60% {
-      transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
-      opacity: 1;
-    }
-  
-    80% {
-      transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
-    }
-  
-    to {
-      transform: perspective(400px);
-    }
-  }
-  
-  .flipInY {
-    backface-visibility: visible !important;
-    animation-name: flipInY;
-  }
 
 @include medium {
     @import'medium';

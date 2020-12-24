@@ -1,3 +1,11 @@
 .c-table{
-    font-size: 16px;
+    font-size: 14px;
+}
+.c-materials{
+    padding: 60px;
+    &--prop{
+        &-col{
+            width: 49%;
+        }
+    }
 }

@@ -31,7 +31,7 @@ export default function InfinityComp() {
                 </div>
             </div>
             <div className="c-fullscreen-img--box">
-                <img src="/imgs/infinity-supreme-1.jpg" className="c-fullscreen-img" alt="infinity-supreme"/>
+                <img src="/imgs/materials/infinity/infinity_principal.jpg" className="c-fullscreen-img" alt="infinity"/>
                 <div className="c-fullscreen-img--desc">
                     <h2 className="c-materials--presentation">{t("infinity-col.presentation")}</h2>
                     <span className="c-materials--subpresentation">{t("infinity-col.subpresentation")}</span>
@@ -118,7 +118,7 @@ export default function InfinityComp() {
                         </div>
                     </div>
                     <div className="c-materials--product-img--box" onClick={() => {toggleModal(); setType('infinity-gallery')}}>
-                        <img src="/imgs/infinity.jpg" className="c-materials--product-img" alt="infinity-microciments"/>
+                        <img src="/imgs/materials/infinity/infinity2.jpg" className="c-materials--product-img" alt="infinity-microciments"/>
                         <div className="c-materials--showmore">
                             <span><img alt="more photos" src={photo} />{t("showmore")}</span>
                         </div>
@@ -131,119 +131,121 @@ export default function InfinityComp() {
                         <span className="c-materials--sis">{t("infinity-col.sistems").toUpperCase()}</span>
                     </div>
                 </div>
-                <table className="c-table">
-                    <tbody>
-                        <tr>
-                            <th colSpan="2">{t("tables.infinity-basic")}</th>
-                            <th>{t("tables.tool")}</th>
-                            <th>{t("tables.consumo")}</th>
-                        </tr>
-                        <tr>
-                            <td>{t("tables.primer")}</td>
-                            <td>{t("tables.infinity-fix")}</td>
-                            <td>{t("tables.tool-brocha")}</td>
-                            <td>0,2 {t("tables.units-kg-m2")}</td>
-                        </tr>
-                        <tr>
-                            <td>{t("tables.fondo")}</td>
-                            <td>{t("tables.infinity-fiber")}</td>
-                            <td>{t("tables.tool-llana")}</td>
-                            <td>1,8 {t("tables.units-kg-m2")}</td>
-                        </tr>
-                        <tr>
-                            <td>{t("tables.acabado")}</td>
-                            <td>{t("infinity")}</td>
-                            <td>{t("tables.tool-llana")}</td>
-                            <td>1 {t("tables.units-kg-m2")}</td>
-                        </tr>
-                        <tr>
-                            <td>{t("tables.sellado")}</td>
-                            <td>{t("tradegraff")}</td>
-                            <td>{t("tables.tool-rodillo")}</td>
-                            <td>0,2 {t("tables.units-l-m2")} ({t("tables.ciclo")})</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <div className="c-materials--table">
+                    <table className="c-table">
+                        <tbody>
+                            <tr>
+                                <th colSpan="2">{t("tables.infinity-basic")}</th>
+                                <th>{t("tables.tool")}</th>
+                                <th>{t("tables.consumo")}</th>
+                            </tr>
+                            <tr>
+                                <td>{t("tables.primer")}</td>
+                                <td>{t("tables.infinity-fix")}</td>
+                                <td>{t("tables.tool-brocha")}</td>
+                                <td>0,2 {t("tables.units-kg-m2")}</td>
+                            </tr>
+                            <tr>
+                                <td>{t("tables.fondo")}</td>
+                                <td>{t("tables.infinity-fiber")}</td>
+                                <td>{t("tables.tool-llana")}</td>
+                                <td>1,8 {t("tables.units-kg-m2")}</td>
+                            </tr>
+                            <tr>
+                                <td>{t("tables.acabado")}</td>
+                                <td>{t("infinity")}</td>
+                                <td>{t("tables.tool-llana")}</td>
+                                <td>1 {t("tables.units-kg-m2")}</td>
+                            </tr>
+                            <tr>
+                                <td>{t("tables.sellado")}</td>
+                                <td>{t("tradegraff")}</td>
+                                <td>{t("tables.tool-rodillo")}</td>
+                                <td>0,2 {t("tables.units-l-m2")} ({t("tables.ciclo")})</td>
+                            </tr>
+                        </tbody>
+                    </table>
 
-                <table className="c-table">
-                    <tbody>
-                        <tr>
-                            <th colSpan="2">{t("tables.infinity-premium")}</th>
-                            <th>{t("tables.tool")}</th>
-                            <th>{t("tables.consumo")}</th>
-                        </tr>
-                        <tr>
-                            <td>{t("tables.primer")}</td>
-                            <td>{t("tables.infinity-fix")}</td>
-                            <td>{t("tables.tool-brocha")}</td>
-                            <td>0,2 {t("tables.units-kg-m2")}</td>
-                        </tr>
-                        <tr>
-                            <td>{t("tables.fondo")}</td>
-                            <td>{t("tables.infinity-fiber")}*</td>
-                            <td>{t("tables.tool-llana")}</td>
-                            <td>1,8 {t("tables.units-kg-m2")}</td>
-                        </tr>
-                        <tr>
-                            <td>{t("tables.intermedia")}</td>
-                            <td>{t("tables.infinityPremium")}</td>
-                            <td>{t("tables.tool-llana")}</td>
-                            <td>0,7 {t("tables.units-kg-m2")}</td>
-                        </tr>
-                        <tr>
-                            <td>{t("tables.acabado")}</td>
-                            <td>{t("tables.infinity-comp")}**</td>
-                            <td>{t("tables.tool-llana")}</td>
-                            <td>0,5 {t("tables.units-kg-m2")}</td>
-                        </tr>
-                        <tr>
-                            <td>{t("tables.sellado")}</td>
-                            <td>{t("tradegraff")}</td>
-                            <td>{t("tables.tool-rodillo")}</td>
-                            <td>0,2 {t("tables.units-l-m2")} ({t("tables.ciclo")})</td>
-                        </tr>
-                    </tbody>
-                </table>
+                    <table className="c-table">
+                        <tbody>
+                            <tr>
+                                <th colSpan="2">{t("tables.infinity-premium")}</th>
+                                <th>{t("tables.tool")}</th>
+                                <th>{t("tables.consumo")}</th>
+                            </tr>
+                            <tr>
+                                <td>{t("tables.primer")}</td>
+                                <td>{t("tables.infinity-fix")}</td>
+                                <td>{t("tables.tool-brocha")}</td>
+                                <td>0,2 {t("tables.units-kg-m2")}</td>
+                            </tr>
+                            <tr>
+                                <td>{t("tables.fondo")}</td>
+                                <td>{t("tables.infinity-fiber")}*</td>
+                                <td>{t("tables.tool-llana")}</td>
+                                <td>1,8 {t("tables.units-kg-m2")}</td>
+                            </tr>
+                            <tr>
+                                <td>{t("tables.intermedia")}</td>
+                                <td>{t("tables.infinityPremium")}</td>
+                                <td>{t("tables.tool-llana")}</td>
+                                <td>0,7 {t("tables.units-kg-m2")}</td>
+                            </tr>
+                            <tr>
+                                <td>{t("tables.acabado")}</td>
+                                <td>{t("tables.infinity-comp")}**</td>
+                                <td>{t("tables.tool-llana")}</td>
+                                <td>0,5 {t("tables.units-kg-m2")}</td>
+                            </tr>
+                            <tr>
+                                <td>{t("tables.sellado")}</td>
+                                <td>{t("tradegraff")}</td>
+                                <td>{t("tables.tool-rodillo")}</td>
+                                <td>0,2 {t("tables.units-l-m2")} ({t("tables.ciclo")})</td>
+                            </tr>
+                        </tbody>
+                    </table>
 
-                <table className="c-table">
-                    <tbody>
-                        <tr>
-                            <th colSpan="2">{t("tables.infinity-supreme")}</th>
-                            <th>{t("tables.tool")}</th>
-                            <th>{t("tables.consumo")}</th>
-                        </tr>
-                        <tr>
-                            <td>{t("tables.primer")}</td>
-                            <td>{t("tables.infinity-fix")}</td>
-                            <td>{t("tables.tool-brocha")}</td>
-                            <td>0,2 {t("tables.units-kg-m2")}</td>
-                        </tr>
-                        <tr>
-                            <td>{t("tables.fondo")}</td>
-                            <td>{t("tables.infinity-fiber")}*</td>
-                            <td>{t("tables.tool-llana")}</td>
-                            <td>1,8 {t("tables.units-kg-m2")}</td>
-                        </tr>
-                        <tr>
-                            <td>{t("tables.intermedia")}</td>
-                            <td>{t("tables.infinitySupreme")}</td>
-                            <td>{t("tables.tool-llana")}</td>
-                            <td>0,6 {t("tables.units-kg-m2")}</td>
-                        </tr>
-                        <tr>
-                            <td>{t("tables.acabado")}</td>
-                            <td>{t("tables.infinitySupreme-comp")}**</td>
-                            <td>{t("tables.tool-llana")}</td>
-                            <td>0,4 {t("tables.units-kg-m2")}</td>
-                        </tr>
-                        <tr>
-                            <td>{t("tables.sellado")}</td>
-                            <td>{t("tradegraff")}</td>
-                            <td>{t("tables.tool-rodillo")}</td>
-                            <td>0,2 {t("tables.units-l-m2")} ({t("tables.ciclo")})</td>
-                        </tr>
-                    </tbody>
-                </table>
+                    <table className="c-table">
+                        <tbody>
+                            <tr>
+                                <th colSpan="2">{t("tables.infinity-supreme")}</th>
+                                <th>{t("tables.tool")}</th>
+                                <th>{t("tables.consumo")}</th>
+                            </tr>
+                            <tr>
+                                <td>{t("tables.primer")}</td>
+                                <td>{t("tables.infinity-fix")}</td>
+                                <td>{t("tables.tool-brocha")}</td>
+                                <td>0,2 {t("tables.units-kg-m2")}</td>
+                            </tr>
+                            <tr>
+                                <td>{t("tables.fondo")}</td>
+                                <td>{t("tables.infinity-fiber")}*</td>
+                                <td>{t("tables.tool-llana")}</td>
+                                <td>1,8 {t("tables.units-kg-m2")}</td>
+                            </tr>
+                            <tr>
+                                <td>{t("tables.intermedia")}</td>
+                                <td>{t("tables.infinitySupreme")}</td>
+                                <td>{t("tables.tool-llana")}</td>
+                                <td>0,6 {t("tables.units-kg-m2")}</td>
+                            </tr>
+                            <tr>
+                                <td>{t("tables.acabado")}</td>
+                                <td>{t("tables.infinitySupreme-comp")}**</td>
+                                <td>{t("tables.tool-llana")}</td>
+                                <td>0,4 {t("tables.units-kg-m2")}</td>
+                            </tr>
+                            <tr>
+                                <td>{t("tables.sellado")}</td>
+                                <td>{t("tradegraff")}</td>
+                                <td>{t("tables.tool-rodillo")}</td>
+                                <td>0,2 {t("tables.units-l-m2")} ({t("tables.ciclo")})</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
                 <div className="c-materials--notes-box">
                     <span className="c-materials--note__title">{t("infinity-col.notes")}</span>
                     <span className="c-materials--note">{t("infinity-col.note1")}</span>

@@ -30,7 +30,7 @@ export default function Hydrograff() {
                 </div>
             </div>
             <div className="c-fullscreen-img--box">
-                <img src="/imgs/hydrograff2.jpg" className="c-fullscreen-img--no-subtitle centered-image" alt="hydrograff"/>
+                <img src="/imgs/materials/hydrograff/hydrograff_principal.jpg" className="c-fullscreen-img--no-subtitle centered-image" alt="hydrograff"/>
                 <div className="c-fullscreen-img--desc">
                     <h2 className="c-materials--presentation">{t("hydrograff-col.presentation")}</h2>
                     <span className="c-materials--subpresentation">{t("hydrograff-col.content1")}</span>
@@ -99,9 +99,10 @@ export default function Hydrograff() {
                             </div>
                         </div>
                         <br />
+                        <img src="/imgs/materials/hydrograff/hydrograff3.jpg" className="c-materials--extra-img c-materials--extra-img--hydrograff" alt="hydrograff"/>
                     </div>
-                    <div className="c-materials--product-img--box" onClick={() => {toggleModal(); setType('infinity-gallery')}}>
-                        <img src="/imgs/hydrograff.jpg" className="c-materials--product-img" alt="hydrograff"/>
+                    <div className="c-materials--product-img--box" onClick={() => {toggleModal(); setType('hydrograff-gallery')}}>
+                        <img src="/imgs/materials/hydrograff/hydrograff2.jpg" className="c-materials--product-img" alt="hydrograff"/>
                         <div className="c-materials--showmore">
                             <span><img alt="more photos" src={photo} />{t("showmore")}</span>
                         </div>
@@ -115,34 +116,36 @@ export default function Hydrograff() {
                         <span className="c-materials--sis">{t("hydrograff-col.sistems").toUpperCase()}</span>
                     </div>
                 </div>
-                <table className="c-table">
-                    <tr>
-                        <th colSpan="2">{t("tables.hydrograff-2comp")}</th>
-                        <th>{t("tables.micrasHumedas")}</th>
-                        <th>{t("tables.micrasSecas")}</th>
-                        <th>{t("tables.consumo")}</th>
-                    </tr>
-                    <tr>
-                        <td>{t("tables.fondo")}</td>
-                        <td>{t("tables.hydrograff2c")}</td>
-                        <td>85</td>
-                        <td>40</td>
-                        <td>0,08 l</td>
-                    </tr>
-                    <tr>
-                        <td>{t("tables.acabado")}</td>
-                        <td>{t("tables.hydrograff2c")}</td>
-                        <td>85</td>
-                        <td>40</td>
-                        <td>0,08 l</td>
-                    </tr>
-                    <tr>
-                        <td colSpan="2">{t("tables.total")}</td>
-                        <td>170</td>
-                        <td>80</td>
-                        <td>0,16 l</td>
-                    </tr>
-                </table>
+                <div className="c-materials--table">
+                    <table className="c-table">
+                        <tr>
+                            <th colSpan="2">{t("tables.hydrograff-2comp")}</th>
+                            <th>{t("tables.micrasHumedas")}</th>
+                            <th>{t("tables.micrasSecas")}</th>
+                            <th>{t("tables.consumo")}</th>
+                        </tr>
+                        <tr>
+                            <td>{t("tables.fondo")}</td>
+                            <td>{t("tables.hydrograff2c")}</td>
+                            <td>85</td>
+                            <td>40</td>
+                            <td>0,08 l</td>
+                        </tr>
+                        <tr>
+                            <td>{t("tables.acabado")}</td>
+                            <td>{t("tables.hydrograff2c")}</td>
+                            <td>85</td>
+                            <td>40</td>
+                            <td>0,08 l</td>
+                        </tr>
+                        <tr>
+                            <td colSpan="2">{t("tables.total")}</td>
+                            <td>170</td>
+                            <td>80</td>
+                            <td>0,16 l</td>
+                        </tr>
+                    </table>
+                </div>
                 <br />
                 <div className="c-materials--notes-box">
                     <span className="c-materials--note__title">{t("hydrograff-col.notes")}</span>

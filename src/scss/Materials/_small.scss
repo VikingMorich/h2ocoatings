@@ -3,7 +3,7 @@
     width: 90%;
     margin: auto;
     margin-top: 2em;
-    font-size: 12px;
+    font-size: 11px;
     &--title{
         text-align: center !important;
     }
@@ -33,7 +33,7 @@
 
 .c-seal{
     height: 80px;
-    margin-left: 22%;
+    margin-left: 5%;
 }
 
 .c-fullscreen-img--box{
@@ -67,7 +67,7 @@
 .c-materials{
     background-color: c('light-blue');
     z-index: 3;
-    padding: 60px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     h1{
@@ -77,16 +77,19 @@
     &--product-list{
         width: 100%;
     }
+    &--extra-img{
+        display: none;
+    }
 
     &--product-img{
         width: 100%;
         object-fit: cover;
-        height: 521px;
+        height: 473px;
     }
     &--product-img--box{
         width: 100%;
         margin-top: 20px;
-        height: 521px;
+        height: 473px;
         cursor: pointer;
         position: relative;
         .c-materials--showmore{
@@ -150,6 +153,7 @@
             font-size: 32px;
             margin-block-end: 0;
             margin-block-start: 0;
+            padding: 0px 10px;
             text-align: center;
             font-family: 'Avenir LT Std 95 Black';
         }
@@ -164,11 +168,13 @@
             margin-left: 23px;
             &--double{
                 display: flex;
+                flex-wrap: wrap;
                 width: 100%;
                 margin-top: 30px;
-                margin-left: 23px;
+                margin-left: 10px;
                 .c-seal{
-                    margin-left: 10%;
+                    margin-left: 0%;
+
                 }
             }
         }
@@ -191,7 +197,7 @@
             margin-bottom: 30px;
         }
         &-col{
-            width: 530px;
+            width: 100%;
             display: flex;
             flex-direction: column;
         }
@@ -243,6 +249,7 @@
         position: relative;
         justify-content: center;
         margin: 15px 0px;
+        text-align: center;
     }
     &--notes-box{
         background-color: c('light-gray');
@@ -293,7 +300,6 @@
         &--prod{
             display: flex;
             align-items: center;
-            height: 30px;
             margin-left: 25px;
             cursor: pointer;
             color: c('black')
@@ -310,6 +316,10 @@
         background-color: c('dark-blue');
         color: c('white');
         font-weight: 800;
+    }
+    &--table{
+        width: 100%;
+        overflow-x: auto;
     }
 }
 

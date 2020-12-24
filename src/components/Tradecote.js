@@ -30,7 +30,7 @@ export default function Tradecote() {
                 </div>
             </div>
             <div className="c-fullscreen-img--box">
-                <img src="/imgs/tradecote.jpg" className="c-fullscreen-img--no-subtitle" alt="tradecote"/>
+                <img src="/imgs/materials/tradecote/tradecote_principal.jpg" className="c-fullscreen-img--no-subtitle" alt="tradecote"/>
                 <div className="c-fullscreen-img--desc">
                     <h2 className="c-materials--presentation">{t("tradecote-col.presentation")}</h2>
                     <span className="c-materials--subpresentation">{t("tradecote-col.content1")}</span>
@@ -104,9 +104,10 @@ export default function Tradecote() {
                             </div>
                         </div>
                         <br />
+                        <img src="/imgs/materials/tradecote/tradecote3.jpg" className="c-materials--extra-img c-materials--extra-img--tradecote" alt="tradecote"/>
                     </div>
-                    <div className="c-materials--product-img--box" onClick={() => {toggleModal(); setType('infinity-gallery')}}>
-                        <img src="/imgs/tradecote2.jpg" className="c-materials--product-img" alt="tradecote"/>
+                    <div className="c-materials--product-img--box" onClick={() => {toggleModal(); setType('tradecote-gallery')}}>
+                        <img src="/imgs/materials/tradecote/tradecote2.JPG" className="c-materials--product-img" alt="tradecote"/>
                         <div className="c-materials--showmore">
                             <span><img alt="more photos" src={photo} />{t("showmore")}</span>
                         </div>
@@ -119,34 +120,36 @@ export default function Tradecote() {
                         <span className="c-materials--sis">{t("tradecote-col.sistems").toUpperCase()}</span>
                     </div>
                 </div>
-                <table className="c-table">
-                    <tr>
-                        <th colSpan="2">{t("tables.tradecote-2comp")}</th>
-                        <th>{t("tables.micrasHumedas")}</th>
-                        <th>{t("tables.micrasSecas")}</th>
-                        <th>{t("tables.consumo")}</th>
-                    </tr>
-                    <tr>
-                        <td>{t("tables.fondo")}</td>
-                        <td>{t("tables.tradecote2c")}</td>
-                        <td>125</td>
-                        <td>90</td>
-                        <td>0,13 l</td>
-                    </tr>
-                    <tr>
-                        <td>{t("tables.acabado")}</td>
-                        <td>{t("tables.tradecote2c")}</td>
-                        <td>125</td>
-                        <td>90</td>
-                        <td>0,12 l</td>
-                    </tr>
-                    <tr>
-                        <td colSpan="2">{t("tables.total")}</td>
-                        <td>250</td>
-                        <td>180</td>
-                        <td>0,25 l</td>
-                    </tr>
-                </table>
+                <div className="c-materials--table">
+                    <table className="c-table">
+                        <tr>
+                            <th colSpan="2">{t("tables.tradecote-2comp")}</th>
+                            <th>{t("tables.micrasHumedas")}</th>
+                            <th>{t("tables.micrasSecas")}</th>
+                            <th>{t("tables.consumo")}</th>
+                        </tr>
+                        <tr>
+                            <td>{t("tables.fondo")}</td>
+                            <td>{t("tables.tradecote2c")}</td>
+                            <td>125</td>
+                            <td>90</td>
+                            <td>0,13 l</td>
+                        </tr>
+                        <tr>
+                            <td>{t("tables.acabado")}</td>
+                            <td>{t("tables.tradecote2c")}</td>
+                            <td>125</td>
+                            <td>90</td>
+                            <td>0,12 l</td>
+                        </tr>
+                        <tr>
+                            <td colSpan="2">{t("tables.total")}</td>
+                            <td>250</td>
+                            <td>180</td>
+                            <td>0,25 l</td>
+                        </tr>
+                    </table>
+                </div>
                 <br />
             </div>
             <Cmodal open={open} toggleModal={() => closeModal()} type={type}/>
