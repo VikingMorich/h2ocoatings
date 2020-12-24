@@ -84,14 +84,14 @@ export default function Form(){
   function validateForm(name, surname, email, phone, location, message, checked) {
     let validForm = true
     //name
-    if (name == '') {
+    if (name === '') {
       setErrorName(true)
       validForm = false
     } else {
       setErrorName(false)
     }
     //surname
-    if (surname == '') {
+    if (surname === '') {
       setErrorSurname(true)
       validForm = false
     } else {
@@ -112,14 +112,14 @@ export default function Form(){
       setErrorPhone(false)
     }
     //location
-    if (location == '') {
+    if (location === '') {
       setErrorLocation(true)
       validForm = false
     } else {
       setErrorLocation(false)
     }
     //message
-    if (message == '') {
+    if (message === '') {
       setErrorMessage(true)
       validForm = false
     } else {
