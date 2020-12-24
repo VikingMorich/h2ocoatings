@@ -10,7 +10,6 @@
     "node-sass": "4.14.1",
     "nodemailer": "^6.4.16",
     "react": "^17.0.1",
-    "react-awesome-slider": "^4.1.0",
     "react-dom": "^17.0.1",
     "react-i18next": "^11.7.3",
     "react-image-gallery": "^1.0.8",

@@ -1465,14 +1465,6 @@ a:active {
   font-family: 'Avenir LT Std 85 Heavy';
 }
 
-.c-slider {
-  height: calc( 100vh - 70px - 10%);
-  -o-object-position: center;
-     object-position: center;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
 .c-form {
   display: -webkit-box;
   display: -ms-flexbox;
