@@ -50,20 +50,20 @@ export default function Footer() {
                         </div>
                         <div className="c-footer-top--nav__col">
                             <span className="c-footer-top--option__top">{t("footer.legal")}</span>
-                            <a className="c-footer-top--option" onClick={() => {
+                            <div className="c-footer-top--option" onClick={() => {
                                 toggleModal()
                                 setType('privacy')
                                 }
                             }>
                                 <span>{t("footer.privacy")}</span>
-                            </a>
-                            <a className="c-footer-top--option" onClick={() => {
+                            </div>
+                            <span className="c-footer-top--option" onClick={() => {
                                 toggleModal()
                                 setType('cookies')
                                 }
                             }>
-                                <span>{t("footer.cookies")}</span>
-                            </a>
+                            {t("footer.cookies")}</span>
+
                             <a className="c-footer-top--social" href="https://www.instagram.com/h2ocoatings/" target="_blank" rel="noreferrer">
                                 <img className="c-footer-top--social-img" src="/follow-insta-white.png" alt="instagram"/>
                                 <span>{t("insta")}</span>

@@ -66,12 +66,17 @@
         &--option {
             color: c('white');
             line-height: 24px;
+            cursor: pointer;
             &__top{
             font-family: 'Avenir LT Std 85 Heavy';
             font-size: 18px;
             color: c('white');
             padding-bottom: 11px;
             }
+        }
+        &--option:hover{
+            text-decoration: underline;
+            color: c('rustop');
         }
         p{
             line-height: 24px;

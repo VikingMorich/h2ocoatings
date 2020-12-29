@@ -1,11 +1,9 @@
 import React from 'react';
 import cross from '../icons/clear-black-18dp.svg'
-import { useTranslation } from "react-i18next"
 import "react-image-gallery/styles/scss/image-gallery.scss";
 import ImageGallery from 'react-image-gallery';
 
 export default function Modal(props) {
-    const [t] = useTranslation("global")
     const infinityImages = [
         {
             original: '/imgs/materials/infinity/infinity2.jpg',
