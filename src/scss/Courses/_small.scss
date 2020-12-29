@@ -16,16 +16,28 @@
         align-items: center;
         margin-top: 30px;
     }
+    &--video-link{
+        background-color: black;
+        color: c('white');
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        span{
+            margin-top: 3px;
+            margin-left: 15px;
+        }
+    }
     &--text{
         width: 100%;
     }
     &--carousel{
-        height: 425px;
+        height: 400px;
         .owl-item{
             background-color: c('rustop');
-            height: 425px;
+            height: 400px;
             .item{
-                height: 425px;
+                height: 400px;
                 img{
                 object-fit: cover;
                 height: 100%;

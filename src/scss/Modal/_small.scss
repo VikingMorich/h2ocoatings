@@ -37,10 +37,23 @@
     top: 80px;
     z-index: 9;
     padding: 20px;
+    &--special{
+        background-color: c('light-gray');
+        width: 60vw;
+        position: fixed;
+        left: calc(20vw - 20px);
+        top: 90px;
+        z-index: 9;
+        padding: 20px;
+    }
     &--content{
         padding-right: 10px;
         overflow: auto;
         height: calc(70vh - 80px );
+    }
+    &--video{
+        margin-top: 35px;
+        width: 100%;
     }
     &--cross{
         width: 30px;

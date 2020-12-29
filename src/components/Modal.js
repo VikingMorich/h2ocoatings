@@ -42,27 +42,6 @@ export default function Modal(props) {
                             </div>
                         </React.Fragment>
                     }
-                    {props.type === 'infinity-gallery' && 
-                        <React.Fragment>
-                            <OwlCarousel className="owl-theme" loop margin={10} nav={true} items={1.2} center={true}>
-                                <div className="item">
-                                    <img src="/imgs/infinity.jpg" alt="infinity-microciments"/>
-                                </div>
-                                <div className="item">
-                                    <img src="/imgs/infinity-supreme-1.jpg" alt="infinity-microciments"/>
-                                </div>
-                                <div className="item">
-                                    <img src="/imgs/infinity3.jpg" alt="infinity-microciments"/>
-                                </div>
-                                <div className="item">
-                                    <img src="/imgs/infinity4.JPG" alt="infinity-microciments"/>
-                                </div>
-                                <div className="item">
-                                    <img src="/imgs/infinity5.jpg" alt="infinity-microciments"/>
-                                </div>
-                            </OwlCarousel>
-                        </React.Fragment>
-                    }
                 </div>
             </div>
             }

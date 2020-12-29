@@ -151,6 +151,16 @@ export default function Modal(props) {
         <React.Fragment>
             {props.open &&
             <div className="c-cmodal-background">
+                {props.type === 'video-gallery' ?
+                    <div className="c-cmodal--special">
+                        <img className="c-cmodal--cross" alt="menu-icon" src={cross} onClick={props.toggleModal}/>
+                        <div className="c-cmodal--gallery">
+                            <video autoPlay controls className="c-cmodal--video">
+                                <source src="/iStock-473317129.mp4" type="video/mp4" />
+                            </video>
+                        </div>
+                    </div>
+                :
                 <div className="c-cmodal">
                     <img className="c-cmodal--cross" alt="menu-icon" src={cross} onClick={props.toggleModal}/>
                     {props.type === 'infinity-gallery' && 
@@ -184,6 +194,7 @@ export default function Modal(props) {
                         </div>
                     }
                 </div>
+                }
             </div>
             }
         </React.Fragment>
