@@ -1,11 +1,26 @@
-.c-company--card{
-    &--left{
-        width: 48%;
-    }
-    &--right{
-        width: 48%;
-        h4{
-            margin-block-start: 0em;
+.c-company {
+    &--card{
+        flex-direction: row;
+        &--left{
+            width: 48%;
         }
+        &--right{
+            width: 48%;
+            h4{
+                margin-block-start: 0em;
+            }
+        }
+    }
+    &--carousel-box{
+        display: flex;
+        &--mobile{
+            display: none;
+        }
+    }
+    &--right-top{
+        width: 49%;
+    }
+    &--left-top{
+        width: 44%;
     }
 }

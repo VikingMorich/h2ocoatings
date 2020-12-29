@@ -30,6 +30,10 @@ export default function Modal(props) {
       ];
       const tradegraffImages = [
         {
+            original: '/imgs/materials/tradegraff/tradegraff1.jpg',
+            thumbnail: '/imgs/materials/tradegraff/tradegraff1.jpg',
+        },
+        {
             original: '/imgs/materials/tradegraff/tradegraff2.jpg',
             thumbnail: '/imgs/materials/tradegraff/tradegraff2.jpg',
         },
@@ -50,6 +54,10 @@ export default function Modal(props) {
         {
             original: '/imgs/materials/rustop/rustop2.jpg',
             thumbnail: '/imgs/materials/rustop/rustop2.jpg',
+        },
+        {
+            original: '/imgs/materials/rustop/rustop1.JPG',
+            thumbnail: '/imgs/materials/rustop/rustop1.JPG',
         },
         {
             original: '/imgs/materials/rustop/rustop3.jpg',
@@ -78,16 +86,16 @@ export default function Modal(props) {
       ];
       const hydrograffImages = [
         {
+            original: '/imgs/materials/hydrograff/hydrograff1.jpg',
+            thumbnail: '/imgs/materials/hydrograff/hydrograff1.jpg',
+        },
+        {
             original: '/imgs/materials/hydrograff/hydrograff2.jpg',
             thumbnail: '/imgs/materials/hydrograff/hydrograff2.jpg',
         },
         {
-            original: '/imgs/materials/hydrograff/hydrograff3.jpg',
-            thumbnail: '/imgs/materials/hydrograff/hydrograff3.jpg',
-        },
-        {
-            original: '/imgs/materials/hydrograff/hydrograff4.JPG',
-            thumbnail: '/imgs/materials/hydrograff/hydrograff4.JPG',
+            original: '/imgs/materials/hydrograff/hydrograff3.JPG',
+            thumbnail: '/imgs/materials/hydrograff/hydrograff3.JPG',
         },
         {
             original: '/imgs/materials/hydrograff/hydrograff_principal.jpg',
@@ -95,6 +103,10 @@ export default function Modal(props) {
         },
       ];
       const tradecoteImages = [
+        {
+            original: '/imgs/materials/tradecote/tradecote1.jpg',
+            thumbnail: '/imgs/materials/tradecote/tradecote1.jpg',
+        },
         {
             original: '/imgs/materials/tradecote/tradecote2.JPG',
             thumbnail: '/imgs/materials/tradecote/tradecote2.JPG',
@@ -118,12 +130,16 @@ export default function Modal(props) {
       ];
       const tradethermImages = [
         {
-            original: '/imgs/materials/tradetherm/tradetherm2.jpg',
-            thumbnail: '/imgs/materials/tradetherm/tradetherm2.jpg',
+            original: '/imgs/materials/tradetherm/tradetherm1.jpg',
+            thumbnail: '/imgs/materials/tradetherm/tradetherm1.jpg',
         },
         {
             original: '/imgs/materials/tradetherm/tradetherm3.jpg',
             thumbnail: '/imgs/materials/tradetherm/tradetherm3.jpg',
+        },
+        {
+            original: '/imgs/materials/tradetherm/tradetherm2.jpg',
+            thumbnail: '/imgs/materials/tradetherm/tradetherm2.jpg',
         },
         {
             original: '/imgs/materials/tradetherm/tradetherm_principal.jpg',

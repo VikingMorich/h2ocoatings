@@ -98,11 +98,9 @@ export default function Hydrograff() {
                                 </a>
                             </div>
                         </div>
-                        <br />
-                        <img src="/imgs/materials/hydrograff/hydrograff3.jpg" className="c-materials--extra-img c-materials--extra-img--hydrograff" alt="hydrograff"/>
                     </div>
                     <div className="c-materials--product-img--box" onClick={() => {toggleModal(); setType('hydrograff-gallery')}}>
-                        <img src="/imgs/materials/hydrograff/hydrograff2.jpg" className="c-materials--product-img" alt="hydrograff"/>
+                        <img src="/imgs/materials/hydrograff/hydrograff1.jpg" className="c-materials--product-img" alt="hydrograff"/>
                         <div className="c-materials--showmore">
                             <span><img alt="more photos" src={photo} />{t("showmore")}</span>
                         </div>

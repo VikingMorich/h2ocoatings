@@ -97,11 +97,9 @@ export default function Tradegraff() {
                                 </a>
                             </div>
                         </div>
-                        <br />
-                        <img src="/imgs/materials/tradegraff/tradegraff3.JPG" className="c-materials--extra-img c-materials--extra-img--tradegraff"/>
                     </div>
                     <div className="c-materials--product-img--box" onClick={() => {toggleModal(); setType('tradegraff-gallery')}}>
-                        <img src="/imgs/materials/tradegraff/tradegraff2.jpg" className="c-materials--product-img" alt="tradegraff"/>
+                        <img src="/imgs/materials/tradegraff/tradegraff1.jpg" className="c-materials--product-img" alt="tradegraff"/>
                         <div className="c-materials--showmore">
                             <span><img alt="more photos" src={photo} />{t("showmore")}</span>
                         </div>

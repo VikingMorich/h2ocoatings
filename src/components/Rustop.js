@@ -30,7 +30,7 @@ export default function Rustop() {
                 </div>
             </div>
             <div className="c-fullscreen-img--box">
-                <img src="/imgs/materials/rustop/rustop_principal.JPG" className="c-fullscreen-img--no-subtitle" alt="rustop"/>
+                <img src="/imgs/materials/rustop/rustop_principal.png" className="c-fullscreen-img--no-subtitle" alt="rustop"/>
                 <div className="c-fullscreen-img--desc">
                     <h2 className="c-materials--presentation">{t("rustop-col.presentation")}</h2>
                     <span className="c-materials--subpresentation">{t("rustop-col.content1")}</span>
@@ -91,7 +91,7 @@ export default function Rustop() {
                             </div>
                         </div>
                         <br/>
-                        <img src="/imgs/materials/rustop/rustop3.jpg" className="c-materials--extra-img c-materials--extra-img--rustop" alt="rustop"/>
+                        <img src="/imgs/materials/rustop/rustop1.jpg" className="c-materials--extra-img c-materials--extra-img--rustop" alt="rustop"/>
                     </div>
                     <div className="c-materials--product-img--box" onClick={() => {toggleModal(); setType('rustop-gallery')}}>
                         <img src="/imgs/materials/rustop/rustop2.jpg" className="c-materials--product-img" alt="rustop"/>

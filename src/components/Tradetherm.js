@@ -30,7 +30,7 @@ export default function Tradetherm() {
                 </div>
             </div>
             <div className="c-fullscreen-img--box">
-                <img src="/imgs/materials/tradetherm/tradetherm_principal.jpg" className="c-fullscreen-img--no-subtitle" alt="tradetherm"/>
+                <img src="/imgs/materials/tradetherm/tradetherm_principal.jpg" className="c-fullscreen-img--no-subtitle c-fullscreen-img--no-subtitle--tradetherm" alt="tradetherm"/>
                 <div className="c-fullscreen-img--desc">
                     <h2 className="c-materials--presentation">{t("tradetherm-col.presentation")}</h2>
                     <span className="c-materials--subpresentation">{t("tradetherm-col.content1")}</span>
@@ -87,7 +87,7 @@ export default function Tradetherm() {
                         <img src="/imgs/materials/tradetherm/tradetherm3.jpg" className="c-materials--extra-img c-materials--extra-img--tradetherm" alt="tradetherm"/>
                     </div>
                     <div className="c-materials--product-img--box" onClick={() => {toggleModal(); setType('tradetherm-gallery')}}>
-                        <img src="/imgs/materials/tradetherm/tradetherm2.jpg" className="c-materials--product-img" alt="tradetherm"/>
+                        <img src="/imgs/materials/tradetherm/tradetherm1.jpg" className="c-materials--product-img" alt="tradetherm"/>
                         <div className="c-materials--showmore">
                             <span><img alt="more photos" src={photo} />{t("showmore")}</span>
                         </div>

@@ -119,7 +119,7 @@ export default function Header() {
                                 <span>{t("tradegraff")}</span>
                             </a>
                             <a href="/rustop" className="c-dropmat--box">
-                                <img className="c-dopmat--img" src="/imgs/materials/rustop/rustop_principal.JPG" alt="rustop"/>
+                                <img className="c-dopmat--img" src="/imgs/materials/rustop/rustop_principal.png" alt="rustop"/>
                                 <span>{t("rustop")}</span>
                             </a>
                             <a href="/hydrograff" className="c-dropmat--box">

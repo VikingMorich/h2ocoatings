@@ -922,21 +922,81 @@ a:active {
           margin-block-end: 1em;
 }
 
-.c-company--carousel {
-  height: 500px;
-  margin-bottom: 50px;
-  margin-top: 10px;
-  border-top: 1px solid #6D6E70;
-  padding-top: 40px;
+.c-company--border {
+  width: 40px;
+  border-top: 1px solid black;
+  height: 1px;
+  margin-bottom: 15px;
+}
+
+.c-company--top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.c-company--filo {
+  -webkit-margin-after: 15px;
+          margin-block-end: 15px;
+  font-family: 'Avenir LT Std 85 Heavy';
+}
+
+.c-company--left-top {
+  width: 44%;
+  margin-left: 20px;
+  text-align: justify;
+}
+
+.c-company--right-top {
+  width: 49%;
+  height: 350px;
+  overflow: hidden;
+}
+
+.c-company--carousels {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.c-company--carousel-box {
+  width: 49%;
+  margin-top: 20px;
+}
+
+.c-company--carousel-box--left {
+  width: 50%;
+}
+
+.c-company--carousel-right {
+  height: 300px;
+}
+
+.c-company--carousel-left {
+  height: 300px;
 }
 
 .c-company--carousel .item {
-  height: 500px;
+  height: 300px;
   overflow: hidden;
 }
 
 .c-company--carousel .item img {
-  height: 500px;
+  height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: 50% 40%;
@@ -962,6 +1022,9 @@ a:active {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-bottom: 50px;
 }
 
@@ -972,6 +1035,7 @@ a:active {
 
 .c-company--card--right {
   width: 100%;
+  text-align: justify;
 }
 
 .c-company--card--right h4 {
@@ -1312,10 +1376,10 @@ a:active {
   font-size: 32px;
   font-family: 'Avenir LT Std 95 Black';
   text-align: center;
-  -webkit-margin-after: 5px;
-          margin-block-end: 5px;
-  -webkit-margin-before: 0;
-          margin-block-start: 0;
+  -webkit-margin-after: 10px;
+          margin-block-end: 10px;
+  -webkit-margin-before: 5px;
+          margin-block-start: 5px;
 }
 
 .c-showrooms p {
@@ -1366,7 +1430,7 @@ a:active {
 .c-showrooms--img {
   height: 100%;
   width: 29%;
-  margin-top: 10px;
+  margin-top: 0px;
   margin-left: 10px;
   -o-object-fit: cover;
      object-fit: cover;
@@ -1382,11 +1446,25 @@ a:active {
     padding: 60px;
     padding-top: 100px;
   }
+  .c-showrooms--img {
+    margin-top: 20px;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
   .c-showrooms--left {
     width: 49%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .c-showrooms--left img {
+    width: 70%;
+    margin: 10px auto 0px;
   }
   .c-showrooms--right {
     width: 49%;
@@ -1604,6 +1682,11 @@ input {
      object-position: 0px 100%;
 }
 
+.c-fullscreen-img--no-subtitle--tradetherm {
+  -o-object-position: 0px 40%;
+     object-position: 0px 40%;
+}
+
 .c-materials {
   background-color: #FFF;
   z-index: 3;
@@ -1695,6 +1778,7 @@ input {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: auto 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

@@ -18,9 +18,6 @@ export default function Courses() {
                 <div className="c-courses--carousel-wrapper">
                     <OwlCarousel className="owl-theme c-courses--carousel" loop margin={10} nav={false} items={1} center={true} dots={false} autoplay={true} autoplayTimeout={4000} autoplayHoverPause={true}>
                         <div className="item">
-                            <img src="/imgs/courses/courses1.jpeg" alt="infinity-microciments"/>
-                        </div>
-                        <div className="item">
                             <img src="/imgs/courses/courses2.jpeg" alt="infinity-microciments"/>
                         </div>
                         <div className="item">

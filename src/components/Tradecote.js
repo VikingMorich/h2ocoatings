@@ -103,11 +103,9 @@ export default function Tradecote() {
                                 </a>
                             </div>
                         </div>
-                        <br />
-                        <img src="/imgs/materials/tradecote/tradecote3.jpg" className="c-materials--extra-img c-materials--extra-img--tradecote" alt="tradecote"/>
                     </div>
                     <div className="c-materials--product-img--box" onClick={() => {toggleModal(); setType('tradecote-gallery')}}>
-                        <img src="/imgs/materials/tradecote/tradecote2.JPG" className="c-materials--product-img" alt="tradecote"/>
+                        <img src="/imgs/materials/tradecote/tradecote1.jpg" className="c-materials--product-img" alt="tradecote"/>
                         <div className="c-materials--showmore">
                             <span><img alt="more photos" src={photo} />{t("showmore")}</span>
                         </div>
