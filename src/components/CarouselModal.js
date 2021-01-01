@@ -18,8 +18,8 @@ export default function Modal(props) {
             thumbnail: '/imgs/materials/infinity/infinity3.jpg',
         },
         {
-            original: '/imgs/materials/infinity/infinity4.jpg',
-            thumbnail: '/imgs/materials/infinity/infinity4.jpg',
+            original: '/imgs/materials/infinity/infinity4.JPG',
+            thumbnail: '/imgs/materials/infinity/infinity4.JPG',
         },
         {
             original: '/imgs/materials/infinity/infinity5.jpg',
