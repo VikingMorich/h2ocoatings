@@ -66,8 +66,9 @@ export default function Hydrograff() {
                             <h3 className="c-materials--base">{t("hydrograff-col.header5")}</h3>
                         </div>
                         <span className="c-materials--exp">{t("hydrograff-col.content6")}</span>
-                        <div className="c-materials--header--icons">
+                        <div className="c-materials--header--icons--double">
                             <img src={`/Interior-emisions-${i18n.language}.jpg`} className="c-seal" alt="emision-icon"/>
+                            <img src="/scs.png" className="c-seal" alt="scs-icon"/>
                         </div>
                     </div>
                 </div>

@@ -140,7 +140,7 @@
     },
     "rustop-col": {
         "presentation": "ESMALTE ANTIOXIDANTE AL AGUA:  UN NUEVO STANDARD PARA LA ANTI-CORROSION",
-        "content1": "Protección excepcional del hierro para interior y exterior\nISO 12944-6: C4 Alto – C5 Medio",
+        "content1": "Protección excepcional del hierro para interior y exterior.\nISO 12944-6: C4 Alto – C5 Medio.",
         "header1": "Base agua, simple de aplicar y seguro",
         "content2": "Sin olor, sencillo y no inflamable",
         "header2": "Imprimación y acabado en un solo producto",
@@ -158,13 +158,13 @@
     "tradegraff-col": {
         "title": "TRADEGRAFF & TRADEGRAFF 2 COMP.",
         "presentation": "BARNIZ DE POLIURETANO AL AGUA DE ALTAS PRESTACIONES",
-        "content1": "Barniz universal que forma una película dura, flexible y resistente, para interior y exterior\nAlta protección contra el desgaste, la abrasión y la suciedad. Facilidad de limpieza.\nPara una protección extra del hormigón, la madera, el acero, superficies pintadas, …",
+        "content1": "Barniz universal que forma una película dura, flexible y resistente, para interior y exterior.\nAlta protección contra el desgaste, la abrasión y la suciedad. Facilidad de limpieza.\nPara una protección extra del hormigón, la madera, el acero, superficies pintadas, …",
         "header1": "Base agua, simple de aplicar y seguro",
         "content2": "Sin olor, al uso y no inflamable",
         "header2": "Imprimación y acabado en un solo producto",
         "content3": "SCS (sistema de recubrimiento único)",
         "header3": "Respetuoso con el medio ambiente",
-        "content4": "mocomponente: COV < 50 gr./l.\n2 componentes: COV < 20 gr./l.",
+        "content4": "monocomponente: COV < 50 gr./l.\n2 componentes: COV < 20 gr./l.",
         "header4": "Disponible en transparente",
         "content5": "monocomponente: brillante, satinado y mate (0,75 l. – 2,5 l.)\n2 componentes: brillante y mate (2,5 l. A+B)",
         "sistems": "Sistemas recomendados",
@@ -176,7 +176,7 @@
     "hydrograff-col": {
         "title": "HYDROGRAFF HP 2 COMP.",
         "presentation": "ESMALTE DE POLIURETANO SATINADO AL AGUA DE ALTAS PRESTACIONES",
-        "content1": "Esmalte universal que forma una película dura, flexible y resistente, para interior y exterior.\nAlta protección contra el desgaste, la abrasión y la suciedad. Facilidad de limpieza.\nAcabado que otorga una protección extraordinaria de cualquier sistema.\nCombinado con Rustop accedemos a una protección del hierro C-5, con solo 3 capas.\n\nApto para la industria alimentaria (RE 10/2011)\nMigración máx. final: <6,6 mg./dm2 (EN 1186)",
+        "content1": "Esmalte universal que forma una película dura, flexible y resistente, para interior y exterior.\nAlta protección contra el desgaste, la abrasión y la suciedad. Facilidad de limpieza.\nAcabado que otorga una protección extraordinaria de cualquier sistema.\nCombinado con Rustop accedemos a una protección del hierro C-5, con solo 3 capas.\n\nApto para la industria alimentaria (RE 10/2011).\nMigración máx. final: <6,6 mg./dm2 (EN 1186).",
         "header1": "Base agua, simple de aplicar y seguro",
         "content2": "Sin olor, al uso y no inflamable",
         "header2": "Adherencia excepcional",
@@ -197,7 +197,7 @@
     "tradecote-col": {
         "title": "TRADECOTE 2 COMP.",
         "presentation": "REVESTIMIENTO EPOXI AL AGUA DE ALTAS PRESTACIONES",
-        "content1": "Para recubrir pavimentos y paredes de garajes, lonjas, hospitales, laboratorios, … solo para interiores.\nAlta protección contra el desgaste, la abrasión y la suciedad. Facilidad de limpieza.\nApto para la industria alimentaria (RE 10/2011):  Núm. RSIPAC 39.04942/CAT – RGSEAA 39.03383/B\nMigración máx. final: <3 mg./dm2 (EN 1186)",
+        "content1": "Para recubrir pavimentos y paredes de garajes, lonjas, hospitales, laboratorios, … solo para interiores.\nAlta protección contra el desgaste, la abrasión y la suciedad. Facilidad de limpieza.\nApto para la industria alimentaria (RE 10/2011):  Núm. RSIPAC 39.04942/CAT – RGSEAA 39.03383/B.\nMigración máx. final: <3 mg./dm2 (EN 1186).",
         "header1": "Base agua, simple de aplicar y seguro ",
         "content2": "Sin olor, al uso y no inflamable",
         "header2": "Imprimación y acabado en un solo producto",
@@ -218,7 +218,7 @@
     "tradetherm-col": {
         "title": "TRADETHERM",
         "presentation": "ESMALTE ANTICALORICO DE MAXIMA CALIDAD",
-        "content1": "Máximas prestaciones para resistir altas temperaturas (estufas, chimeneas, barbacoas, radiadores…)\nResistente hasta los 900 ºC en negro y gris antracita, 650 ºC en blanco y 400 ºC en barniz\nPara interior y exterior",
+        "content1": "Máximas prestaciones para resistir altas temperaturas (estufas, chimeneas, barbacoas, radiadores…).\nResistente hasta los 900 ºC en negro y gris antracita, 650 ºC en blanco y 400 ºC en barniz.\nPara interior y exterior.",
         "header1": "Imprimación y acabado en un solo producto",
         "content2": "SCS (sistema de recubrimiento único)",
         "header2": "Adherencia universal con alto poder antioxidante",
@@ -246,21 +246,21 @@
         "portfolio": "Descargar Profile"
     },
     "courses-col": {
-        "p1": "Organizamos cursos mensuales en nuestras instalaciones o en las de nuestros clientes, para dar a conocer los nuevos productos y las últimas tendencias del mercado.",
+        "p1": "Organizamos cursos mensuales en nuestras instalaciones o en las de nuestros clientes para dar a conocer los nuevos productos y las últimas tendencias del mercado.",
         "p2": "Estas formaciones consisten en:",
         "op1": "Aprender",
         "op2": "Compartir",
         "op3": "Crear",
         "op4": "Experimentar",
         "p3": "Realizamos una presentación teórica donde ayudamos a informar y a entender los datos técnicos, los procesos, las técnicas de venta, así como aportaciones basadas en nuestra experiencia en el mercado.",
-        "p4": "También consisten fundamentalmente en la aplicación practica de nuestros sistemas y en conocer las diferentes aplicaciones de los mismos.",
+        "p4": "También consisten fundamentalmente en la aplicación práctica de nuestros sistemas y en conocer las diferentes aplicaciones de los mismos.",
         "info": "Para mas info, enviar correo al: ",
         "video": "Haz click para verlo en video"
     },
     "showrooms-col": {
         "p1": "Disponemos de expositores para poder apreciar con todo detalle nuestros acabados en gran formato.",
         "p2": "También disponemos de muestras para poder observar las diferentes texturas en directo.",
-        "p3": "Estos son nuestros formatos estándares para los showrooms:",
+        "p3": "Nuestros formatos estándares para los showrooms son modulares y se pueden adaptar en función de las necesidades.",
         "p4": "Los showrooms son modulares y se poden adaptar en función de las necesidades de cada caso.",
         "info": "Para mas info: "
     },
@@ -290,7 +290,7 @@
         "location": "País",
         "message": "Mensaje",
         "submit": "Enviar",
-        "accept": "Accepto los terminos de ",
+        "accept": "Accepto los términos de ",
         "privacy": "privacidad",
         "code200": "Vuestro email se ha enviado correctamente. Gracias",
         "error": "Es necesario llenar correctamente todos los campos para contactar con nosotros"
