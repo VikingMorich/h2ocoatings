@@ -90,10 +90,10 @@ export default function Hydrograff() {
                                 {t("tests")}
                             </span>
                             <div className="c-materials--block">
-                                <a href={`/pdfs/${i18n.language}/TestAndCertificate/hydrograff_2C_assaig.pdf`} target="_blank" rel="noreferrer" className="c-materials--block--prod">
+                                <a href={`/pdfs/TestAndCertificate/hydrograff_2C_assaig.pdf`} target="_blank" rel="noreferrer" className="c-materials--block--prod">
                                     {t("hydrograff-col.test1")}
                                 </a>
-                                <a href={`/pdfs/${i18n.language}/TestAndCertificate/hydrograff_2C_certificat_sanitari.pdf`} target="_blank" rel="noreferrer" className="c-materials--block--prod">
+                                <a href={`/pdfs/TestAndCertificate/hydrograff_2C_certificat_sanitari.pdf`} target="_blank" rel="noreferrer" className="c-materials--block--prod">
                                     {t("hydrograff-col.test2")}
                                 </a>
                             </div>

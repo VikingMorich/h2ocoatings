@@ -13,11 +13,10 @@ export default function Showrooms() {
             <h1>{t("showrooms").toUpperCase()}</h1>
             <div className="c-showrooms--content">
                 <div className="c-showrooms--left">
-                    <div>
+                    <div className="c-showrooms--text">
                         <p>{t("showrooms-col.p1")}</p>
                         <p>{t("showrooms-col.p2")}</p>
                         <p>{t("showrooms-col.p3")}</p>
-                        <p>{t("showrooms-col.p4")}</p>
                         <p>
                             {t("showrooms-col.info")}
                             <a href={`mailto:${t('email')}`}>{t("email")}</a>

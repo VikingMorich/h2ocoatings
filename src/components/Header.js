@@ -5,16 +5,22 @@ import menu from '../icons/menu-white-18dp.svg'
 import language from "../icons/language-white-18dp.svg"
 import cross from '../icons/clear-white-18dp.svg'
 import expand from "../icons/expand_more-white-18dp.svg"
+import Cookies from 'universal-cookie';
 
 export default function Header() {
+    let cookies = new Cookies();
     const [t, i18n] = useTranslation("global")
     const [mobileMenu, setMobileMenu] = useState(false)
     const [mobileMenuType, setMobileMenuType] = useState('')
     const [hideHeader, setHideHeader] = useState(false)
     const [fadeInHeader, setFadeInHeader] = useState(false)
+    const [lang, setLang] = useState(cookies.get('lang') ? 'languages.' + cookies.get('lang') : 'languages.cat')
+
 
     const setLanguage = (lang) => {
         i18n.changeLanguage(lang)
+        cookies.set('lang', lang, { path: '/' });
+        setLang('languages.' + lang)
         setMobileMenuType('')
         setMobileMenu(false)
     }
@@ -92,7 +98,6 @@ export default function Header() {
                     <h3 className="c-header-mobile--optionTitle centered">{t("language")}</h3>
                     <div className="c-header-mobile--option centered" onClick={() => setLanguage('cat')}>{t("languages.cat")}</div>
                     <div className="c-header-mobile--option centered" onClick={() => setLanguage('es')}>{t("languages.es")}</div>
-                    <div className="c-header-mobile--option centered" onClick={() => setLanguage('en')}>{t("languages.en")}</div>
                 </React.Fragment>
                 }
             </div>

@@ -109,7 +109,7 @@ export default function InfinityComp() {
                                 <a href={`/pdfs/${i18n.language}/FT/FT_infinity_add_supreme_${i18n.language}.pdf`} target="_blank" rel="noreferrer" className="c-materials--block--prod">
                                     {t("infinity-col.prod9")}
                                 </a>
-                                <a href={`/pdfs/${i18n.language}/Guia/GUIA_INFINITY_2021.pdf`} target="_blank" rel="noreferrer">
+                                <a href={`/pdfs/Guia/GUIA_INFINITY_2021.pdf`} target="_blank" rel="noreferrer">
                                     <div className="c-materials--guide">
                                         <span>{t("guide")}</span>
                                     </div>
@@ -118,7 +118,7 @@ export default function InfinityComp() {
                         </div>
                     </div>
                     <div className="c-materials--product-img--box" onClick={() => {toggleModal(); setType('infinity-gallery')}}>
-                        <img src="/imgs/materials/infinity/infinity2.jpg" className="c-materials--product-img" alt="infinity-microciments"/>
+                        <img src="/imgs/materials/infinity/infinity1.jpg" className="c-materials--product-img" alt="infinity-microciments"/>
                         <div className="c-materials--showmore">
                             <span><img alt="more photos" src={photo} />{t("showmore")}</span>
                         </div>
@@ -153,7 +153,7 @@ export default function InfinityComp() {
                             </tr>
                             <tr>
                                 <td>{t("tables.acabado")}</td>
-                                <td>{t("infinity")}</td>
+                                <td>{t("tables.infinity-add")}</td>
                                 <td>{t("tables.tool-llana")}</td>
                                 <td>1 {t("tables.units-kg-m2")}</td>
                             </tr>
@@ -227,7 +227,7 @@ export default function InfinityComp() {
                             </tr>
                             <tr>
                                 <td>{t("tables.intermedia")}</td>
-                                <td>{t("tables.infinitySupreme")}</td>
+                                <td>{t("tables.infinitySupreme-comp")}**</td>
                                 <td>{t("tables.tool-llana")}</td>
                                 <td>0,6 {t("tables.units-kg-m2")}</td>
                             </tr>

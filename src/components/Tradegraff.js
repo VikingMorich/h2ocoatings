@@ -89,10 +89,10 @@ export default function Tradegraff() {
                                 {t("tests")}
                             </span>
                             <div className="c-materials--block">
-                                <a href={`/pdfs/${i18n.language}/TestAndCertificate/tradegraff_2C_assaig.pdf`} target="_blank" rel="noreferrer" className="c-materials--block--prod">
+                                <a href={`/pdfs/TestAndCertificate/tradegraff_2C_assaig.pdf`} target="_blank" rel="noreferrer" className="c-materials--block--prod">
                                     {t("tradegraff-col.test1")}
                                 </a>
-                                <a href={`/pdfs/${i18n.language}/TestAndCertificate/tradegraff_2C_certificat_sanitari.pdf`} target="_blank" rel="noreferrer" className="c-materials--block--prod">
+                                <a href={`/pdfs/TestAndCertificate/tradegraff_2C_certificat_sanitari.pdf`} target="_blank" rel="noreferrer" className="c-materials--block--prod">
                                     {t("tradegraff-col.test2")}
                                 </a>
                             </div>

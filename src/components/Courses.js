@@ -4,32 +4,16 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import videoIcon from "../icons/ondemand_video-white-18dp.svg"
-import Cmodal from './CarouselModal'
 
 export default function Courses() {
     const [t] = useTranslation("global")
-    const [open, setOpen] = useState(false)
-    const [type, setType] = useState('')
-    const toggleModal = () => {
-        setOpen(!open)
-        document.body.style.overflow === "hidden" ? document.body.style.overflow = "auto" : document.body.style.overflow = "hidden"
-    }
-
-    const closeModal = () => {
-        setOpen(false)
-        document.body.style.overflow = "auto"
-    }
-    useEffect(() => {
-        document.title = 'H2O Coatings - ' + t("services")
-        window.scrollTo(0, 0)
-    }, [t]);
 
     return (
         <React.Fragment>
             <div className="c-courses">
                 <h1>{t("courses").toUpperCase()}</h1>
                 <div className="c-courses--info">
-                    <div className="c-courses--carousel-wrapper" onClick={() => {toggleModal(); setType('video-gallery')}}>
+                    <a href="https://scontent-mad1-1.cdninstagram.com/v/t50.16885-16/10000000_638658796854455_3406537881821206985_n.mp4?efg=eyJ2ZW5jb2RlX3RhZyI6InZ0c192b2RfdXJsZ2VuLjcyMC5pZ3R2LmRlZmF1bHQiLCJxZV9ncm91cHMiOiJbXCJpZ193ZWJfZGVsaXZlcnlfdnRzX290ZlwiXSJ9&_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=111&_nc_ohc=jWTAumBo1l8AX-cGpKu&vs=17879615887792909_1995161053&_nc_vs=HBksFQAYJEdJQ1dtQUMzSExoVzIwUUNBTWxaM2FjbmRFWXZidlZCQUFBRhUAAsgBABUAGCRHR3FWSmdkVWNYMGJ5a1lCQUxIYkZ6RlQtTnR0YnZWQkFBQUYVAgLIAQAoABgAGwGIB3VzZV9vaWwBMRUAACaayMGdztrCPxUCKAJDMywXQFTxBiTdLxsYEmRhc2hfYmFzZWxpbmVfMV92MREAdewHAA%3D%3D&oe=5FF16546&oh=641930641bcbadc14325ef7dbe0b5729" target="_blank" rel="noreferrer" className="c-courses--carousel-wrapper">
                         <OwlCarousel className="owl-theme c-courses--carousel" loop margin={10} nav={false} items={1} center={true} dots={false} autoplay={true} autoplayTimeout={4000} autoplayHoverPause={true}>
                             <div className="item">
                                 <img src="/imgs/courses/courses2.jpeg" alt="infinity-microciments"/>
@@ -48,7 +32,7 @@ export default function Courses() {
                             <img alt="video courses" src={videoIcon} />
                             <span>{t('courses-col.video')}</span>
                         </div>
-                    </div>
+                    </a>
                     <div className="c-courses--text">
                         <p>{t("courses-col.p1")}</p>
                         <p>{t("courses-col.p2")}</p>
@@ -67,7 +51,6 @@ export default function Courses() {
                     </div>
                 </div>
             </div>
-            <Cmodal open={open} toggleModal={() => closeModal()} type={type}/>
         </React.Fragment>
     );
 }

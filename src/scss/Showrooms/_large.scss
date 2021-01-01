@@ -4,7 +4,7 @@
         display: flex;
         flex-direction: column;
         img{
-            width: 80%;
+            width: 70%;
             margin: 10px auto 0px;
         }
     }
@@ -13,5 +13,9 @@
     }
     &--img{
         width: 31%;
+        margin-top: 0px;
+    }
+    &--content{
+        margin-top: 20px;
     }
 }

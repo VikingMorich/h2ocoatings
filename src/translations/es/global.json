@@ -6,7 +6,7 @@
     "tradegraff": "Tradegraff",
     "tradecote": "Tradecote",
     "hydrograff": "Hydrograff",
-    "tradetherm": "Trade-therm",
+    "tradetherm": "Tradetherm",
     "services": "Servicios",
     "courses": "Cursos",
     "showrooms": "Exposiciones",
@@ -17,7 +17,7 @@
     "language": "Idioma",
     "guide": "Descargar guía",
     "products": "Productos",
-    "tests": "Testos y certificados",
+    "tests": "Test y certificados",
     "showmore": "Ver todas las fotos",
     "home": {
         "presentation": "Revestimientos protectores en base agua",
@@ -30,9 +30,9 @@
         "cookies": "Política de cookies",
         "privacy": "Política de privacidad",
         "h2o": "H2O COATINGS",
-        "contact": "C. Carles Buïgas, 53\nPOL. Ind. Can Magre\nES 08187 Santa Eulàlia de Ronçana\nTel: + 34 93 135 21 10",
+        "contact": "C. Carles Buïgas, 53\nPol. Ind. Can Magre\nES 08187 Santa Eulàlia de Ronçana\nTel: + 34 93 135 21 10",
         "legal": "Legal",
-        "whoare": "Quien somos?"
+        "whoare": "Quiénes somos?"
     },
     "languages": {
         "cat": "CAT",
@@ -47,7 +47,8 @@
         "infinity-basic": "INFINITY BASIC",
         "infinity-premium": "INFINITY PREMIUM en polvo",
         "infinity-supreme": "INFINITY SUPREME listo al uso",
-        "micrasHumedas": "Micras humedas",
+        "infinity-add": "Infinity & Additive 2 comp.**",
+        "micrasHumedas": "Micras húmedas",
         "micrasSecas": "Micras secas",
         "consumo": "Consumo m²",
         "life": "Vida sistema",
@@ -88,7 +89,7 @@
         "dureza": "Dureza Persoz",
         "rayado": "Rayado del lápiz",
         "abrasion": "Abrasión Taber test",
-        "estanqueidad": "Estanqueidad a la agua",
+        "estanqueidad": "Estanqueidad al agua",
         "migracion": "Migración alimentaria RE 10/2011",
         "brillo": "Brillo Gardner test",
         "antigraffiti": "Anti-graffiti",
@@ -104,7 +105,7 @@
         "completo": "Completo",
         "between": "entre",
         "and": "y",
-        "days": "dias",
+        "days": "días",
         "valid": "APTO",
         "novalid": "NO APTO"
     },
@@ -215,9 +216,9 @@
         "sistems": "Sistema recomendado"
     },
     "tradetherm-col": {
-        "title": "TRADE-THERM",
+        "title": "TRADETHERM",
         "presentation": "ESMALTE ANTICALORICO DE MAXIMA CALIDAD",
-        "content1": "Máximas prestaciones para resistir altas temperaturas (estufas, chimeneas, barbacoas, radiadores…)\nResistente hasta los 900 C en negro y gris antracita, 650 C en blanco y 400 C en barniz\nPara interior y exterior",
+        "content1": "Máximas prestaciones para resistir altas temperaturas (estufas, chimeneas, barbacoas, radiadores…)\nResistente hasta los 900 ºC en negro y gris antracita, 650 ºC en blanco y 400 ºC en barniz\nPara interior y exterior",
         "header1": "Imprimación y acabado en un solo producto",
         "content2": "SCS (sistema de recubrimiento único)",
         "header2": "Adherencia universal con alto poder antioxidante",
@@ -228,13 +229,13 @@
         "content5": "Repintado en 15 – 30 minutos",
         "header5": "Disponible en negro, gris antracita, blanco y barniz incoloro",
         "content6": "Aerosol de 400 ml. (consultar para otros envases y colores)",
-        "prod1": "Trade-therm"
+        "prod1": "Tradetherm"
     },
     "company-col": {
-        "title": "QUIEN SOMOS",
+        "title": "QUIENES SOMOS",
         "subtitle": "Filosofía",
         "p1": "Experiencia, técnica, calidad y dedicación es nuestra forma de entender un oficio al que nos dedicamos desde 1921 (familia Condins).",
-        "p2": "Traderfilll Coatings nació en 1997 como consecuencia de nuestras inquietudes en buscar soluciones avanzadas para nuestro mercado.",
+        "p2": "Traderfill Coatings nació en 1997 como consecuencia de nuestras inquietudes en buscar soluciones avanzadas para nuestro mercado.",
         "p3": "Es por ello que la evolución constante en incorporar nuevas soluciones, tanto decorativas como técnicas, es nuestra prioridad para poder ofrecer las máximas facilidades a los profesionales que confían en nosotros para realizar sus proyectos.",
         "subtitle2": "Carta",
         "p4": "La idea de poder avanzar hacia un futuro mejor, es decir, más sostenible, ecológico y a la vez aportar soluciones vanguardistas es nuestra prioridad. Al mismo tiempo, desarrollar la creatividad de les profesionales hacen de nuestra vocación nuestro oficio.",
@@ -245,14 +246,14 @@
         "portfolio": "Descargar Profile"
     },
     "courses-col": {
-        "p1": "Organizamos cursos mensuales en nuestras instalaciones, o en las de nuestros clientes, para dar a conocer los nuevos productos y las ultimas tendencias del mercado.",
+        "p1": "Organizamos cursos mensuales en nuestras instalaciones o en las de nuestros clientes, para dar a conocer los nuevos productos y las últimas tendencias del mercado.",
         "p2": "Estas formaciones consisten en:",
         "op1": "Aprender",
         "op2": "Compartir",
         "op3": "Crear",
         "op4": "Experimentar",
         "p3": "Realizamos una presentación teórica donde ayudamos a informar y a entender los datos técnicos, los procesos, las técnicas de venta, así como aportaciones basadas en nuestra experiencia en el mercado.",
-        "p4": "También consisten fundamentalmente en la aplicación practica de nuestros sistemas y conocer las diferentes aplicaciones de los mismos.",
+        "p4": "También consisten fundamentalmente en la aplicación practica de nuestros sistemas y en conocer las diferentes aplicaciones de los mismos.",
         "info": "Para mas info, enviar correo al: ",
         "video": "Haz click para verlo en video"
     },

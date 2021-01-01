@@ -15,10 +15,12 @@
     &--map{
         border: 1px solid c('black');
         margin-bottom: 20px;
+        margin-right: 70px;
     }
     &--container{
         display: flex;
-        justify-content: space-around;
+        margin-top: 7px;
+        justify-content: center;
         flex-wrap: wrap;
     }
     button {

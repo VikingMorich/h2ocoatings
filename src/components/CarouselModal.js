@@ -6,6 +6,10 @@ import ImageGallery from 'react-image-gallery';
 export default function Modal(props) {
     const infinityImages = [
         {
+            original: '/imgs/materials/infinity/infinity1.jpg',
+            thumbnail: '/imgs/materials/infinity/infinity1.jpg',
+        },
+        {
             original: '/imgs/materials/infinity/infinity2.jpg',
             thumbnail: '/imgs/materials/infinity/infinity2.jpg',
         },
@@ -14,16 +18,48 @@ export default function Modal(props) {
             thumbnail: '/imgs/materials/infinity/infinity3.jpg',
         },
         {
-            original: '/imgs/materials/infinity/infinity4.JPG',
-            thumbnail: '/imgs/materials/infinity/infinity4.JPG',
+            original: '/imgs/materials/infinity/infinity4.jpg',
+            thumbnail: '/imgs/materials/infinity/infinity4.jpg',
         },
         {
             original: '/imgs/materials/infinity/infinity5.jpg',
             thumbnail: '/imgs/materials/infinity/infinity5.jpg',
         },
         {
-            original: '/imgs/materials/infinity/infinity_principal.jpg',
-            thumbnail: '/imgs/materials/infinity/infinity_principal.jpg',
+            original: '/imgs/materials/infinity/infinity6.jpg',
+            thumbnail: '/imgs/materials/infinity/infinity6.jpg',
+        },
+        {
+            original: '/imgs/materials/infinity/infinity7.jpg',
+            thumbnail: '/imgs/materials/infinity/infinity7.jpg',
+        },
+        {
+            original: '/imgs/materials/infinity/infinity8.JPG',
+            thumbnail: '/imgs/materials/infinity/infinity8.JPG',
+        },
+        {
+            original: '/imgs/materials/infinity/infinity10.jpg',
+            thumbnail: '/imgs/materials/infinity/infinity10.jpg',
+        },
+        {
+            original: '/imgs/materials/infinity/infinity11.jpg',
+            thumbnail: '/imgs/materials/infinity/infinity11.jpg',
+        },
+        {
+            original: '/imgs/materials/infinity/infinity12.jpg',
+            thumbnail: '/imgs/materials/infinity/infinity12.jpg',
+        },
+        {
+            original: '/imgs/materials/infinity/infinity13.jpg',
+            thumbnail: '/imgs/materials/infinity/infinity13.jpg',
+        },
+        {
+            original: '/imgs/materials/infinity/infinity14.JPG',
+            thumbnail: '/imgs/materials/infinity/infinity14.JPG',
+        },
+        {
+            original: '/imgs/materials/infinity/infinity15.jpg',
+            thumbnail: '/imgs/materials/infinity/infinity15.jpg',
         },
       ];
       const tradegraffImages = [
@@ -42,10 +78,6 @@ export default function Modal(props) {
         {
             original: '/imgs/materials/tradegraff/tradegraff4.jpg',
             thumbnail: '/imgs/materials/tradegraff/tradegraff4.jpg',
-        },
-        {
-            original: '/imgs/materials/tradegraff/tradegraff_principal.jpg',
-            thumbnail: '/imgs/materials/tradegraff/tradegraff_principal.jpg',
         },
       ];
       const rustopImages = [
@@ -77,10 +109,6 @@ export default function Modal(props) {
             original: '/imgs/materials/rustop/rustop7.JPG',
             thumbnail: '/imgs/materials/rustop/rustop7.JPG',
         },
-        {
-            original: '/imgs/materials/rustop/rustop_principal.jpg',
-            thumbnail: '/imgs/materials/rustop/rustop_principal.jpg',
-        },
       ];
       const hydrograffImages = [
         {
@@ -94,10 +122,6 @@ export default function Modal(props) {
         {
             original: '/imgs/materials/hydrograff/hydrograff3.JPG',
             thumbnail: '/imgs/materials/hydrograff/hydrograff3.JPG',
-        },
-        {
-            original: '/imgs/materials/hydrograff/hydrograff_principal.jpg',
-            thumbnail: '/imgs/materials/hydrograff/hydrograff_principal.jpg',
         },
       ];
       const tradecoteImages = [
@@ -120,10 +144,6 @@ export default function Modal(props) {
         {
             original: '/imgs/materials/tradecote/tradecote5.jpg',
             thumbnail: '/imgs/materials/tradecote/tradecote5.jpg',
-        },
-        {
-            original: '/imgs/materials/tradecote/tradecote_principal.jpg',
-            thumbnail: '/imgs/materials/tradecote/tradecote_principal.jpg',
         },
       ];
       const tradethermImages = [
@@ -149,16 +169,6 @@ export default function Modal(props) {
         <React.Fragment>
             {props.open &&
             <div className="c-cmodal-background">
-                {props.type === 'video-gallery' ?
-                    <div className="c-cmodal--special">
-                        <img className="c-cmodal--cross" alt="menu-icon" src={cross} onClick={props.toggleModal}/>
-                        <div className="c-cmodal--gallery">
-                            <video autoPlay controls className="c-cmodal--video">
-                                <source src="/iStock-473317129.mp4" type="video/mp4" />
-                            </video>
-                        </div>
-                    </div>
-                :
                 <div className="c-cmodal">
                     <img className="c-cmodal--cross" alt="menu-icon" src={cross} onClick={props.toggleModal}/>
                     {props.type === 'infinity-gallery' && 
@@ -192,7 +202,6 @@ export default function Modal(props) {
                         </div>
                     }
                 </div>
-                }
             </div>
             }
         </React.Fragment>

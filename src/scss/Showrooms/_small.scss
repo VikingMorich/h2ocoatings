@@ -40,11 +40,15 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
+        align-items: center;
+    }
+    &--text{
+        text-align: justify;
     }
     &--img{
         height: 100%;
         width: 29%;
-        margin-top: 0px;
+        margin-top: 20px;
         margin-left: 10px;
         object-fit: cover;
         padding-bottom: 10px;
