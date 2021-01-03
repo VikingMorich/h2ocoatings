@@ -80,7 +80,7 @@ export default function Hydrograff() {
                                 {t("products")}
                             </span>
                             <div className="c-materials--block">
-                                <a href={`/pdfs/${i18n.language}/FT/FT_hydrograff_HP_2 comp_${i18n.language}.pdf`} target="_blank" rel="noreferrer" className="c-materials--block--prod">
+                                <a href={`/pdfs/${i18n.language}/FT/FT_hydrograff_HP_2_comp_${i18n.language}.pdf`} target="_blank" rel="noreferrer" className="c-materials--block--prod">
                                     {t("hydrograff-col.prod1")}
                                 </a>
                             </div>
