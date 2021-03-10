@@ -13,8 +13,8 @@ export default function Modal(props) {
                     <img className="c-modal--cross" alt="menu-icon" src={cross} onClick={props.toggleModal}/>
                     {props.type === 'cookies' && 
                     <React.Fragment>
-                    <h1>{t('footer.cookies')}</h1>
                         <div className="c-modal--content">
+                            <h1>{t('footer.cookies')}</h1>
                             <p>{t('cookies.p1')}</p>
                             <h3>{t('cookies.h1')}</h3>
                             <p>{t('cookies.p2')}</p>

@@ -8,7 +8,7 @@ export default function Language() {
     let cookies = new Cookies();
     const [t, i18n] = useTranslation("global")
     const [open, setOpen] = useState(false);
-    const [lang, setLang] = useState(cookies.get('lang') ? 'languages.' + cookies.get('lang') : 'languages.cat')
+    const [lang, setLang] = useState(cookies.get('lang') ? 'languages.' + cookies.get('lang') : 'languages.es')
     
 
     const setLanguage = (lang) => {

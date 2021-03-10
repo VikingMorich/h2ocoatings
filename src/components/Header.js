@@ -14,13 +14,11 @@ export default function Header() {
     const [mobileMenuType, setMobileMenuType] = useState('')
     const [hideHeader, setHideHeader] = useState(false)
     const [fadeInHeader, setFadeInHeader] = useState(false)
-    const [lang, setLang] = useState(cookies.get('lang') ? 'languages.' + cookies.get('lang') : 'languages.cat')
 
 
     const setLanguage = (lang) => {
         i18n.changeLanguage(lang)
         cookies.set('lang', lang, { path: '/' });
-        setLang('languages.' + lang)
         setMobileMenuType('')
         setMobileMenu(false)
     }

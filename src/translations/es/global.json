@@ -55,6 +55,7 @@
         "tool": "Herramienta",
         "primer": "Primer",
         "fondo": "Fondo",
+        "max": "máx.",
         "intermedia": "Intermedia",
         "acabado": "Acabado",
         "sellado": "Sellado",
@@ -120,8 +121,9 @@
         "header4": "Acabado natural, para interior o exterior (grueso de 2 a 3 mm)",
         "header5": "Obras rápidas y sin escombros (sin mantenimiento)",
         "header6": "Disponible en polvo y listo al uso.",
-        "content2": "Infinity: 20 Kg / Infinity Premium e Infinity Supreme: 5 Kg",
-        "content3": "Colores carta  (NCS disponibles bajo pedido)",
+        "content2": "Infinity: 20 Kg.",
+        "content3": "Infinity Premium e Infinity Supreme: 5 Kg.",
+        "content4": "Colores carta.",
         "sistems": "Sistemas",
         "notes": "Notas:",
         "note1": "*Si las paredes presentan buena planimetría la capa de fondo Infinity no es necesaria",
@@ -136,7 +138,8 @@
         "prod6": "Infinity Fiber",
         "prod7": "Infinity Pigment",
         "prod8": "Infinity Additive 2Comp",
-        "prod9": "Infinity Additive Supreme"
+        "prod9": "Infinity Additive Supreme",
+        "prod10": "Infinity Sealer"
     },
     "rustop-col": {
         "presentation": "ESMALTE ANTIOXIDANTE AL AGUA:  UN NUEVO STANDARD PARA LA ANTI-CORROSION",
@@ -176,7 +179,7 @@
     "hydrograff-col": {
         "title": "HYDROGRAFF HP 2 COMP.",
         "presentation": "ESMALTE DE POLIURETANO SATINADO AL AGUA DE ALTAS PRESTACIONES",
-        "content1": "Esmalte universal que forma una película dura, flexible y resistente, para interior y exterior.\nAlta protección contra el desgaste, la abrasión y la suciedad. Facilidad de limpieza.\nAcabado que otorga una protección extraordinaria de cualquier sistema.\nCombinado con Rustop accedemos a una protección del hierro C-5, con solo 3 capas.\n\nApto para la industria alimentaria (RE 10/2011).\nMigración máx. final: <6,6 mg./dm2 (EN 1186).",
+        "content1": "Esmalte universal que forma una película dura, flexible y resistente, para interior y exterior.\nAlta protección contra el desgaste, la abrasión y la suciedad. Facilidad de limpieza.\nAcabado que otorga una protección extraordinaria de cualquier sistema.\nCombinado con Rustop accedemos a una protección del hierro C-5, con solo 3 capas.\n\nApto para la industria alimentaria (RE 10/2011).\nMigración máx. final: <6,6 mg./dm² (EN 1186).",
         "header1": "Base agua, simple de aplicar y seguro",
         "content2": "Sin olor, al uso y no inflamable",
         "header2": "Adherencia excepcional",
@@ -185,7 +188,7 @@
         "content4": "Repintado entre 12 y 72 h.",
         "header4": "Respetuoso con el medio ambiente",
         "content5": "COV: < 20 gr./l.",
-        "header5": "Disponible en blanco (700 ml. – 2,5 l.)",
+        "header5": "Disponible en blanco (2.5l.)",
         "content6": "RAL y NCS disponibles bajo pedido",
         "prod1": "Hydrograff HP 2Comp",
         "test1": "Hydrograff HP 2Comp ensayo",
@@ -197,7 +200,7 @@
     "tradecote-col": {
         "title": "TRADECOTE 2 COMP.",
         "presentation": "REVESTIMIENTO EPOXI AL AGUA DE ALTAS PRESTACIONES",
-        "content1": "Para recubrir pavimentos y paredes de garajes, lonjas, hospitales, laboratorios, … solo para interiores.\nAlta protección contra el desgaste, la abrasión y la suciedad. Facilidad de limpieza.\nApto para la industria alimentaria (RE 10/2011):  Núm. RSIPAC 39.04942/CAT – RGSEAA 39.03383/B.\nMigración máx. final: <3 mg./dm2 (EN 1186).",
+        "content1": "Para recubrir pavimentos y paredes de garajes, lonjas, hospitales, laboratorios, … solo para interiores.\nAlta protección contra el desgaste, la abrasión y la suciedad. Facilidad de limpieza.\nApto para la industria alimentaria (RE 10/2011):  Núm. RSIPAC 39.04942/CAT – RGSEAA 39.03383/B.\nMigración máx. final: <3 mg./dm² (EN 1186).",
         "header1": "Base agua, simple de aplicar y seguro ",
         "content2": "Sin olor, al uso y no inflamable",
         "header2": "Imprimación y acabado en un solo producto",

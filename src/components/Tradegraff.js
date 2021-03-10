@@ -179,7 +179,7 @@ export default function Tradegraff() {
                             <td>{t("tables.tiempo")}</td>
                             <td>{t("tables.pot-life")}</td>
                             <td>---</td>
-                            <td>max 4 h</td>
+                            <td>{t("tables.max")} 4 h</td>
                         </tr>
                         <tr>
                             <td>{t("tables.secado")}</td>

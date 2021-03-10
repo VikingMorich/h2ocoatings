@@ -48,7 +48,6 @@
     }
     &--right-top{
         width: 100%;
-        height: 350px;
         overflow: hidden;
     }
     &--carousels{
@@ -90,7 +89,7 @@
     &--img{
         width: 100%;
         object-fit: contain;
-        object-position: 50% -20px;
+        object-position: 50% 0px;
     }
     &--card{
         display: flex;

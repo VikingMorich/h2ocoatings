@@ -69,6 +69,7 @@ export default function InfinityComp() {
                         </div>
                         <span className="c-materials--exp">{t("infinity-col.content2")}</span>
                         <span className="c-materials--exp">{t("infinity-col.content3")}</span>
+                        <span className="c-materials--exp">{t("infinity-col.content4")}</span>
 
                         <div className="c-materials--header--icons">
                             <img src={`/Interior-emisions-${i18n.language}.jpg`} className="c-seal" alt="emision-icon"/>
@@ -96,7 +97,7 @@ export default function InfinityComp() {
                                 <a href={`/pdfs/${i18n.language}/FT/FT_infinity_supreme_${i18n.language}.pdf`} target="_blank" rel="noreferrer" className="c-materials--block--prod">
                                     {t("infinity-col.prod5")}
                                 </a>
-                                <span className="c-materials--block--op">{t("infinity-col.op2")}</span>
+                                <span className="c-materials--block--op">{t("infinity-col.op3")}</span>
                                 <a href={`/pdfs/${i18n.language}/FT/FT_infinity_fiber_${i18n.language}.pdf`} target="_blank" rel="noreferrer" className="c-materials--block--prod">
                                     {t("infinity-col.prod6")}
                                 </a>
@@ -108,6 +109,9 @@ export default function InfinityComp() {
                                 </a>
                                 <a href={`/pdfs/${i18n.language}/FT/FT_infinity_add_supreme_${i18n.language}.pdf`} target="_blank" rel="noreferrer" className="c-materials--block--prod">
                                     {t("infinity-col.prod9")}
+                                </a>
+                                <a href={`/pdfs/${i18n.language}/FT/FT_infinity_sealer_${i18n.language}.pdf`} target="_blank" rel="noreferrer" className="c-materials--block--prod">
+                                    {t("infinity-col.prod10")}
                                 </a>
                                 <a href={`/pdfs/Guia/GUIA_INFINITY_2021.pdf`} target="_blank" rel="noreferrer">
                                     <div className="c-materials--guide">

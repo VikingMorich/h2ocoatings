@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next"
 import Modal from './Modal'
 import emailjs, { init } from 'emailjs-com';
 
-init("user_uZyENKBtU2la8xrJoPgY6");
+init("user_SKAD4hD0W8sQdOxLpeMrt");
 
 function useInput(initialValue){
     const [value,setValue] = useState(initialValue);
@@ -138,7 +138,7 @@ export default function Form(){
   function handleSubmit(e){
     e.preventDefault() // stops default reloading behaviour
     if (validateForm(name, surname, email, phone, location, message, checked)){
-      emailjs.send("service_5jdppsk","template_ojjopdn",{
+      emailjs.send("service_zc1ifj6","template_42i0913",{
         name: name,
         surname: surname,
         email: email,

@@ -15,7 +15,7 @@ let cookies = new Cookies();
 
 i18next.init({
   interpolation: { escapeValue: false },
-  lng: cookies.get('lang') ? cookies.get('lang') : "cat",
+  lng: cookies.get('lang') ? cookies.get('lang') : "es",
   resources: {
     es: {
       global: global_es

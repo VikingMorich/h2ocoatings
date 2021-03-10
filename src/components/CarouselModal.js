@@ -38,6 +38,10 @@ export default function Modal(props) {
             thumbnail: '/imgs/materials/infinity/infinity8.JPG',
         },
         {
+            original: '/imgs/materials/infinity/infinity9.jpg',
+            thumbnail: '/imgs/materials/infinity/infinity9.jpg',
+        },
+        {
             original: '/imgs/materials/infinity/infinity10.jpg',
             thumbnail: '/imgs/materials/infinity/infinity10.jpg',
         },
@@ -61,6 +65,18 @@ export default function Modal(props) {
             original: '/imgs/materials/infinity/infinity15.jpg',
             thumbnail: '/imgs/materials/infinity/infinity15.jpg',
         },
+        {
+            original: '/imgs/materials/infinity/infinity16.jpg',
+            thumbnail: '/imgs/materials/infinity/infinity16.jpg',
+        },
+        {
+            original: '/imgs/materials/infinity/infinity17.JPG',
+            thumbnail: '/imgs/materials/infinity/infinity17.JPG',
+        },
+        {
+            original: '/imgs/materials/infinity/infinity_principal.jpg',
+            thumbnail: '/imgs/materials/infinity/infinity_principal.jpg',
+        },
       ];
       const tradegraffImages = [
         {
@@ -78,6 +94,18 @@ export default function Modal(props) {
         {
             original: '/imgs/materials/tradegraff/tradegraff4.jpg',
             thumbnail: '/imgs/materials/tradegraff/tradegraff4.jpg',
+        },
+        {
+            original: '/imgs/materials/tradegraff/tradegraff5.jpg',
+            thumbnail: '/imgs/materials/tradegraff/tradegraff5.jpg',
+        },
+        {
+            original: '/imgs/materials/tradegraff/tradegraff6.jpg',
+            thumbnail: '/imgs/materials/tradegraff/tradegraff6.jpg',
+        },
+        {
+            original: '/imgs/materials/tradegraff/tradegraff_principal.jpg',
+            thumbnail: '/imgs/materials/tradegraff/tradegraff_principal.jpg',
         },
       ];
       const rustopImages = [
@@ -109,6 +137,14 @@ export default function Modal(props) {
             original: '/imgs/materials/rustop/rustop7.JPG',
             thumbnail: '/imgs/materials/rustop/rustop7.JPG',
         },
+        {
+            original: '/imgs/materials/rustop/rustop8.jpg',
+            thumbnail: '/imgs/materials/rustop/rustop8.jpg',
+        },
+        {
+            original: '/imgs/materials/rustop/rustop_principal.png',
+            thumbnail: '/imgs/materials/rustop/rustop_principal.png',
+        },
       ];
       const hydrograffImages = [
         {
@@ -122,6 +158,10 @@ export default function Modal(props) {
         {
             original: '/imgs/materials/hydrograff/hydrograff3.JPG',
             thumbnail: '/imgs/materials/hydrograff/hydrograff3.JPG',
+        },
+        {
+            original: '/imgs/materials/hydrograff/hydrograff_principal.jpg',
+            thumbnail: '/imgs/materials/hydrograff/hydrograff_principal.jpg',
         },
       ];
       const tradecoteImages = [
@@ -145,19 +185,19 @@ export default function Modal(props) {
             original: '/imgs/materials/tradecote/tradecote5.jpg',
             thumbnail: '/imgs/materials/tradecote/tradecote5.jpg',
         },
+        {
+            original: '/imgs/materials/tradecote/tradecote_principal.jpg',
+            thumbnail: '/imgs/materials/tradecote/tradecote_principal.jpg',
+        },
       ];
       const tradethermImages = [
         {
-            original: '/imgs/materials/tradetherm/tradetherm1.jpg',
-            thumbnail: '/imgs/materials/tradetherm/tradetherm1.jpg',
+            original: '/imgs/materials/tradetherm/tradetherm2.jpg',
+            thumbnail: '/imgs/materials/tradetherm/tradetherm2.jpg',
         },
         {
             original: '/imgs/materials/tradetherm/tradetherm3.jpg',
             thumbnail: '/imgs/materials/tradetherm/tradetherm3.jpg',
-        },
-        {
-            original: '/imgs/materials/tradetherm/tradetherm2.jpg',
-            thumbnail: '/imgs/materials/tradetherm/tradetherm2.jpg',
         },
         {
             original: '/imgs/materials/tradetherm/tradetherm_principal.jpg',
