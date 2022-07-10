@@ -6,10 +6,12 @@
     "tradegraff": "Tradegraff",
     "tradecote": "Tradecote",
     "hydrograff": "Hydrograff",
+    "hydrosec": "Hydrosec",
     "tradetherm": "Tradetherm",
     "services": "Serveis",
     "courses": "Cursos",
-    "showrooms": "Exposicions",
+    "showrooms": "Showrooms",
+    "workshops": "Workshops",
     "contact": "Contacte",
     "email": "info@h2ocoatings.com",
     "insta": "@h2ocoatings",
@@ -59,6 +61,10 @@
         "intermedia": "Intermitja",
         "acabado": "Acabat",
         "sellado": "Segellat",
+        "sellado1": "1r Segellat",
+        "sellado2": "2n Segellat",
+        "infinity_sealer": "Infinity Sealer",
+        "infinity_fine": "INFINITY SUPREME FINE llest a l'ús",
         "total": "TOTAL",
         "years": "anys",
         "major": ">",
@@ -135,8 +141,8 @@
         "prod2": "Infinity",
         "prod4": "Infinity Premium",
         "prod5": "Infinity Supreme",
+        "prod7": "Infinity Supreme Fine",
         "prod6": "Infinity Fiber",
-        "prod7": "Infinity Pigment",
         "prod8": "Infinity Additive 2Comp",
         "prod9": "Infinity Additive Supreme",
         "prod10": "Infinity Sealer"
@@ -234,6 +240,20 @@
         "content6": "Aerosol de 400 ml. (consultar per altres envasos i colors)",
         "prod1": "Tradetherm"
     },
+    "hydrosec-col": {
+        "title": "HYDROSEC HP",
+        "presentation": "HIDROFUGANT A BASE DE POLÍMERS SILOXÀNICS EN BASE AIGUA",
+        "content1": "Protegeix contra la humitat, deixant transpirar la superfície.\nPràcticament, no canvia l’aspecte del suport. Excel·lent resistència a l’exterior.\nEs pot aplicar a sobre de qualsevol suport mineral que sigui porós.",
+        "header1": "Base aigua, simple d’aplicar i segur",
+        "content2": "Sin olor, llest a l’ús i no inflamable",
+        "header2": "Aplicar una o dues capes, sense diluir.",
+        "content3": "Temps d’assecat 1 hora. Aplicar dues capes moll sobre moll.",
+        "header3": "Respectuós amb el medi ambient",
+        "content4": "COV: 0 gr./l.",
+        "header4": "Disponible en transparent",
+        "content5": "Incolor (acabat invisible, amb una possible alteració de la superfície)",
+        "prod1": "Hydrosec HP"
+    },
     "company-col": {
         "title": "QUI SOM",
         "subtitle": "Filosofia",
@@ -265,6 +285,14 @@
         "p2": "També disposem de mostres per enviar i, així, poder observar les diferents textures en directe.",
         "p3": "Els nostres formats estàndards pels show rooms són modulars i es poden adaptar en funció de les necessitats.",
         "info": "Per més informació: "
+    },
+    "workshops-col": {
+        "p1": "Organitzem presentacions dels nostres microciments i dels seus sistemes mitjançant un format que anomenem workshop.",
+        "p2": "Aquest format de presentació pretén arribar a aquells aplicadors que no estiguin familiaritzats amb l’aplicació dels microciments i donar-los l’oportunitat de conèixer els diferents sistemes tant en format teòric com pràctic.",
+        "p3": "Aquests workshops es realitzen a la seu dels distribuïdors de cada zona, estan limitats a un màxim de vuit participants i tenen una durada aproximada de tres hores.",
+        "p4": "Els iniciem amb una petita presentació de la nostre marca i dels sistemes de microciments que oferim i, seguidament, els participants tenen l’oportunitat de practicar i aprendre l’aplicació sobre mostra real amb tres acabats diferents.",
+        "note": "NOTA: Aquests workshops es realitzen gratuïtament.",
+        "info": "Per més informació, enviar correu al: "
     },
     "cookies": {
         "p1": "Aquesta web utilitza cookies pròpies per oferir-li una millor experiència i servei. A l'navegar o utilitzar els nostres serveis accepta l'ús que fem de les cookies. No obstant això, té l'opció d'impedir la generació de cookies i l'eliminació de les mateixes mitjançant la selecció de la corresponent opció en el seu navegador. En cas de bloquejar l'ús de cookies al seu navegador és possible que alguns serveis o funcionalitats de la pàgina web no estiguin disponibles.",

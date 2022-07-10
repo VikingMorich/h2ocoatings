@@ -10,9 +10,11 @@ import Infinity from './components/Infinity'
 import Tradegraff from './components/Tradegraff'
 import Tradecote from './components/Tradecote'
 import Hydrograff from './components/Hydrograff'
+import Hydrosec from './components/Hydrosec'
 import Tradetherm from './components/Tradetherm'
 import Courses from './components/Courses'
 import Showrooms from './components/Showrooms'
+import Workshops from './components/Workshops'
 import Contact from './components/Contact'
 
 import Arrow from './components/Arrow'
@@ -38,8 +40,10 @@ return (
       <Route path="/tradegraff"  component={Tradegraff} />
       <Route path="/tradecote"  component={Tradecote} />
       <Route path="/hydrograff"  component={Hydrograff} />
+      <Route path="/hydrosec"  component={Hydrosec} />
       <Route path="/tradetherm"  component={Tradetherm} />
       <Route path="/courses"  component={Courses} />
+      <Route path="/workshops"  component={Workshops} />
       <Route path="/showrooms"  component={Showrooms} />
       <Route path="/contact"  component={Contact} />
       <Route render={() => <h1>404: page not found</h1>} />

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useTranslation } from "react-i18next";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
@@ -7,6 +7,11 @@ import videoIcon from "../icons/ondemand_video-white-18dp.svg"
 
 export default function Courses() {
     const [t] = useTranslation("global")
+
+    useEffect(() => {
+        document.title = 'H2O Coatings - ' + t("services")
+        window.scrollTo(0, 0)
+    }, [t]);
 
     return (
         <React.Fragment>

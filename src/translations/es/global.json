@@ -6,10 +6,12 @@
     "tradegraff": "Tradegraff",
     "tradecote": "Tradecote",
     "hydrograff": "Hydrograff",
+    "hydrosec": "Hydrosec",
     "tradetherm": "Tradetherm",
     "services": "Servicios",
     "courses": "Cursos",
-    "showrooms": "Exposiciones",
+    "workshops": "Workshops",
+    "showrooms": "Showrooms",
     "contact": "Contacto",
     "email": "info@h2ocoatings.com",
     "insta": "@h2ocoatings",
@@ -59,6 +61,10 @@
         "intermedia": "Intermedia",
         "acabado": "Acabado",
         "sellado": "Sellado",
+        "sellado1": "1r Sellado",
+        "sellado2": "2º Sellado",
+        "infinity_sealer": "Infinity Sealer",
+        "infinity_fine": "INFINITY SUPREME FINE listo al uso",
         "total": "TOTAL",
         "years": "años",
         "major": ">",
@@ -135,8 +141,8 @@
         "prod2": "Infinity",
         "prod4": "Infinity Premium",
         "prod5": "Infinity Supreme",
+        "prod7": "Infinity Supreme Fine",
         "prod6": "Infinity Fiber",
-        "prod7": "Infinity Pigment",
         "prod8": "Infinity Additive 2Comp",
         "prod9": "Infinity Additive Supreme",
         "prod10": "Infinity Sealer"
@@ -234,6 +240,20 @@
         "content6": "Aerosol de 400 ml. (consultar para otros envases y colores)",
         "prod1": "Tradetherm"
     },
+    "hydrosec-col": {
+        "title": "HYDROSEC HP",
+        "presentation": "HIDROFUGANTE A BASE DE POLIMEROS SILOXÁNICOS EN BASE AGUA",
+        "content1": "Protege contra la humedad, dejando transpirar el soporte.\nApenas afecta el aspecto del soporte. Excelente resistencia en el exterior.\nSe puede aplicar sobre cualquier soporte mineral que sea poroso.",
+        "header1": "Base agua, simple de aplicar y seguro",
+        "content2": "Sin olor, al uso y no inflamable",
+        "header2": "Aplicar una o dos capas, sin diluir.",
+        "content3": "Tiempo de secado 1 hora. Repintado (mojado sobre mojado)",
+        "header3": "Respetuoso con el medio ambiente",
+        "content4": "COV: 0 gr./l.",
+        "header4": "Disponible en transparente",
+        "content5": "Incoloro (acabado invisible, con una posible alteración del soporte)",
+        "prod1": "Hydrosec HP"
+    },
     "company-col": {
         "title": "QUIENES SOMOS",
         "subtitle": "Filosofia",
@@ -265,6 +285,14 @@
         "p2": "También disponemos de muestras para poder observar las diferentes texturas en directo.",
         "p3": "Nuestros formatos estándares para los showrooms son modulares y se pueden adaptar en función de las necesidades.",
         "info": "Para mas info: "
+    },
+    "workshops-col": {
+        "p1": "Organizamos presentaciones de nuestros microcementos y sus sistemas en un formato al cual llamamos workshop.",
+        "p2": "La intención de este formato de presentación es llegar a aquellos aplicadores que no estén familiarizados con la aplicación de microcementos y darles la oportunidad de conocer los diferentes sistemas tanto a nivel teórico como práctico.",
+        "p3": "Estos workshops se realizan en la sede del distribuidor de cada zona, están limitados a un máximo de ocho participantes y tienen una duración aproximada de tres horas.",
+        "p4": "Se inician con una pequeña presentación de nuestra marca y de los sistemas de microcementos que ofrecemos. Posteriormente, los participantes, tienen la oportunidad de practicar y aprender la aplicación de estos sobre muestra real con tres acabados distintos.",
+        "note": "NOTA: Estos workshops se realizan sin cargo.",
+        "info": "Para mas info, enviar correo al: "
     },
     "cookies": {
         "p1": "Esta web utiliza cookies propias para ofrecerle una mejor experiencia y servicio. Al navegar o utilizar nuestros servicios acepta el uso que hacemos de las cookies. Sin embargo, tiene la opción de impedir la generación de cookies y la eliminación de las mismas mediante la selección de la correspondiente opción en su Navegador. En caso de bloquear el uso de cookies en su navegador es posible que algunos servicios o funcionalidades de la página Web no estén disponibles.",

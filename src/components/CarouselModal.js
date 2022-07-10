@@ -204,6 +204,46 @@ export default function Modal(props) {
             thumbnail: '/imgs/materials/tradetherm/tradetherm_principal.jpg',
         },
       ];
+      const hydrosecImages = [
+        {
+            original: '/imgs/materials/hydrosec/hydrosec_1.jpg',
+            thumbnail: '/imgs/materials/hydrosec/hydrosec_1.jpg',
+        },
+        {
+            original: '/imgs/materials/hydrosec/hydrosec_2.jpg',
+            thumbnail: '/imgs/materials/hydrosec/hydrosec_2.jpg',
+        },
+        {
+            original: '/imgs/materials/hydrosec/hydrosec_principal.jpg',
+            thumbnail: '/imgs/materials/hydrosec/hydrosec_principal.jpg',
+        },
+      ];
+      const workshopsImages = [
+        {
+            original: '/imgs/workshops/workshop1.jpg',
+            thumbnail: '/imgs/workshops/workshop1.jpg',
+        },
+        {
+            original: '/imgs/workshops/workshop2.jpg',
+            thumbnail: '/imgs/workshops/workshop2.jpg',
+        },
+        {
+            original: '/imgs/workshops/workshop3.jpg',
+            thumbnail: '/imgs/workshops/workshop3.jpg',
+        },
+        {
+            original: '/imgs/workshops/workshop4.jpg',
+            thumbnail: '/imgs/workshops/workshop4.jpg',
+        },
+        {
+            original: '/imgs/workshops/workshop5.jpg',
+            thumbnail: '/imgs/workshops/workshop5.jpg',
+        },
+        {
+            original: '/imgs/workshops/workshop6.jpg',
+            thumbnail: '/imgs/workshops/workshop6.jpg',
+        },
+      ]
     
     return (
         <React.Fragment>
@@ -239,6 +279,16 @@ export default function Modal(props) {
                     {props.type === 'tradetherm-gallery' &&
                         <div className="c-cmodal--gallery">
                             <ImageGallery lazyLoad={true} items={tradethermImages} showFullscreenButton={false}/>
+                        </div>
+                    }
+                    {props.type === 'hydrosec-gallery' &&
+                        <div className="c-cmodal--gallery">
+                            <ImageGallery lazyLoad={true} items={hydrosecImages} showFullscreenButton={false}/>
+                        </div>
+                    }
+                    {props.type === 'workshops-gallery' &&
+                        <div className="c-cmodal--gallery">
+                            <ImageGallery lazyLoad={true} items={workshopsImages} showFullscreenButton={false}/>
                         </div>
                     }
                 </div>

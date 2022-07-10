@@ -26,8 +26,9 @@ export default function Showrooms() {
                 </div>
                 <div className="c-showrooms--right">
                     <img src="/imgs/exposicions/1 - INFINITYT.jpg" className="c-showrooms--img" alt="infinity panel"/>
-                    <img src="/imgs/exposicions/2 - INFINITYPREMIUM.jpg" className="c-showrooms--img" alt="infinity premium panel"/>
                     <img src="/imgs/exposicions/3 - INFINITYSUPREME.jpg" className="c-showrooms--img" alt="infinity supreme panel"/>
+                    <img src="/imgs/exposicions/4 - INFINITYSUPREMEFINE.jpg" className="c-showrooms--img" alt="infinity supreme panel"/>
+                    <img src="/imgs/exposicions/2 - INFINITYPREMIUM.jpg" className="c-showrooms--img" alt="infinity premium panel"/>
                 </div>
             </div>
         </div>

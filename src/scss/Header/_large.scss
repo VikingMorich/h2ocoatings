@@ -36,10 +36,12 @@
 .dropdown {
   position: relative;
   display: inline-block;
+  cursor: pointer;
 }
 .dropdown-materials {
   display: inline-block;
   text-align: center;
+  cursor: pointer;
 }
 
 .c-menu-op{
@@ -53,7 +55,7 @@
   height: 70px;
 }
 .c-menu-op:hover{
-  text-decoration: underline;
   background-color: c('medium-blue');
   color: c('white');
+  text-decoration: none;
 }

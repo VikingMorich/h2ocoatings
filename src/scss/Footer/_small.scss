@@ -45,8 +45,14 @@
                 display: flex;
                 flex-direction: column;
                 width: 100%;
+                align-items: center;
                 margin-bottom: 13px;
-                text-align: left;
+                text-align: center;
+                .traderfill-logo {
+                    width: 50px;
+                    background-color: white;
+                    margin-top: 8px
+                }
             }
             &__colSpecial{
                 margin-right: 0px;

@@ -33,6 +33,7 @@ export default function Footer() {
                             <span className="c-footer-top--option__top">{t("company")}</span>
                             <Link to="/company" className="c-footer-top--option">{t("footer.whoare")}</Link>
                             <Link to="/contact" className="c-footer-top--option">{t("contact")}</Link>
+                            <img className="traderfill-logo" alt="traderfill-coatings" src="/imgs/traderfill-coatings.png" />
                         </div>
                         <div className="c-footer-top--nav__col">
                             <span className="c-footer-top--option__top">{t("materials")}</span>
@@ -41,11 +42,13 @@ export default function Footer() {
                             <Link to="/rustop" className="c-footer-top--option">{t("rustop")}</Link>
                             <Link to="/hydrograff" className="c-footer-top--option">{t("hydrograff")}</Link>
                             <Link to="/tradecote" className="c-footer-top--option">{t("tradecote")}</Link>
+                            <Link to="/hydrosec" className="c-footer-top--option">{t("hydrosec")}</Link>
                             <Link to="/tradetherm" className="c-footer-top--option">{t("tradetherm")}</Link>
                         </div>
                         <div className="c-footer-top--nav__col">
                             <span className="c-footer-top--option__top">{t("services")}</span>
                             <Link to="/courses" className="c-footer-top--option">{t("courses")}</Link>
+                            <Link to="/workshops" className="c-footer-top--option">{t("workshops")}</Link>
                             <Link to="/showrooms" className="c-footer-top--option">{t("showrooms")}</Link>
                         </div>
                         <div className="c-footer-top--nav__col">

@@ -81,6 +81,7 @@ export default function Header() {
                     <a className="c-header-mobile--option" href="/rustop">{t("rustop")}</a>
                     <a className="c-header-mobile--option" href="/hydrograff">{t("hydrograff")}</a>
                     <a className="c-header-mobile--option" href="/tradecote">{t("tradecote")}</a>
+                    <a className="c-header-mobile--option" href="/hydrosec">{t("hydrosec")}</a>
                     <a className="c-header-mobile--option" href="/tradetherm">{t("tradetherm")}</a>
                 </React.Fragment>
                 }
@@ -88,6 +89,7 @@ export default function Header() {
                 <React.Fragment>
                     <h3 className="c-header-mobile--optionTitle">{t("services")}</h3>
                     <a className="c-header-mobile--option" href="/courses">{t("courses")}</a>
+                    <a className="c-header-mobile--option" href="/workshops">{t("workshops")}</a>
                     <a className="c-header-mobile--option" href="/showrooms">{t("showrooms")}</a>
                 </React.Fragment>
                 }
@@ -133,6 +135,10 @@ export default function Header() {
                                 <img className="c-dopmat--img" src="/imgs/materials/tradecote/tradecote_principal.jpg" alt="tradecote"/>
                                 <span>{t("tradecote")}</span>
                             </a>
+                            <a href="/hydrosec" className="c-dropmat--box">
+                                <img className="c-dopmat--img" src="/imgs/materials/hydrosec/hydrosec_principal.jpg" alt="hydrosec"/>
+                                <span>{t("hydrosec")}</span>
+                            </a>
                             <a href="/tradetherm" className="c-dropmat--box">
                                 <img className="c-dopmat--img" src="/imgs/materials/tradetherm/tradetherm_principal.jpg" alt="tradetherm"/>
                                 <span>{t("tradetherm")}</span>
@@ -143,6 +149,7 @@ export default function Header() {
                         <div className="dropbtn">{t("services").toUpperCase()}</div>
                         <div className="dropdown-content">
                             <a href="/courses">{t("courses")}</a>
+                            <a href="/workshops">{t("workshops")}</a>
                             <a href="/showrooms">{t("showrooms")}</a>
                         </div>
                     </div>

@@ -92,7 +92,7 @@ export default function Company() {
                     <p className="c-company--card--firm">{t("company-col.firm")}</p>
                 </div>
             </div>
-            <a href={`/pdfs/new_profile_2021_web.pdf`} target="_blank" rel="noreferrer" className="c-company--profile">
+            <a href={`/pdfs/PROFILE_H2O_2022.pdf`} target="_blank" rel="noreferrer" className="c-company--profile">
                 {t("company-col.portfolio")}
             </a>
         </div>
