@@ -248,7 +248,8 @@ export default function Modal(props) {
     return (
         <React.Fragment>
             {props.open &&
-            <div className="c-cmodal-background">
+            <div>
+                <div className="c-cmodal-background" onClick={props.toggleModal} />
                 <div className="c-cmodal">
                     <img className="c-cmodal--cross" alt="menu-icon" src={cross} onClick={props.toggleModal}/>
                     {props.type === 'infinity-gallery' && 
