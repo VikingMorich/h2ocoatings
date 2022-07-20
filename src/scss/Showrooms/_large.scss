@@ -1,6 +1,6 @@
 .c-showrooms{
     &--left{
-        width: 51%;
+        width: 43%;
         display: flex;
         flex-direction: column;
         img{
@@ -9,11 +9,15 @@
         }
     }
     &--right{
-        width: 40%;
+        width: 54%;
+        padding-bottom: 0px;
+        justify-content: center;
+        gap: 10px
     }
     &--img{
         width: 22%;
         margin-top: 0px;
+        margin-left: 0px;
     }
     &--content{
         margin-top: 20px;

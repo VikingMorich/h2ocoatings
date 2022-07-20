@@ -34,7 +34,7 @@
         "h2o": "H2O COATINGS",
         "contact": "C. Carles Buïgas, 53\nPol. Ind. Can Magre\nES 08187 Santa Eulàlia de Ronçana\nTel: + 34 93 135 21 10",
         "legal": "Legal",
-        "whoare": "Quiénes somos?"
+        "whoare": "¿Quiénes somos?"
     },
     "languages": {
         "cat": "CAT",
@@ -69,7 +69,7 @@
         "years": "años",
         "major": ">",
         "minor": "<",
-        "hydrograffHP": "Hydrograff HP",
+        "hydrograffHP": "Hydrograff HP brillante",
         "infinity-fix": "Infinity Fix",
         "infinity-fiber": "Infinity & Fiber",
         "infinityPremium": "Infinity Premium",
@@ -90,9 +90,9 @@
         "units-l-m2": "l/m²",
         "units-gr-l": "gr/l",
         "ciclo": "ciclo",
-        "tecnical-data": "DATOS TÉCNICOS",
-        "monocomponente": "MONOCOMPONENTE",
-        "2componentes": "2 COMPONENTES",
+        "tecnical-data": "Datos técnicos",
+        "monocomponente": "Monocomponente",
+        "2componentes": "2 componentes",
         "dureza": "Dureza Persoz",
         "rayado": "Rayado del lápiz",
         "abrasion": "Abrasión Taber test",
@@ -117,9 +117,9 @@
         "novalid": "NO APTO"
     },
     "infinity-col": {
-        "subtitle": "LUXURY COLLECTION",
+        "title": "Infinity systems",
         "presentation": "MICROCEMENTO para pavimentos y revestimientos continuos, sin juntas.",
-        "subpresentation": "“la expresión sencilla del pensamiento complejo”",
+        "subpresentation": "“la expresión sencilla del pensamiento complejo” - Donald Judd",
         "header1": "Base agua, simple de aplicar y seguro",
         "content1": "Sin olor, sencillo y no inflamable",
         "header2": "Adherencia, dureza y resistencia al impacto excepcionales",
@@ -148,8 +148,8 @@
         "prod10": "Infinity Sealer"
     },
     "rustop-col": {
-        "presentation": "ESMALTE ANTIOXIDANTE AL AGUA:  UN NUEVO STANDARD PARA LA ANTI-CORROSION",
-        "content1": "Protección excepcional del hierro para interior y exterior.\nISO 12944-6: C4 Alto – C5 Medio.",
+        "presentation": "ESMALTE ANTIOXIDANTE AL AGUA:  UN NUEVO STANDARD PARA LA ANTI-CORROSIÓN",
+        "content1": "Protección excepcional del hierro para interior y exterior.\nISO 12944-6: C4 – C5 Alto.",
         "header1": "Base agua, simple de aplicar y seguro",
         "content2": "Sin olor, sencillo y no inflamable",
         "header2": "Imprimación y acabado en un solo producto",
@@ -199,7 +199,7 @@
         "prod1": "Hydrograff HP 2Comp",
         "test1": "Hydrograff HP 2Comp ensayo",
         "test2": "Hydrograff HP 2Comp certificado sanitario",
-        "sistems": "Sistema recomendado:",
+        "sistems": "Sistema recomendado",
         "notes": "Nota:",
         "note1": "En función del sistema una sola capa puede ser suficiente"
     },
@@ -226,7 +226,7 @@
     },
     "tradetherm-col": {
         "title": "TRADETHERM",
-        "presentation": "ESMALTE ANTICALORICO DE MAXIMA CALIDAD",
+        "presentation": "ESMALTE ANTICALÓRICO DE MÁXIMA CALIDAD",
         "content1": "Máximas prestaciones para resistir altas temperaturas (estufas, chimeneas, barbacoas, radiadores…).\nResistente hasta los 900 ºC en negro y gris antracita, 650 ºC en blanco y 400 ºC en barniz.\nPara interior y exterior.",
         "header1": "Imprimación y acabado en un solo producto",
         "content2": "SCS (sistema de recubrimiento único)",
@@ -255,8 +255,8 @@
         "prod1": "Hydrosec HP"
     },
     "company-col": {
-        "title": "QUIENES SOMOS",
-        "subtitle": "Filosofia",
+        "title": "QUIÉNES SOMOS",
+        "subtitle": "Filosofía",
         "p1": "Experiencia, técnica, calidad y dedicación es nuestra forma de entender un oficio al que nos dedicamos desde 1921 (familia Condins).",
         "p2": "Traderfill Coatings nació en 1997 como consecuencia de nuestras inquietudes en buscar soluciones avanzadas para nuestro mercado.",
         "p3": "Es por ello que la evolución constante en incorporar nuevas soluciones, tanto decorativas como técnicas, es nuestra prioridad para poder ofrecer las máximas facilidades a los profesionales que confían en nosotros para realizar sus proyectos.",
@@ -277,14 +277,14 @@
         "op4": "Experimentar",
         "p3": "Realizamos una presentación teórica donde ayudamos a informar y a entender los datos técnicos, los procesos, las técnicas de venta, así como aportaciones basadas en nuestra experiencia en el mercado.",
         "p4": "También consisten fundamentalmente en la aplicación práctica de nuestros sistemas y en conocer las diferentes aplicaciones de los mismos.",
-        "info": "Para mas info, enviar correo al: ",
+        "info": "Para más información, enviar correo al: ",
         "video": "Haz click para verlo en video"
     },
     "showrooms-col": {
         "p1": "Disponemos de expositores para poder apreciar con todo detalle nuestros acabados en gran formato.",
         "p2": "También disponemos de muestras para poder observar las diferentes texturas en directo.",
         "p3": "Nuestros formatos estándares para los showrooms son modulares y se pueden adaptar en función de las necesidades.",
-        "info": "Para mas info: "
+        "info": "Para más información, enviar correo al: "
     },
     "workshops-col": {
         "p1": "Organizamos presentaciones de nuestros microcementos y sus sistemas en un formato al cual llamamos workshop.",
@@ -292,7 +292,7 @@
         "p3": "Estos workshops se realizan en la sede del distribuidor de cada zona, están limitados a un máximo de ocho participantes y tienen una duración aproximada de tres horas.",
         "p4": "Se inician con una pequeña presentación de nuestra marca y de los sistemas de microcementos que ofrecemos. Posteriormente, los participantes, tienen la oportunidad de practicar y aprender la aplicación de estos sobre muestra real con tres acabados distintos.",
         "note": "NOTA: Estos workshops se realizan sin cargo.",
-        "info": "Para mas info, enviar correo al: "
+        "info": "Para más información, enviar correo al: "
     },
     "cookies": {
         "p1": "Esta web utiliza cookies propias para ofrecerle una mejor experiencia y servicio. Al navegar o utilizar nuestros servicios acepta el uso que hacemos de las cookies. Sin embargo, tiene la opción de impedir la generación de cookies y la eliminación de las mismas mediante la selección de la correspondiente opción en su Navegador. En caso de bloquear el uso de cookies en su navegador es posible que algunos servicios o funcionalidades de la página Web no estén disponibles.",

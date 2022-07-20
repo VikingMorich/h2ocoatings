@@ -16,7 +16,7 @@ export default function Home() {
                 setTimeout(() => { 
                     setHideLogo(false) 
                 }, 700);
-            }, 4000);
+            }, 3000);
         }, 1000);
         
     }, []);

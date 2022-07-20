@@ -46,7 +46,7 @@
         "rustop-c4": "Entorn marítim o industrial sever - C4",
         "rustop-c3": "Entorn moderat - C3",
         "rustop-comb": "Sistema combinat Rustop + Hydrograff HP 2 comp.",
-        "infinity-basic": "INFINITY BÀSIC",
+        "infinity-basic": "INFINITY BASIC",
         "infinity-premium": "INFINITY PREMIUM en pols",
         "infinity-supreme": "INFINITY SUPREME llest a l'ús",
         "infinity-add": "Infinity & Additive 2 comp.**",
@@ -69,7 +69,7 @@
         "years": "anys",
         "major": ">",
         "minor": "<",
-        "hydrograffHP": "Hydrograff HP",
+        "hydrograffHP": "Hydrograff HP brillant",
         "infinity-fix": "Infinity Fix",
         "infinity-fiber": "Infinity & Fiber",
         "infinityPremium": "Infinity Premium",
@@ -90,9 +90,9 @@
         "units-l-m2": "l/m²",
         "units-gr-l": "gr/l",
         "ciclo": "cicle",
-        "tecnical-data": "DADES TÈCNIQUES",
-        "monocomponente": "MONOCOMPONENT",
-        "2componentes": "2 COMPONENTS",
+        "tecnical-data": "Dades tècniques",
+        "monocomponente": "Monocomponent",
+        "2componentes": "2 components",
         "dureza": "Duresa Persoz",
         "rayado": "Ratllat del llapis",
         "abrasion": "Abrasió Taber test",
@@ -117,9 +117,9 @@
         "novalid": "NO APTE"
     },
     "infinity-col": {
-        "subtitle": "LUXURY COLLECTION",
+        "title": "Infinity systems",
         "presentation": "MICROCIMENT per a paviments i revestiments continus, sense juntes.",
-        "subpresentation": "“l’expressió senzilla del pensament complex”",
+        "subpresentation": "“l’expressió senzilla del pensament complex” - Donald Judd",
         "header1": "Base aigua, simple d’aplicar i segur",
         "content1": "Sense olor, senzill i no inflamable",
         "header2": "Adherència, duresa i resistència a l’impacte excepcionals",
@@ -149,7 +149,7 @@
     },
     "rustop-col": {
         "presentation": "ESMALT ANTIOXIDANT A l’AIGUA: UN NOU STANDARD PER A L’ANTI-CORROSSIÓ",
-        "content1": "Protecció excepcional del ferro per a interior i exterior.\nISO 12944-6: C4 Alt – C5 Mig.",
+        "content1": "Protecció excepcional del ferro per a interior i exterior.\nISO 12944-6: C4 – C5 Alt.",
         "header1": "Base aigua, simple d’aplicar i segur",
         "content2": "Sense olor, senzill i no inflamable",
         "header2": "Imprimació i acabat en un únic producte",
@@ -199,7 +199,7 @@
         "prod1": "Hydrograff HP 2Comp",
         "test1": "Hydrograff HP 2Comp assaig",
         "test2": "Hydrograff HP 2Comp certificat sanitari",
-        "sistems": "Sistema recomenat:",
+        "sistems": "Sistema recomenat",
         "notes": "Nota:",
         "note1": "En funció del sistema una sola capa pot ser suficient"
     },
@@ -264,7 +264,7 @@
         "p4": "La nostra prioritat com a empresa és avançar cap a un futur millor, és a dir, un futur més sostenible i ecològic, sense deixar de banda l'aportació constant de noves solucions avantguardistes. Tanmateix, desenvolupar la creativitat dels professionals fan de la nostra vocació el nostre ofici.",
         "p5": "En base aquesta idea hem creat aquesta web, per tal d'intentar reflectir la nostra identitat i la nostra filosofia, la qualitat constant.",
         "p6": "Esperem que gaudeixin navegant i trobin solucions originals, ecològiques i respectuoses amb el medi ambient pels vostres projectes.",
-        "p7": "Ben cordialment",
+        "p7": "Ben cordialment,",
         "firm": "Joan Condins JR",
         "portfolio": "Descarregar Profile"
     },
@@ -284,7 +284,7 @@
         "p1": "Disposem de diferents exposicions per poder apreciar en major detall els nostres acabats en gran format.",
         "p2": "També disposem de mostres per enviar i, així, poder observar les diferents textures en directe.",
         "p3": "Els nostres formats estàndards pels show rooms són modulars i es poden adaptar en funció de les necessitats.",
-        "info": "Per més informació: "
+        "info": "Per més informació, enviar correu al: "
     },
     "workshops-col": {
         "p1": "Organitzem presentacions dels nostres microciments i dels seus sistemes mitjançant un format que anomenem workshop.",

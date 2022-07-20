@@ -74,7 +74,7 @@ export default function Hydrosec() {
                                 {t("products")}
                             </span>
                             <div className="c-materials--block">
-                                <a href={`/pdfs/${i18n.language}/FT/FT_hydrosec_${i18n.language}.pdf`} target="_blank" rel="noreferrer" className="c-materials--block--prod">
+                                <a href={`/pdfs/${i18n.language}/FT/FT_hydrosec_HP_${i18n.language}.pdf`} target="_blank" rel="noreferrer" className="c-materials--block--prod">
                                     {t("hydrosec-col.prod1")}
                                 </a>
                             </div>

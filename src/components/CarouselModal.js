@@ -156,8 +156,8 @@ export default function Modal(props) {
             thumbnail: '/imgs/materials/hydrograff/hydrograff2.jpg',
         },
         {
-            original: '/imgs/materials/hydrograff/hydrograff3.JPG',
-            thumbnail: '/imgs/materials/hydrograff/hydrograff3.JPG',
+            original: '/imgs/materials/hydrograff/hydrograff3.jpg',
+            thumbnail: '/imgs/materials/hydrograff/hydrograff3.jpg',
         },
         {
             original: '/imgs/materials/hydrograff/hydrograff_principal.jpg',
