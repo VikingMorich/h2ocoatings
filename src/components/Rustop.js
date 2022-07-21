@@ -182,55 +182,6 @@ export default function Rustop() {
                             <td>{t("tables.major")} 15 {t("tables.years")} </td>
                         </tr>
                     </table>
-
-                    <table className="c-table">
-                        <tr>
-                            <th colSpan="2">{t("tables.rustop-c5")}</th>
-                            <th>{t("tables.micrasHumedas")}</th>
-                            <th>{t("tables.micrasSecas")}</th>
-                            <th>{t("tables.consumo")}</th>
-                            <th>{t("tables.life")}</th>
-                        </tr>
-                        <tr>
-                            <td>{t("tables.primer")}</td>
-                            <td>{t("rustop")}</td>
-                            <td>150</td>
-                            <td>65</td>
-                            <td>0,15 l.</td>
-                            <td>{t("tables.major")} 15 {t("tables.years")} </td>
-                        </tr>
-                        <tr>
-                            <td>{t("tables.fondo")}</td>
-                            <td>{t("rustop")}</td>
-                            <td>150</td>
-                            <td>65</td>
-                            <td>0,15 l.</td>
-                            <td>{t("tables.major")} 15 {t("tables.years")} </td>
-                        </tr>
-                        <tr>
-                            <td>{t("tables.intermedia")}</td>
-                            <td>{t("rustop")}</td>
-                            <td>150</td>
-                            <td>65</td>
-                            <td>0,15 l.</td>
-                            <td>{t("tables.major")} 15 {t("tables.years")} </td>
-                        </tr>
-                        <tr>
-                            <td>{t("tables.acabado")}</td>
-                            <td>{t("rustop")}</td>
-                            <td>150</td>
-                            <td>65</td>
-                            <td>0,15 l.</td>
-                            <td>{t("tables.major")} 15 {t("tables.years")} </td>
-                        </tr>
-                        <tr>
-                            <td colSpan="2">{t("tables.total")}</td>
-                            <td>600</td>
-                            <td>260</td>
-                            <td>0,60 l.</td>
-                            <td>{t("tables.major")} 15 {t("tables.years")} </td>
-                        </tr>
-                    </table>
                     
                     <table className="c-table">
                         <tr>
