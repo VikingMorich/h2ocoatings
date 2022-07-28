@@ -61,7 +61,7 @@
         "intermedia": "Intermedia",
         "acabado": "Acabado",
         "sellado": "Sellado",
-        "sellado1": "1r Sellado",
+        "sellado1": "1<sup>er</sup> Sellado",
         "sellado2": "2º Sellado",
         "infinity_sealer": "Infinity Sealer",
         "infinity_fine": "INFINITY SUPREME FINE listo al uso",
@@ -149,7 +149,7 @@
     },
     "rustop-col": {
         "presentation": "ESMALTE ANTIOXIDANTE AL AGUA:  UN NUEVO STANDARD PARA LA ANTI-CORROSIÓN",
-        "content1": "Protección excepcional del hierro para interior y exterior.\nISO 12944-6: C4 – C5 Alto.",
+        "content1": "Protección excepcional del hierro para interior y exterior.\nISO 12944-6: C4 Alto – C5 Alto.",
         "header1": "Base agua, simple de aplicar y seguro",
         "content2": "Sin olor, sencillo y no inflamable",
         "header2": "Imprimación y acabado en un solo producto",
@@ -320,7 +320,7 @@
         "location": "País",
         "message": "Mensaje",
         "submit": "Enviar",
-        "accept": "Accepto los términos de ",
+        "accept": "Acepto los términos de ",
         "privacy": "privacidad",
         "code200": "Vuestro email se ha enviado correctamente. Gracias",
         "error": "Es necesario llenar correctamente todos los campos para contactar con nosotros"

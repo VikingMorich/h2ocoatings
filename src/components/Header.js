@@ -106,7 +106,7 @@ export default function Header() {
         <div className={`c-header ${hideHeader && 'opacity-off'} ${fadeInHeader && 'fadeIn'}`}>
             <div className="c-header-nav">
                 <a href="/" className="c-header--logo">
-                    <img src="/logo_h2o-white-border.png" alt="H2O Coatings" />
+                    <img src="/logo_h2o-white-border.svg" alt="H2O Coatings" />
                 </a>
                 <div className="c-header-nav__options">
                     <a href={"/company"} className="c-menu-op">

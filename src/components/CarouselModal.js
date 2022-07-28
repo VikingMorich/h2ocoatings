@@ -228,10 +228,6 @@ export default function Modal(props) {
             thumbnail: '/imgs/workshops/workshop2.jpg',
         },
         {
-            original: '/imgs/workshops/workshop3.jpg',
-            thumbnail: '/imgs/workshops/workshop3.jpg',
-        },
-        {
             original: '/imgs/workshops/workshop4.jpg',
             thumbnail: '/imgs/workshops/workshop4.jpg',
         },

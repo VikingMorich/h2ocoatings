@@ -112,7 +112,7 @@ export default function InfinityComp() {
                                 <a href={`/pdfs/${i18n.language}/FT/FT_infinity_sealer_${i18n.language}.pdf`} target="_blank" rel="noreferrer" className="c-materials--block--prod">
                                     {t("infinity-col.prod10")}
                                 </a>
-                                <a href={`/pdfs/Guia/GUIA_INFINITY_2021.pdf`} target="_blank" rel="noreferrer">
+                                <a href={`/pdfs/Guia/GUIA_INFINITY_2022.pdf`} target="_blank" rel="noreferrer">
                                     <div className="c-materials--guide">
                                         <span>{t("guide")}</span>
                                     </div>
@@ -161,7 +161,7 @@ export default function InfinityComp() {
                                 <td>1 {t("tables.units-kg-m2")}</td>
                             </tr>
                             <tr>
-                                <td>{t("tables.sellado1")}</td>
+                                <td dangerouslySetInnerHTML={{__html: t("tables.sellado1")}} />
                                 <td>{t("tables.infinity_sealer")}</td>
                                 <td>{t("tables.tool-rodillo")}</td>
                                 <td>0,06 {t("tables.units-l-m2")}</td>
@@ -207,7 +207,7 @@ export default function InfinityComp() {
                                 <td>0,4 {t("tables.units-kg-m2")}</td>
                             </tr>
                             <tr>
-                                <td>{t("tables.sellado1")}</td>
+                                <td dangerouslySetInnerHTML={{__html: t("tables.sellado1")}} />
                                 <td>{t("tables.infinity_sealer")}</td>
                                 <td>{t("tables.tool-rodillo")}</td>
                                 <td>0,06 {t("tables.units-l-m2")}</td>
@@ -253,7 +253,7 @@ export default function InfinityComp() {
                                 <td>0,4 {t("tables.units-kg-m2")}</td>
                             </tr>
                             <tr>
-                                <td>{t("tables.sellado1")}</td>
+                                <td dangerouslySetInnerHTML={{__html: t("tables.sellado1")}} />
                                 <td>{t("tables.infinity_sealer")}</td>
                                 <td>{t("tables.tool-rodillo")}</td>
                                 <td>0,06 {t("tables.units-l-m2")}</td>
@@ -299,7 +299,7 @@ export default function InfinityComp() {
                                 <td>0,5 {t("tables.units-kg-m2")}</td>
                             </tr>
                             <tr>
-                                <td>{t("tables.sellado1")}</td>
+                                <td dangerouslySetInnerHTML={{__html: t("tables.sellado1")}} />
                                 <td>{t("tables.infinity_sealer")}</td>
                                 <td>{t("tables.tool-rodillo")}</td>
                                 <td>0,06 {t("tables.units-l-m2")}</td>
