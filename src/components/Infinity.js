@@ -112,6 +112,9 @@ export default function InfinityComp() {
                                 <a href={`/pdfs/${i18n.language}/FT/FT_infinity_sealer_${i18n.language}.pdf`} target="_blank" rel="noreferrer" className="c-materials--block--prod">
                                     {t("infinity-col.prod10")}
                                 </a>
+                                <a href={`/pdfs/${i18n.language}/FT/FT_infinity_finish_2_comp_${i18n.language}.pdf`} target="_blank" rel="noreferrer" className="c-materials--block--prod">
+                                    {t("infinity-col.prod11")}
+                                </a>
                                 <a href={`/pdfs/Guia/GUIA_INFINITY_2022.pdf`} target="_blank" rel="noreferrer">
                                     <div className="c-materials--guide">
                                         <span>{t("guide")}</span>
