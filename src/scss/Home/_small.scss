@@ -43,7 +43,7 @@
             padding: 20px;
             text-shadow: 0 0 0.2em #000
         }
-        span {
+        h2 {
             font-size: 20px;
             font-family: 'Avenir LT Std 65 Medium';
             text-shadow: 0 0 0.2em #000
@@ -75,6 +75,17 @@
 
 .notDisplay {
     display: none;
+}
+
+.c-page-404 {
+    height: calc(100vh - 279px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1 {
+        margin-block-start: 0;
+        margin-block-end: 0;
+    }
 }
 
 @-webkit-keyframes fadeOut {

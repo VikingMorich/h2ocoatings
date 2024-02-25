@@ -16,6 +16,7 @@ import Courses from './components/Courses'
 import Showrooms from './components/Showrooms'
 import Workshops from './components/Workshops'
 import Contact from './components/Contact'
+import Page404 from './components/Page404'
 
 import Arrow from './components/Arrow'
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -34,19 +35,19 @@ return (
     <Header /> 
     <Switch>
       <Route path="/" exact component={Home} />
-      <Route path="/company"  component={Company} />
-      <Route path="/infinity"  component={Infinity} />
-      <Route path="/rustop"  component={Rustop} />
-      <Route path="/tradegraff"  component={Tradegraff} />
-      <Route path="/tradecote"  component={Tradecote} />
-      <Route path="/hydrograff"  component={Hydrograff} />
-      <Route path="/hydrosec"  component={Hydrosec} />
-      <Route path="/tradetherm"  component={Tradetherm} />
-      <Route path="/courses"  component={Courses} />
-      <Route path="/workshops"  component={Workshops} />
-      <Route path="/showrooms"  component={Showrooms} />
-      <Route path="/contact"  component={Contact} />
-      <Route render={() => <h1>404: page not found</h1>} />
+      <Route path="/company" exact component={Company} />
+      <Route path="/infinity" exact component={Infinity} />
+      <Route path="/rustop" exact component={Rustop} />
+      <Route path="/tradegraff" exact component={Tradegraff} />
+      <Route path="/tradecote" exact component={Tradecote} />
+      <Route path="/hydrograff" exact component={Hydrograff} />
+      <Route path="/hydrosec" exact component={Hydrosec} />
+      <Route path="/tradetherm" exact component={Tradetherm} />
+      <Route path="/courses" exact component={Courses} />
+      <Route path="/workshops" exact component={Workshops} />
+      <Route path="/showrooms" exact component={Showrooms} />
+      <Route path="/contact" exact component={Contact} />
+      <Route component={Page404} />
     </Switch>
     <Footer />
     {showOnScroll &&

@@ -31,7 +31,7 @@ export default function Home() {
             <img src="/logo_h2o-white-border.png" alt="H2O Coatings" className={`fadeIn ${!showLogo && 'fadeOut'} ${!hideLogo && 'notDisplay'}`}/>
             <div className={`c-home--presentation ${showLogo ? '' : 'fadeIn'}`}>
                 <h1>{t("home.presentation")}</h1>
-                <span>{t("home.val1")} · {t("home.val2")} · {t("home.val3")}</span>
+                <h2>{t("home.val1")} · {t("home.val2")} · {t("home.val3")}</h2>
             </div>
         </div>
     );
