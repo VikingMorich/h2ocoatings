@@ -77,6 +77,7 @@ export default function Header() {
                 <React.Fragment>
                     <h3 className="c-header-mobile--optionTitle">{t("materials")}</h3>
                     <a className="c-header-mobile--option" href="/infinity">{t("infinity")}</a>
+                    <a className="c-header-mobile--option" href="/materik">{t("materik")}</a>
                     <a className="c-header-mobile--option" href="/tradegraff">{t("tradegraff")}</a>
                     <a className="c-header-mobile--option" href="/rustop">{t("rustop")}</a>
                     <a className="c-header-mobile--option" href="/hydrograff">{t("hydrograff")}</a>
@@ -118,6 +119,10 @@ export default function Header() {
                             <a className="c-dropmat--box" href="/infinity">
                                 <img className="c-dopmat--img" src="/imgs/materials/infinity/infinity_principal.jpg" alt="infinity"/>
                                 <span>{t("infinity")}</span>
+                            </a>
+                            <a className="c-dropmat--box" href="/materik">
+                                <img className="c-dopmat--img" src="/imgs/materials/materik/materik_principal.jpg" alt="materik"/>
+                                <span>{t("materik")}</span>
                             </a>
                             <a href="/tradegraff" className="c-dropmat--box">
                                 <img className="c-dopmat--img" src="/imgs/materials/tradegraff/tradegraff_principal.jpg" alt="tradegraff"/>

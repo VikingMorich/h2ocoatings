@@ -11,6 +11,7 @@ import Tradegraff from './components/Tradegraff'
 import Tradecote from './components/Tradecote'
 import Hydrograff from './components/Hydrograff'
 import Hydrosec from './components/Hydrosec'
+import Materik from './components/Materik'
 import Tradetherm from './components/Tradetherm'
 import Courses from './components/Courses'
 import Showrooms from './components/Showrooms'
@@ -42,6 +43,7 @@ return (
       <Route path="/tradecote" exact component={Tradecote} />
       <Route path="/hydrograff" exact component={Hydrograff} />
       <Route path="/hydrosec" exact component={Hydrosec} />
+      <Route path="/materik" exact component={Materik} />
       <Route path="/tradetherm" exact component={Tradetherm} />
       <Route path="/courses" exact component={Courses} />
       <Route path="/workshops" exact component={Workshops} />

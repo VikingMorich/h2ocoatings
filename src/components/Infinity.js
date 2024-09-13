@@ -69,6 +69,7 @@ export default function InfinityComp() {
                         <span className="c-materials--exp">{t("infinity-col.content2")}</span>
                         <span className="c-materials--exp">{t("infinity-col.content3")}</span>
                         <span className="c-materials--exp">{t("infinity-col.content4")}</span>
+                        <span className="c-materials--exp">{t("infinity-col.content5")}</span>
 
                         <div className="c-materials--header--icons">
                             <img src={`/Interior-emisions-${i18n.language}.jpg`} className="c-seal" alt="emision-icon"/>
@@ -96,9 +97,6 @@ export default function InfinityComp() {
                                 <a href={`/pdfs/${i18n.language}/FT/FT_infinity_supreme_fine_${i18n.language}.pdf`} target="_blank" rel="noreferrer" className="c-materials--block--prod">
                                     {t("infinity-col.prod7")}
                                 </a>
-                                <a href={`/pdfs/${i18n.language}/FT/FT_infinity_premium_${i18n.language}.pdf`} target="_blank" rel="noreferrer" className="c-materials--block--prod">
-                                    {t("infinity-col.prod4")}
-                                </a>
                                 <span className="c-materials--block--op">{t("infinity-col.op3")}</span>
                                 <a href={`/pdfs/${i18n.language}/FT/FT_infinity_fiber_${i18n.language}.pdf`} target="_blank" rel="noreferrer" className="c-materials--block--prod">
                                     {t("infinity-col.prod6")}
@@ -115,7 +113,7 @@ export default function InfinityComp() {
                                 <a href={`/pdfs/${i18n.language}/FT/FT_infinity_finish_2_comp_${i18n.language}.pdf`} target="_blank" rel="noreferrer" className="c-materials--block--prod">
                                     {t("infinity-col.prod11")}
                                 </a>
-                                <a href={`/pdfs/Guia/GUIA_INFINITY_2022.pdf`} target="_blank" rel="noreferrer">
+                                <a href={`/pdfs/Guia/GUIA_INFINITY_2024.pdf`} target="_blank" rel="noreferrer">
                                     <div className="c-materials--guide">
                                         <span>{t("guide")}</span>
                                     </div>
@@ -147,33 +145,33 @@ export default function InfinityComp() {
                             </tr>
                             <tr>
                                 <td>{t("tables.primer")}</td>
-                                <td>{t("tables.infinity-fix")}</td>
+                                <td className='extrawidth-col'>{t("tables.infinity-fix")}</td>
                                 <td>{t("tables.tool-brocha")}</td>
                                 <td>0,2 {t("tables.units-kg-m2")}</td>
                             </tr>
                             <tr>
                                 <td>{t("tables.fondo")}</td>
-                                <td>{t("tables.infinity-fiber")}</td>
+                                <td className='extrawidth-col'>{t("tables.infinity-fiber")}</td>
                                 <td>{t("tables.tool-llana")}</td>
                                 <td>1,6 {t("tables.units-kg-m2")}</td>
                             </tr>
                             <tr>
                                 <td>{t("tables.acabado")}</td>
-                                <td>{t("tables.infinity-add")}</td>
+                                <td className='extrawidth-col'>{t("tables.infinity-add")}</td>
                                 <td>{t("tables.tool-llana")}</td>
                                 <td>1 {t("tables.units-kg-m2")}</td>
                             </tr>
                             <tr>
                                 <td dangerouslySetInnerHTML={{__html: t("tables.sellado1")}} />
-                                <td>{t("tables.infinity_sealer")}</td>
+                                <td className='extrawidth-col'>{t("tables.infinity_sealer")}</td>
                                 <td>{t("tables.tool-rodillo")}</td>
                                 <td>0,06 {t("tables.units-l-m2")}</td>
                             </tr>
                             <tr>
                                 <td>{t("tables.sellado2")}</td>
-                                <td>{t("tradegraff")}</td>
+                                <td className='extrawidth-col'>{t("infinity-col.prod11")}</td>
                                 <td>{t("tables.tool-rodillo")}</td>
-                                <td>0,18 {t("tables.units-l-m2")} ({t("tables.ciclo")})</td>
+                                <td>0,15 {t("tables.units-l-m2")} ({t("tables.ciclo")})</td>
                             </tr>
                         </tbody>
                     </table>
@@ -187,39 +185,39 @@ export default function InfinityComp() {
                             </tr>
                             <tr>
                                 <td>{t("tables.primer")}</td>
-                                <td>{t("tables.infinity-fix")}</td>
+                                <td className='extrawidth-col'>{t("tables.infinity-fix")}</td>
                                 <td>{t("tables.tool-brocha")}</td>
                                 <td>0,2 {t("tables.units-kg-m2")}</td>
                             </tr>
                             <tr>
                                 <td>{t("tables.fondo")}</td>
-                                <td>{t("tables.infinity-fiber")}*</td>
+                                <td className='extrawidth-col'>{t("tables.infinity-fiber")}*</td>
                                 <td>{t("tables.tool-llana")}</td>
                                 <td>1,6 {t("tables.units-kg-m2")}</td>
                             </tr>
                             <tr>
                                 <td>{t("tables.intermedia")}</td>
-                                <td>{t("tables.infinitySupreme-comp")}**</td>
+                                <td className='extrawidth-col'>{t("tables.infinitySupreme-comp")}**</td>
                                 <td>{t("tables.tool-llana")}</td>
                                 <td>0,6 {t("tables.units-kg-m2")}</td>
                             </tr>
                             <tr>
                                 <td>{t("tables.acabado")}</td>
-                                <td>{t("tables.infinitySupreme-comp")}**</td>
+                                <td className='extrawidth-col'>{t("tables.infinitySupreme-comp")}**</td>
                                 <td>{t("tables.tool-llana")}</td>
                                 <td>0,4 {t("tables.units-kg-m2")}</td>
                             </tr>
                             <tr>
                                 <td dangerouslySetInnerHTML={{__html: t("tables.sellado1")}} />
-                                <td>{t("tables.infinity_sealer")}</td>
+                                <td className='extrawidth-col'>{t("tables.infinity_sealer")}</td>
                                 <td>{t("tables.tool-rodillo")}</td>
                                 <td>0,06 {t("tables.units-l-m2")}</td>
                             </tr>
                             <tr>
                                 <td>{t("tables.sellado2")}</td>
-                                <td>{t("tradegraff")}</td>
+                                <td className='extrawidth-col'>{t("infinity-col.prod11")}</td>
                                 <td>{t("tables.tool-rodillo")}</td>
-                                <td>0,16 {t("tables.units-l-m2")} ({t("tables.ciclo")})</td>
+                                <td>0,14 {t("tables.units-l-m2")} ({t("tables.ciclo")})</td>
                             </tr>
                         </tbody>
                     </table>
@@ -233,85 +231,39 @@ export default function InfinityComp() {
                             </tr>
                             <tr>
                                 <td>{t("tables.primer")}</td>
-                                <td>{t("tables.infinity-fix")}</td>
+                                <td className='extrawidth-col'>{t("tables.infinity-fix")}</td>
                                 <td>{t("tables.tool-brocha")}</td>
                                 <td>0,2 {t("tables.units-kg-m2")}</td>
                             </tr>
                             <tr>
                                 <td>{t("tables.fondo")}</td>
-                                <td>{t("tables.infinity-fiber")}*</td>
+                                <td className='extrawidth-col'>{t("tables.infinity-fiber")}*</td>
                                 <td>{t("tables.tool-llana")}</td>
                                 <td>1,6 {t("tables.units-kg-m2")}</td>
                             </tr>
                             <tr>
                                 <td>{t("tables.intermedia")}</td>
-                                <td>{t("tables.infinitySupreme-comp")}**</td>
+                                <td className='extrawidth-col'>{t("tables.infinitySupreme-comp")}**</td>
                                 <td>{t("tables.tool-llana")}</td>
                                 <td>0,6 {t("tables.units-kg-m2")}</td>
                             </tr>
                             <tr>
                                 <td>{t("tables.acabado")}</td>
-                                <td>{t("tables.infinitySupreme-comp")}**</td>
+                                <td className='extrawidth-col'>{t("tables.infinitySupremeFine-comp")}**</td>
                                 <td>{t("tables.tool-llana")}</td>
                                 <td>0,4 {t("tables.units-kg-m2")}</td>
                             </tr>
                             <tr>
                                 <td dangerouslySetInnerHTML={{__html: t("tables.sellado1")}} />
-                                <td>{t("tables.infinity_sealer")}</td>
+                                <td className='extrawidth-col'>{t("tables.infinity_sealer")}</td>
                                 <td>{t("tables.tool-rodillo")}</td>
                                 <td>0,06 {t("tables.units-l-m2")}</td>
                             </tr>
                             <tr>
                                 <td>{t("tables.sellado2")}</td>
-                                <td>{t("tradegraff")}</td>
+                                <td className='extrawidth-col'>{t("infinity-col.prod11")}</td>
                                 <td>{t("tables.tool-rodillo")}</td>
-                                <td>0,16 {t("tables.units-l-m2")} ({t("tables.ciclo")})</td>
-                            </tr>
-                        </tbody>
-                    </table>
-
-                    <table className="c-table">
-                        <tbody>
-                            <tr>
-                                <th colSpan="2">{t("tables.infinity-premium")}</th>
-                                <th>{t("tables.tool")}</th>
-                                <th>{t("tables.consumo")}</th>
-                            </tr>
-                            <tr>
-                                <td>{t("tables.primer")}</td>
-                                <td>{t("tables.infinity-fix")}</td>
-                                <td>{t("tables.tool-brocha")}</td>
-                                <td>0,2 {t("tables.units-kg-m2")}</td>
-                            </tr>
-                            <tr>
-                                <td>{t("tables.fondo")}</td>
-                                <td>{t("tables.infinity-fiber")}*</td>
-                                <td>{t("tables.tool-llana")}</td>
-                                <td>1,6 {t("tables.units-kg-m2")}</td>
-                            </tr>
-                            <tr>
-                                <td>{t("tables.intermedia")}</td>
-                                <td>{t("tables.infinityPremium")}</td>
-                                <td>{t("tables.tool-llana")}</td>
-                                <td>0,7 {t("tables.units-kg-m2")}</td>
-                            </tr>
-                            <tr>
-                                <td>{t("tables.acabado")}</td>
-                                <td>{t("tables.infinity-comp")}**</td>
-                                <td>{t("tables.tool-llana")}</td>
-                                <td>0,5 {t("tables.units-kg-m2")}</td>
-                            </tr>
-                            <tr>
-                                <td dangerouslySetInnerHTML={{__html: t("tables.sellado1")}} />
-                                <td>{t("tables.infinity_sealer")}</td>
-                                <td>{t("tables.tool-rodillo")}</td>
-                                <td>0,06 {t("tables.units-l-m2")}</td>
-                            </tr>
-                            <tr>
-                                <td>{t("tables.sellado2")}</td>
-                                <td>{t("tradegraff")}</td>
-                                <td>{t("tables.tool-rodillo")}</td>
-                                <td>0,16 {t("tables.units-l-m2")} ({t("tables.ciclo")})</td>
+                                <td>0,14 {t("tables.units-l-m2")} ({t("tables.ciclo")})</td>
                             </tr>
                         </tbody>
                     </table>

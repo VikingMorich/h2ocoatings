@@ -218,6 +218,14 @@ export default function Modal(props) {
             thumbnail: '/imgs/materials/hydrosec/hydrosec_principal.jpg',
         },
       ];
+
+      const materikImages = [
+        {
+            original: '/imgs/materials/materik/materik_principal.jpg',
+            thumbnail: '/imgs/materials/materik/materik_principal.jpg',
+        },
+      ];
+
       const workshopsImages = [
         {
             original: '/imgs/workshops/workshop1.jpg',
@@ -281,6 +289,11 @@ export default function Modal(props) {
                     {props.type === 'hydrosec-gallery' &&
                         <div className="c-cmodal--gallery">
                             <ImageGallery lazyLoad={true} items={hydrosecImages} showFullscreenButton={false}/>
+                        </div>
+                    }
+                    {props.type === 'materik-gallery' &&
+                        <div className="c-cmodal--gallery">
+                            <ImageGallery lazyLoad={true} items={materikImages} showFullscreenButton={false}/>
                         </div>
                     }
                     {props.type === 'workshops-gallery' &&
