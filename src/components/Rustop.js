@@ -18,7 +18,7 @@ export default function Rustop() {
         document.body.style.overflow = "auto"
     }
     useEffect(() => {
-        document.title = 'H2O Coatings - ' + t("materials")
+        document.title = 'H2O Coatings - ' + t("rustop")
         window.scrollTo(0, 0)
     }, [t]);
 
@@ -91,7 +91,7 @@ export default function Rustop() {
                             </div>
                         </div>
                         <br/>
-                        <img src="/imgs/materials/rustop/rustop1.JPG" className="c-materials--extra-img c-materials--extra-img--rustop" alt="rustop"/>
+                        <img src="/imgs/materials/rustop/rustop1.jpg" className="c-materials--extra-img c-materials--extra-img--rustop" alt="rustop"/>
                     </div>
                     <div className="c-materials--product-img--box" onClick={() => {toggleModal(); setType('rustop-gallery')}}>
                         <img src="/imgs/materials/rustop/rustop2.jpg" className="c-materials--product-img" alt="rustop"/>

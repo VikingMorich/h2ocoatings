@@ -18,7 +18,7 @@ export default function Hydrograff() {
         document.body.style.overflow = "auto"
     }
     useEffect(() => {
-        document.title = 'H2O Coatings - ' + t("materials")
+        document.title = 'H2O Coatings - ' + t("hydrograff")
         window.scrollTo(0, 0)
     }, [t]);
 
@@ -30,7 +30,7 @@ export default function Hydrograff() {
                 </div>
             </div>
             <div className="c-fullscreen-img--box">
-                <img src="/imgs/materials/hydrograff/hydrograff_principal.jpg" className="c-fullscreen-img--no-subtitle centered-image" alt="hydrograff"/>
+                <img src="/imgs/materials/hydrograff/hydrograff_principal.jpg" className="c-fullscreen-img--no-subtitle" alt="hydrograff"/>
                 <div className="c-fullscreen-img--desc">
                     <h2 className="c-materials--presentation">{t("hydrograff-col.presentation")}</h2>
                     <span className="c-materials--subpresentation">{t("hydrograff-col.content1")}</span>

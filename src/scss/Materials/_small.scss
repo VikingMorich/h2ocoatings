@@ -26,7 +26,7 @@
 
         .table-align-center {
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             gap: 8px;
         }
     }
@@ -70,9 +70,12 @@
         width: 100%;
         height: calc(100vh - 100px - 25px - 38px);
         object-fit: cover;
-        object-position: 0px 100%;
+        object-position: 50% 100%;
         &--tradetherm{
-            object-position: 0px 40%;
+            object-position: 50% 40%;
+        }
+        &--materik{
+            object-position: 50% 80%;
         }
     }
 }
@@ -334,10 +337,6 @@
         width: 100%;
         overflow-x: auto;
     }
-}
-
-.centered-image{
-    object-position: 0px 50% !important;
 }
 
 @include medium {

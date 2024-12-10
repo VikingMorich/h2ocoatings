@@ -38,6 +38,7 @@ export default function Footer() {
                         <div className="c-footer-top--nav__col">
                             <span className="c-footer-top--option__top">{t("materials")}</span>
                             <Link to="/infinity" className="c-footer-top--option">{t("infinity")}</Link>
+                            <Link to="/materik" className="c-footer-top--option">{t("materik")}</Link>
                             <Link to="/tradegraff" className="c-footer-top--option">{t("tradegraff")}</Link>
                             <Link to="/rustop" className="c-footer-top--option">{t("rustop")}</Link>
                             <Link to="/hydrograff" className="c-footer-top--option">{t("hydrograff")}</Link>

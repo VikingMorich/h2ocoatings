@@ -9,7 +9,7 @@ export default function Courses() {
     const [t] = useTranslation("global")
 
     useEffect(() => {
-        document.title = 'H2O Coatings - ' + t("services")
+        document.title = 'H2O Coatings - ' + t("courses")
         window.scrollTo(0, 0)
     }, [t]);
 

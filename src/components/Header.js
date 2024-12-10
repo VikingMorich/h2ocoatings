@@ -121,7 +121,7 @@ export default function Header() {
                                 <span>{t("infinity")}</span>
                             </a>
                             <a className="c-dropmat--box" href="/materik">
-                                <img className="c-dopmat--img" src="/imgs/materials/materik/materik_principal.jpg" alt="materik"/>
+                                <img className="dropmat-materik" src="/imgs/materials/materik/materik_principal.jpg" alt="materik"/>
                                 <span>{t("materik")}</span>
                             </a>
                             <a href="/tradegraff" className="c-dropmat--box">

@@ -29,7 +29,7 @@
         "val3": "Ecología"
     },
     "footer": {
-        "copyright": "Copyright © H2Ocoatings 2021. Todos los derechos reservados",
+        "copyright": "Copyright © H2Ocoatings 2024. Todos los derechos reservados",
         "cookies": "Política de cookies",
         "privacy": "Política de privacidad",
         "h2o": "H2O COATINGS",
@@ -161,10 +161,10 @@
         "header3": "Disponible en blanco y colores carta",
         "content4": "5 y 20 kg.",
         "sistems": "Sistema recomendado",
-        "sistem1": "Aplicar un fondo acrílico con árido de granulometría fina.",
-        "sistem2": "Aplicar a rodillo regularmente una capa de fondo con Materik (0,4 Kg/m²).",
-        "sistem3": "Aplicar a rodillo regularmente una capa de acabado con Materik y prensar seguidamente con lana inox. (0,4 Kg/m²).",
-        "sistem4": "En exteriores se protegerá con Tradegraff."
+        "sistem1": "Aplicar una capa de pintura plástica mate o fondo acrílico de granulometría fina, entonada/o al color elegido de la carta de colores MATERIK.",
+        "sistem2": "Aplicar una primera capa de MATERIK a rodillo de microfibra (alargado del pelo recomendado de 12mm) y seguidamente utilizar la llana de plástico o la llana inox flexible.",
+        "sistem3": "Aplicar una segunda capa de MATERIK con el mismo proceso que la primera capa.",
+        "sistem4": "Para exteriores se debe proteger con TRADEGRAFF: Aplicar la primera capa con fratasador (material diluido un 20% con agua)."
     },
     "rustop-col": {
         "presentation": "ESMALTE ANTIOXIDANTE AL AGUA:  UN NUEVO STANDARD PARA LA ANTI-CORROSIÓN",

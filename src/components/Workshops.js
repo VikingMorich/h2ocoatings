@@ -10,7 +10,7 @@ export default function Workshops() {
     const [type, setType] = useState('')
 
     useEffect(() => {
-        document.title = 'H2O Coatings - ' + t("services")
+        document.title = 'H2O Coatings - ' + t("workshops")
         window.scrollTo(0, 0)
     }, [t]);
 

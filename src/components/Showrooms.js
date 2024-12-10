@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next"
 export default function Showrooms() {
     const [t] = useTranslation("global")
     useEffect(() => {
-        document.title = 'H2O Coatings - ' + t("services")
+        document.title = 'H2O Coatings - ' + t("showrooms")
         window.scrollTo(0, 0)
     }, [t]);
 
@@ -28,7 +28,6 @@ export default function Showrooms() {
                     <img src="/imgs/exposicions/1 - INFINITYT.jpg" className="c-showrooms--img" alt="infinity panel"/>
                     <img src="/imgs/exposicions/3 - INFINITYSUPREME.jpg" className="c-showrooms--img" alt="infinity supreme panel"/>
                     <img src="/imgs/exposicions/4 - INFINITYSUPREMEFINE.jpg" className="c-showrooms--img" alt="infinity supreme panel"/>
-                    <img src="/imgs/exposicions/2 - INFINITYPREMIUM.jpg" className="c-showrooms--img" alt="infinity premium panel"/>
                 </div>
             </div>
         </div>

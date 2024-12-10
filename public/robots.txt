@@ -1,0 +1,7 @@
+User-agent: *  
+Disallow: /wp-admin/  
+Disallow: /?s=  
+Allow: /wp-admin/admin-ajax.ph    
+
+Sitemap: https://www.h2ocoatings.com/sitemap.xml
+Host: https://www.h2ocoatings.com

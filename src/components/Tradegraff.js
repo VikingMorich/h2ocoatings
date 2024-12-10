@@ -18,7 +18,7 @@ export default function Tradegraff() {
         document.body.style.overflow = "auto"
     }
     useEffect(() => {
-        document.title = 'H2O Coatings - ' + t("materials")
+        document.title = 'H2O Coatings - ' + t("tradegraff")
         window.scrollTo(0, 0)
     }, [t]);
 

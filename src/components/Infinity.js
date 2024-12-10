@@ -9,7 +9,7 @@ export default function InfinityComp() {
     const [open, setOpen] = useState(false)
     const [type, setType] = useState('')
     useEffect(() => {
-        document.title = 'H2O Coatings - ' + t("materials")
+        document.title = 'H2O Coatings - ' + t("infinity")
         window.scrollTo(0, 0)
     }, [t]);
     const toggleModal = () => {

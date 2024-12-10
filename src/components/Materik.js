@@ -5,7 +5,7 @@ import photo from "../icons/camera_alt-white-18dp.svg"
 import Cmodal from './CarouselModal'
 
 export default function Materik() {
-    const [t, i18n] = useTranslation("global")
+    const [t] = useTranslation("global")
     const [open, setOpen] = useState(false)
     const [type, setType] = useState('')
     const toggleModal = () => {
@@ -18,7 +18,7 @@ export default function Materik() {
         document.body.style.overflow = "auto"
     }
     useEffect(() => {
-        document.title = 'H2O Coatings - ' + t("materials")
+        document.title = 'H2O Coatings - ' + t("materik")
         window.scrollTo(0, 0)
     }, [t]);
 
@@ -30,7 +30,7 @@ export default function Materik() {
                 </div>
             </div>
             <div className="c-fullscreen-img--box">
-                <img src="/imgs/materials/materik/materik_principal.jpg" className="c-fullscreen-img--no-subtitle c-fullscreen-img--no-subtitle--tradetherm" alt="materik"/>
+                <img src="/imgs/materials/materik/materik_principal.jpg" className="c-fullscreen-img--no-subtitle c-fullscreen-img--no-subtitle--materik" alt="materik"/>
                 <div className="c-fullscreen-img--desc">
                     <h2 className="c-materials--presentation">{t("materik-col.presentation")}</h2>
                     <span className="c-materials--subpresentation">{t("materik-col.content1")}</span>
@@ -63,14 +63,14 @@ export default function Materik() {
                                 {t("products")}
                             </span>
                             <div className="c-materials--block">
-                                <a href={``} target="_blank" rel="noreferrer" className="c-materials--block--prod">
+                                <a href={`/pdfs/es/FT/FT_materik_es.pdf`} target="_blank" rel="noreferrer" className="c-materials--block--prod">
                                     {t("materik")}
                                 </a>
                             </div>
                         </div>
                     </div>
                     <div className="c-materials--product-img--box" onClick={() => {toggleModal(); setType('materik-gallery')}}>
-                        <img src="/imgs/materials/materik/materik_principal.jpg" className="c-materials--product-img" alt="materik"/>
+                        <img src="/imgs/materials/materik/materik1.jpg" className="c-materials--product-img" alt="materik"/>
                         <div className="c-materials--showmore">
                             <span><img alt="more photos" src={photo} />{t("showmore")}</span>
                         </div>
@@ -85,38 +85,40 @@ export default function Materik() {
                 </div>
                 <div className="c-materials--table">
                     <table className="c-table">
-                        <tr>
-                            <td>
-                                <div className="table-align-center">
-                                    <img alt="arrow-right" src={arrowRight} />
-                                    <span>{t("materik-col.sistem1")}</span>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div className="table-align-center">
-                                    <img alt="arrow-right" src={arrowRight} />
-                                    <span>{t("materik-col.sistem2")}</span>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div className="table-align-center">
-                                    <img alt="arrow-right" src={arrowRight} />
-                                    <span>{t("materik-col.sistem3")}</span>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div className="table-align-center">
-                                    <img alt="arrow-right" src={arrowRight} />
-                                    <span>{t("materik-col.sistem4")}</span>
-                                </div>
-                            </td>
-                        </tr>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div className="table-align-center">
+                                        <img alt="arrow-right" src={arrowRight} />
+                                        <span>{t("materik-col.sistem1")}</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div className="table-align-center">
+                                        <img alt="arrow-right" src={arrowRight} />
+                                        <span>{t("materik-col.sistem2")}</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div className="table-align-center">
+                                        <img alt="arrow-right" src={arrowRight} />
+                                        <span>{t("materik-col.sistem3")}</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div className="table-align-center">
+                                        <img alt="arrow-right" src={arrowRight} />
+                                        <span>{t("materik-col.sistem4")}</span>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
                     </table>
                 </div>
                 <br />

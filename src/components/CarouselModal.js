@@ -18,8 +18,8 @@ export default function Modal(props) {
             thumbnail: '/imgs/materials/infinity/infinity3.jpg',
         },
         {
-            original: '/imgs/materials/infinity/infinity4.JPG',
-            thumbnail: '/imgs/materials/infinity/infinity4.JPG',
+            original: '/imgs/materials/infinity/infinity4.jpg',
+            thumbnail: '/imgs/materials/infinity/infinity4.jpg',
         },
         {
             original: '/imgs/materials/infinity/infinity5.jpg',
@@ -34,8 +34,8 @@ export default function Modal(props) {
             thumbnail: '/imgs/materials/infinity/infinity7.jpg',
         },
         {
-            original: '/imgs/materials/infinity/infinity8.JPG',
-            thumbnail: '/imgs/materials/infinity/infinity8.JPG',
+            original: '/imgs/materials/infinity/infinity8.jpg',
+            thumbnail: '/imgs/materials/infinity/infinity8.jpg',
         },
         {
             original: '/imgs/materials/infinity/infinity9.jpg',
@@ -58,8 +58,8 @@ export default function Modal(props) {
             thumbnail: '/imgs/materials/infinity/infinity13.jpg',
         },
         {
-            original: '/imgs/materials/infinity/infinity14.JPG',
-            thumbnail: '/imgs/materials/infinity/infinity14.JPG',
+            original: '/imgs/materials/infinity/infinity14.jpg',
+            thumbnail: '/imgs/materials/infinity/infinity14.jpg',
         },
         {
             original: '/imgs/materials/infinity/infinity15.jpg',
@@ -70,8 +70,8 @@ export default function Modal(props) {
             thumbnail: '/imgs/materials/infinity/infinity16.jpg',
         },
         {
-            original: '/imgs/materials/infinity/infinity17.JPG',
-            thumbnail: '/imgs/materials/infinity/infinity17.JPG',
+            original: '/imgs/materials/infinity/infinity17.jpg',
+            thumbnail: '/imgs/materials/infinity/infinity17.jpg',
         },
         {
             original: '/imgs/materials/infinity/infinity_principal.jpg',
@@ -88,8 +88,8 @@ export default function Modal(props) {
             thumbnail: '/imgs/materials/tradegraff/tradegraff2.jpg',
         },
         {
-            original: '/imgs/materials/tradegraff/tradegraff3.JPG',
-            thumbnail: '/imgs/materials/tradegraff/tradegraff3.JPG',
+            original: '/imgs/materials/tradegraff/tradegraff3.jpg',
+            thumbnail: '/imgs/materials/tradegraff/tradegraff3.jpg',
         },
         {
             original: '/imgs/materials/tradegraff/tradegraff4.jpg',
@@ -114,16 +114,16 @@ export default function Modal(props) {
             thumbnail: '/imgs/materials/rustop/rustop2.jpg',
         },
         {
-            original: '/imgs/materials/rustop/rustop1.JPG',
-            thumbnail: '/imgs/materials/rustop/rustop1.JPG',
+            original: '/imgs/materials/rustop/rustop1.jpg',
+            thumbnail: '/imgs/materials/rustop/rustop1.jpg',
         },
         {
             original: '/imgs/materials/rustop/rustop3.jpg',
             thumbnail: '/imgs/materials/rustop/rustop3.jpg',
         },
         {
-            original: '/imgs/materials/rustop/rustop4.JPG',
-            thumbnail: '/imgs/materials/rustop/rustop4.JPG',
+            original: '/imgs/materials/rustop/rustop4.jpg',
+            thumbnail: '/imgs/materials/rustop/rustop4.jpg',
         },
         {
             original: '/imgs/materials/rustop/rustop5.jpg',
@@ -134,8 +134,8 @@ export default function Modal(props) {
             thumbnail: '/imgs/materials/rustop/rustop6.jpg',
         },
         {
-            original: '/imgs/materials/rustop/rustop7.JPG',
-            thumbnail: '/imgs/materials/rustop/rustop7.JPG',
+            original: '/imgs/materials/rustop/rustop7.jpg',
+            thumbnail: '/imgs/materials/rustop/rustop7.jpg',
         },
         {
             original: '/imgs/materials/rustop/rustop8.jpg',
@@ -170,16 +170,16 @@ export default function Modal(props) {
             thumbnail: '/imgs/materials/tradecote/tradecote1.jpg',
         },
         {
-            original: '/imgs/materials/tradecote/tradecote2.JPG',
-            thumbnail: '/imgs/materials/tradecote/tradecote2.JPG',
+            original: '/imgs/materials/tradecote/tradecote2.jpg',
+            thumbnail: '/imgs/materials/tradecote/tradecote2.jpg',
         },
         {
             original: '/imgs/materials/tradecote/tradecote3.jpg',
             thumbnail: '/imgs/materials/tradecote/tradecote3.jpg',
         },
         {
-            original: '/imgs/materials/tradecote/tradecote4.JPG',
-            thumbnail: '/imgs/materials/tradecote/tradecote4.JPG',
+            original: '/imgs/materials/tradecote/tradecote4.jpg',
+            thumbnail: '/imgs/materials/tradecote/tradecote4.jpg',
         },
         {
             original: '/imgs/materials/tradecote/tradecote5.jpg',
@@ -220,6 +220,14 @@ export default function Modal(props) {
       ];
 
       const materikImages = [
+        {
+            original: '/imgs/materials/materik/materik1.jpg',
+            thumbnail: '/imgs/materials/materik/materik1.jpg',
+        },
+        {
+            original: '/imgs/materials/materik/materik2.jpg',
+            thumbnail: '/imgs/materials/materik/materik2.jpg',
+        },
         {
             original: '/imgs/materials/materik/materik_principal.jpg',
             thumbnail: '/imgs/materials/materik/materik_principal.jpg',
