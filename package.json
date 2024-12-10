@@ -17,7 +17,7 @@
     "react-owl-carousel": "^2.3.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^5.0.1",
-    "universal-cookie": "^4.0.4"
+    "universal-cookie": "^7.2.2"
   },
   "homepage": "http://www.h2ocoatings.es/",
   "scripts": {

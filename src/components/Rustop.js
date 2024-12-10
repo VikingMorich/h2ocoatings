@@ -110,121 +110,127 @@ export default function Rustop() {
                 </div>
                 <div className="c-materials--table">
                     <table className="c-table">
-                        <tr>
-                            <th colSpan="2">{t("tables.rustop-c3")}</th>
-                            <th>{t("tables.micrasHumedas")}</th>
-                            <th>{t("tables.micrasSecas")}</th>
-                            <th>{t("tables.consumo")}</th>
-                            <th>{t("tables.life")}</th>
-                        </tr>
-                        <tr>
-                            <td>{t("tables.primer")}</td>
-                            <td>{t("rustop")}</td>
-                            <td>125</td>
-                            <td>55</td>
-                            <td>0,13 l.</td>
-                            <td>{t("tables.major")} 15 {t("tables.years")} </td>
-                        </tr>
-                        <tr>
-                            <td>{t("tables.acabado")}</td>
-                            <td>{t("rustop")}</td>
-                            <td>125</td>
-                            <td>55</td>
-                            <td>0,13 l.</td>
-                            <td>{t("tables.major")} 15 {t("tables.years")} </td>
-                        </tr>
-                        <tr>
-                            <td colSpan="2">{t("tables.total")}</td>
-                            <td>250</td>
-                            <td>110</td>
-                            <td>0,26 l.</td>
-                            <td>{t("tables.major")} 15 {t("tables.years")} </td>
-                        </tr>
+                        <tbody>
+                            <tr>
+                                <th colSpan="2">{t("tables.rustop-c3")}</th>
+                                <th>{t("tables.micrasHumedas")}</th>
+                                <th>{t("tables.micrasSecas")}</th>
+                                <th>{t("tables.consumo")}</th>
+                                <th>{t("tables.life")}</th>
+                            </tr>
+                            <tr>
+                                <td>{t("tables.primer")}</td>
+                                <td>{t("rustop")}</td>
+                                <td>125</td>
+                                <td>55</td>
+                                <td>0,13 l.</td>
+                                <td>{t("tables.major")} 15 {t("tables.years")} </td>
+                            </tr>
+                            <tr>
+                                <td>{t("tables.acabado")}</td>
+                                <td>{t("rustop")}</td>
+                                <td>125</td>
+                                <td>55</td>
+                                <td>0,13 l.</td>
+                                <td>{t("tables.major")} 15 {t("tables.years")} </td>
+                            </tr>
+                            <tr>
+                                <td colSpan="2">{t("tables.total")}</td>
+                                <td>250</td>
+                                <td>110</td>
+                                <td>0,26 l.</td>
+                                <td>{t("tables.major")} 15 {t("tables.years")} </td>
+                            </tr>
+                        </tbody>
                     </table>
 
                     <table className="c-table">
-                        <tr>
-                            <th colSpan="2">{t("tables.rustop-c4")}</th>
-                            <th>{t("tables.micrasHumedas")}</th>
-                            <th>{t("tables.micrasSecas")}</th>
-                            <th>{t("tables.consumo")}</th>
-                            <th>{t("tables.life")}</th>
-                        </tr>
-                        <tr>
-                            <td>{t("tables.primer")}</td>
-                            <td>{t("rustop")}</td>
-                            <td>115</td>
-                            <td>50</td>
-                            <td>0,12 l.</td>
-                            <td>{t("tables.major")} 15 {t("tables.years")} </td>
-                        </tr>
-                        <tr>
-                            <td>{t("tables.intermedia")}</td>
-                            <td>{t("rustop")}</td>
-                            <td>115</td>
-                            <td>50</td>
-                            <td>0,12 l.</td>
-                            <td>{t("tables.major")} 15 {t("tables.years")} </td>
-                        </tr>
-                        <tr>
-                            <td>{t("tables.acabado")}</td>
-                            <td>{t("rustop")}</td>
-                            <td>115</td>
-                            <td>50</td>
-                            <td>0,12 l.</td>
-                            <td>{t("tables.major")} 15 {t("tables.years")} </td>
-                        </tr>
-                        <tr>
-                            <td colSpan="2">{t("tables.total")}</td>
-                            <td>345</td>
-                            <td>150</td>
-                            <td>0,36 l.</td>
-                            <td>{t("tables.major")} 15 {t("tables.years")} </td>
-                        </tr>
+                        <tbody>
+                            <tr>
+                                <th colSpan="2">{t("tables.rustop-c4")}</th>
+                                <th>{t("tables.micrasHumedas")}</th>
+                                <th>{t("tables.micrasSecas")}</th>
+                                <th>{t("tables.consumo")}</th>
+                                <th>{t("tables.life")}</th>
+                            </tr>
+                            <tr>
+                                <td>{t("tables.primer")}</td>
+                                <td>{t("rustop")}</td>
+                                <td>115</td>
+                                <td>50</td>
+                                <td>0,12 l.</td>
+                                <td>{t("tables.major")} 15 {t("tables.years")} </td>
+                            </tr>
+                            <tr>
+                                <td>{t("tables.intermedia")}</td>
+                                <td>{t("rustop")}</td>
+                                <td>115</td>
+                                <td>50</td>
+                                <td>0,12 l.</td>
+                                <td>{t("tables.major")} 15 {t("tables.years")} </td>
+                            </tr>
+                            <tr>
+                                <td>{t("tables.acabado")}</td>
+                                <td>{t("rustop")}</td>
+                                <td>115</td>
+                                <td>50</td>
+                                <td>0,12 l.</td>
+                                <td>{t("tables.major")} 15 {t("tables.years")} </td>
+                            </tr>
+                            <tr>
+                                <td colSpan="2">{t("tables.total")}</td>
+                                <td>345</td>
+                                <td>150</td>
+                                <td>0,36 l.</td>
+                                <td>{t("tables.major")} 15 {t("tables.years")} </td>
+                            </tr>
+                        </tbody>
                     </table>
                     
                     <table className="c-table">
-                        <tr>
-                            <th className="c-table--title" colSpan="6">{t("tables.rustop-comb")}</th>
-                        </tr>
-                        <tr>
-                            <th colSpan="2">{t("tables.rustop-c5")}</th>
-                            <th>{t("tables.micrasHumedas")}</th>
-                            <th>{t("tables.micrasSecas")}</th>
-                            <th>{t("tables.consumo")}</th>
-                            <th>{t("tables.life")}</th>
-                        </tr>
-                        <tr>
-                            <td>{t("tables.primer")}</td>
-                            <td>{t("rustop")}</td>
-                            <td>115</td>
-                            <td>50</td>
-                            <td>0,12 l.</td>
-                            <td>{t("tables.major")} 15 {t("tables.years")} </td>
-                        </tr>
-                        <tr>
-                            <td>{t("tables.intermedia")}</td>
-                            <td>{t("rustop")}</td>
-                            <td>115</td>
-                            <td>50</td>
-                            <td>0,12 l.</td>
-                            <td>{t("tables.major")} 15 {t("tables.years")} </td>
-                        </tr>
-                        <tr>
-                            <td>{t("tables.acabado")}</td>
-                            <td>{t("tables.hydrograffHP")}</td>
-                            <td>100</td>
-                            <td>50</td>
-                            <td>0,10 l.</td>
-                            <td>{t("tables.major")} 15 {t("tables.years")} </td>
-                        </tr>
-                        <tr>
-                            <td colSpan="2">{t("tables.total")}</td>
-                            <td>230 + 100</td>
-                            <td>100 + 50</td>
-                            <td>0,24 + 0,10 l.</td>
-                            <td>{t("tables.major")} 15 {t("tables.years")} </td>
-                        </tr>
+                        <tbody>
+                            <tr>
+                                <th className="c-table--title" colSpan="6">{t("tables.rustop-comb")}</th>
+                            </tr>
+                            <tr>
+                                <th colSpan="2">{t("tables.rustop-c5")}</th>
+                                <th>{t("tables.micrasHumedas")}</th>
+                                <th>{t("tables.micrasSecas")}</th>
+                                <th>{t("tables.consumo")}</th>
+                                <th>{t("tables.life")}</th>
+                            </tr>
+                            <tr>
+                                <td>{t("tables.primer")}</td>
+                                <td>{t("rustop")}</td>
+                                <td>115</td>
+                                <td>50</td>
+                                <td>0,12 l.</td>
+                                <td>{t("tables.major")} 15 {t("tables.years")} </td>
+                            </tr>
+                            <tr>
+                                <td>{t("tables.intermedia")}</td>
+                                <td>{t("rustop")}</td>
+                                <td>115</td>
+                                <td>50</td>
+                                <td>0,12 l.</td>
+                                <td>{t("tables.major")} 15 {t("tables.years")} </td>
+                            </tr>
+                            <tr>
+                                <td>{t("tables.acabado")}</td>
+                                <td>{t("tables.hydrograffHP")}</td>
+                                <td>100</td>
+                                <td>50</td>
+                                <td>0,10 l.</td>
+                                <td>{t("tables.major")} 15 {t("tables.years")} </td>
+                            </tr>
+                            <tr>
+                                <td colSpan="2">{t("tables.total")}</td>
+                                <td>230 + 100</td>
+                                <td>100 + 50</td>
+                                <td>0,24 + 0,10 l.</td>
+                                <td>{t("tables.major")} 15 {t("tables.years")} </td>
+                            </tr>
+                        </tbody>
                     </table>
                 </div>
                 <br/>

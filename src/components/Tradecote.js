@@ -120,32 +120,34 @@ export default function Tradecote() {
                 </div>
                 <div className="c-materials--table">
                     <table className="c-table">
-                        <tr>
-                            <th colSpan="2">{t("tables.tradecote-2comp")}</th>
-                            <th>{t("tables.micrasHumedas")}</th>
-                            <th>{t("tables.micrasSecas")}</th>
-                            <th>{t("tables.consumo")}</th>
-                        </tr>
-                        <tr>
-                            <td>{t("tables.fondo")}</td>
-                            <td>{t("tables.tradecote2c")}</td>
-                            <td>125</td>
-                            <td>90</td>
-                            <td>0,13 l</td>
-                        </tr>
-                        <tr>
-                            <td>{t("tables.acabado")}</td>
-                            <td>{t("tables.tradecote2c")}</td>
-                            <td>125</td>
-                            <td>90</td>
-                            <td>0,12 l</td>
-                        </tr>
-                        <tr>
-                            <td colSpan="2">{t("tables.total")}</td>
-                            <td>250</td>
-                            <td>180</td>
-                            <td>0,25 l</td>
-                        </tr>
+                        <tbody>
+                            <tr>
+                                <th colSpan="2">{t("tables.tradecote-2comp")}</th>
+                                <th>{t("tables.micrasHumedas")}</th>
+                                <th>{t("tables.micrasSecas")}</th>
+                                <th>{t("tables.consumo")}</th>
+                            </tr>
+                            <tr>
+                                <td>{t("tables.fondo")}</td>
+                                <td>{t("tables.tradecote2c")}</td>
+                                <td>125</td>
+                                <td>90</td>
+                                <td>0,13 l</td>
+                            </tr>
+                            <tr>
+                                <td>{t("tables.acabado")}</td>
+                                <td>{t("tables.tradecote2c")}</td>
+                                <td>125</td>
+                                <td>90</td>
+                                <td>0,12 l</td>
+                            </tr>
+                            <tr>
+                                <td colSpan="2">{t("tables.total")}</td>
+                                <td>250</td>
+                                <td>180</td>
+                                <td>0,25 l</td>
+                            </tr>
+                        </tbody>
                     </table>
                 </div>
                 <br />
