@@ -1,7 +1,7 @@
 <h1 align="center">Hola 👋, soy Enric Moriche</h1>
 <h4 align="center">Un desarrollador frontend de Cardedeu</h4>
 
-<h2 align="center">🧾 Proyecto</h2>
+<h2 align="center">🧾 Descripción</h2>
 <p>Este proyecto es una página web desarrollada para H2OCoatings, en la que se presentan los diferentes productos a la venta junto con sus características técnicas y principales aplicaciones.</p>
 <p>La web incluye:</p>
 <ul>📦 Catálogo de productos con descripciones detalladas.</ul>
@@ -9,7 +9,10 @@
 <ul>📑 Fichas técnicas para consultar información específica de cada producto y sus modos de aplicación.</ul>
 
 <p>El objetivo principal es ofrecer una plataforma clara y visualmente atractiva para que clientes y usuarios puedan explorar fácilmente las soluciones que ofrece H2OCoatings.</p>
-
+</br></br>
+<p>Este dominio está publicado en producción y puede verse en el siguiente enlace:</p>
+<a href="https://www.h2ocoatings.com/">https://www.h2ocoatings.com/</a>
+</br></br>
 <h3 align="left">Conecta conmigo:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/enricmoriche" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="enricmoriche" height="30" width="40" /></a>
